@@ -3,12 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <title>線分ABを点Pがノリノリで動くゲーム</title>
-    <script type="text/javascript" src="./lib/prototype-1.6.0.2.js"></script>
-    <script type="text/javascript" src="./lib/box2d.js"></script>
-    <script type="text/javascript" src="./lib/draw_world.js"></script>
-    <script type="text/javascript" src="./js/key.js"></script>
-    <script type="text/javascript" src="./js/init.js"></script>
-    <script type="text/javascript" src="./js/step.js"></script>
     <script>
       var canvas;
       var ctx;
@@ -18,10 +12,22 @@
       
       var player, ground;
       var playerJV = 0;
-	  
-      window.onload = function(){
-        init();
+      var State = {
+        NONE     : 0,
+        INIT     : 1,
+        USER     : 2,
+        GAMEOVER : 3
       };
+      var block = new Array( 256 );
+      var gameState = State.NONE;
+    </script>
+    <script type="text/javascript" src="./lib/prototype-1.6.0.2.js"></script>
+    <script type="text/javascript" src="./lib/box2d.js"></script>
+    <script type="text/javascript" src="./lib/draw_world.js"></script>
+    <script type="text/javascript" src="./js/key.js"></script>
+    <script type="text/javascript" src="./js/init.js"></script>
+    <script type="text/javascript" src="./js/step.js"></script>
+    <script> window.onload = function(){ init(); };
     </script>
   </head>
   <body>
