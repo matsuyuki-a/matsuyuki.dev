@@ -6,6 +6,9 @@
     <script type="text/javascript" src="./lib/prototype-1.6.0.2.js"></script>
     <script type="text/javascript" src="./lib/box2d.js"></script>
     <script type="text/javascript" src="./lib/draw_world.js"></script>
+    <script type="text/javascript" src="./js/key.js"></script>
+    <script type="text/javascript" src="./js/init.js"></script>
+    <script type="text/javascript" src="./js/step.js"></script>
     <script>
       var canvas;
       var ctx;
@@ -13,129 +16,9 @@
       var worldAABB, gravity, doSleep, world;
       var keyStore;
       
-      var player;
+      var player, ground;
       var playerJV = 0;
-
-      var KeyState = {
-        NONE    : 0,
-        DOWNNOW : 1, 
-        DOWN    : 2,
-        PRESS   : 3,
-        UPNOW   : 4,
-        UP      : 5  
-      };
-
-      var KeyStore = function(){
-        this.state = new Array( 256 );
-        for( var i = 0; i < this.state.length; i++ ){
-          this.state[ i ] = KeyState.NONE;
-        }
-      };
-
-      KeyStore.prototype.setKeyState = function( keyCode, state ){
-        this.state[ keyCode ] = state;
-      };
-
-      KeyStore.prototype.update = function(){
-        for( var i = 0; i < this.state.length; i++ ){
-          switch( this.state[ i ] ){
-            case KeyState.DOWNNOW:
-            this.state[ i ] = KeyState.DOWN;
-            break;
-            case KeyState.DOWN:
-            this.state[ i ] = KeyState.PRESS;
-            break;
-            case KeyState.UPNOW:
-            this.state[ i ] = KeyState.UP;
-            break;
-            case KeyState.UP:
-            this.state[ i ] = KeyState.NONE;
-            break;
-          }
-        }
-      }
-
-      window.onkeydown = function( e ){
-        keyStore.setKeyState( e.keyCode, KeyState.DOWNNOW );
-      };
-      window.onkeyup = function( e ){
-        keyStore.setKeyState( e.keyCode, KeyState.UPNOW );
-      };
-
-      var init = function(){
-        canvas = $( "screen" );
-        ctx = canvas.getContext( "2d" );
-        width = canvas.getAttribute( "width" );
-        height = canvas.getAttribute( "height" );
-        keyStore = new KeyStore();
-        
-        worldAABB = new b2AABB();
-        worldAABB.minVertex.Set( -1000, -1000 );
-        worldAABB.maxVertex.Set(  1000,  1000 );
-        gravity = new b2Vec2( 0, 300 );
-        doSleep = true;
-        world = new b2World( worldAABB, gravity, doSleep );
-        
-        // 円
-        var circleSd = new b2CircleDef();
-        circleSd.density = 1.0;
-        circleSd.radius = 20;
-        circleSd.restitution = 0;   // 弾性
-        circleSd.friction = 0;      // 摩擦
-        var circleBd = new b2BodyDef();
-        circleBd.AddShape(circleSd);
-        circleBd.position.Set(100,100);
-        player = world.CreateBody(circleBd);
-
-        // 床
-        var groundSd = new b2BoxDef();
-        groundSd.extents.Set(2000, 50);
-        groundSd.restitution = 0; 
-        var groundBd = new b2BodyDef();
-        groundBd.AddShape(groundSd);
-        groundBd.position.Set(-500, 500);
-        var ground = world.CreateBody(groundBd);
-        
-        setTimeout( step, 10 );
-      };
-
-      var step = function(){
-        keyStore.update();
-        if( Math.abs( player.GetLinearVelocity().y ) <= .00001 ){
-          var vx = 0, vy = 0;
-          // <-
-          if( keyStore.state[ 37 ] == KeyState.DOWN || keyStore.state[ 37 ] == KeyState.PRESS ){
-            player.WakeUp();
-            vx -= 100;
-          }
-          // ->
-          if( keyStore.state[ 39 ] == KeyState.DOWN || keyStore.state[ 39 ] == KeyState.PRESS ){
-            player.WakeUp();
-            vx += 100;
-          }
-          if( keyStore.state[ 90 ] == KeyState.DOWN ){
-            player.WakeUp();
-            vy -= 300;
-          }
-
-          player.SetLinearVelocity( new b2Vec2( vx, vy ) );
-        }
-        world.Step( 1.0 / 60, 1 );
-        ctx.clearRect( 0, 0, width, height );
-        ctx.fillColor = "#000000";
-        ctx.fillRect( 0, 0, width, height );
-        drawWorld( world, ctx );
-        /*
-        for( var b = world.m_bodyList; b; b = b.m_next ){
-          ctx.fillColor = "#FFFFFF";
-          ctx.beginPath();
-          ctx.arc( b.m_position.x, b.m_position.y, 2, 0, Math.PI * 2, true );
-          ctx.fill();
-        }
-        */
-        setTimeout( step, 10 );
-      };
-
+	  
       window.onload = function(){
         init();
       };
