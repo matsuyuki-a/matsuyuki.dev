@@ -50,21 +50,37 @@ var step = function(){
     y: player.m_position.y - height * 2 / 3
   };
   ctx.clearRect( 0, 0, width, height );
-  ctx.fillStyle = "#000000";
+  ctx.fillStyle = "#FFFFFF";
   ctx.fillRect( 0, 0, width, height );
+  
   drawWorld( world, ctx, camera.x, camera.y );
   if( gameState == State.GAMEOVER ){
     ctx.fillStyle = "rgba( 255, 0, 0, 0.3 )";
     ctx.fillRect( 0, 0, width, height );
   }
-  /*
-     for( var b = world.m_bodyList; b; b = b.m_next ){
-     ctx.fillColor = "#FFFFFF";
-     ctx.beginPath();
-     ctx.arc( b.m_position.x, b.m_position.y, 2, 0, Math.PI * 2, true );
-     ctx.fill();
-     }
-     */
+  
+  // 点 P(layer)
+  var pdx = player.m_position.x - camera.x;
+  var pdy = player.m_position.y - camera.y;
+  ctx.fillStyle = "#000000";
+  ctx.beginPath();
+  ctx.arc( pdx, pdy, 20, 0, Math.PI * 2, true ); 
+  ctx.fill();
+  ctx.font = "35px Sans-serif";
+  ctx.fillText( "P", pdx - 30, pdy - 20 );
 
+  // 線分AB
+  var gdx1 = camera.x > 0 ? 0 : - camera.x;
+  var gdx2 = 2000 - camera.x > width ? width : 2000 - camera.x;
+  var gdy = ground.m_position.y - camera.y - 20 - 50;
+  ctx.moveTo( gdx1, gdy );
+  ctx.lineTo( gdx2, gdy );
+  ctx.stroke();
+  ctx.font = "35px Sans-serif";
+  ctx.fillText( "A",      - camera.x - 35, gdy + 15 );
+  ctx.fillText( "B", 2000 - camera.x +  5 , gdy + 15 );
+
+  // タイトル
+  
   setTimeout( step, 10 );
 };

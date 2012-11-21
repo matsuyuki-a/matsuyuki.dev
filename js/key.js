@@ -1,10 +1,10 @@
 var KeyState = {
-  NONE: 0,
+  NONE    : 0,
   DOWNNOW : 1, 
-  DOWN: 2, 
+  DOWN    : 2, 
 　PRESS   : 3,
   UPNOW   : 4,
-  UP  : 5  
+  UP      : 5  
 };
 
 var KeyStore = function(){
@@ -39,7 +39,9 @@ KeyStore.prototype.update = function(){
 
 window.onkeydown = function( e ){
   keyStore.setKeyState( e.keyCode, KeyState.DOWNNOW );
+  return false;
 };
 window.onkeyup = function( e ){
   keyStore.setKeyState( e.keyCode, KeyState.UPNOW );
+  return false;
 };

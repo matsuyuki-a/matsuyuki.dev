@@ -10,7 +10,8 @@
       var worldAABB, gravity, doSleep, world;
       var keyStore;
       
-      var player, ground;
+      var player, ground, leftWall, rightWall;
+      var doon;
       var playerJV = 0;
       var State = {
         NONE     : 0,
@@ -20,6 +21,8 @@
       };
       var block = new Array( 256 );
       var gameState = State.NONE;
+
+      var DEBUG = true;
     </script>
     <script type="text/javascript" src="./lib/prototype-1.6.0.2.js"></script>
     <script type="text/javascript" src="./lib/box2d.js"></script>
@@ -27,13 +30,19 @@
     <script type="text/javascript" src="./js/key.js"></script>
     <script type="text/javascript" src="./js/init.js"></script>
     <script type="text/javascript" src="./js/step.js"></script>
-    <script> window.onload = function(){ init(); };
-    </script>
+    <script type="text/javascript"> window.onload = function(){ init(); };</script>
+    <style type="text/css">
+      #screen{
+        border: 1px solid;
+        margin: 0 auto;
+      }
+    </style>
   </head>
   <body>
-    <h1>線分ABを点Pがノリノリで動くゲーム</h1>
+    <div id = "wrapper">
     <canvas id="screen" width="800" height="600">
     せめて、Canvas搭載のブラウザで来てくださいよぉ...　
     </canvas>
+  </div>
   </body>
 </html>
