@@ -27,7 +27,7 @@ var init = function(){
   // 点Q
   pointQBd = new b2BodyDef();
   pointQBd.AddShape( circleSd );
-  pointQBd.position.Set( 2000, 500 );
+  pointQBd.position.Set( 2000, 420 );
 
   // 床
   var groundSd = new b2BoxDef();
@@ -70,14 +70,14 @@ var init = function(){
   }, 1000 );
 */
 
-  // ブロック落下テスト
+  // ブロック落下
   var blockSd = new b2BoxDef();
   blockSd.density = 100.0;
   blockSd.extents.Set( 30, 30 );
   blockSd.restitution = 0.2; // 反発力
   var blockBd = new b2BodyDef();
   blockBd.AddShape( blockSd );
-  blockBd.position.Set( 600, -400 );
+  blockBd.position.Set( 0, -400 );
   setTimeout( function(){
     var tmp =  world.CreateBody( blockBd );
     block.push( tmp );

@@ -21,10 +21,16 @@
         USER     : 2,
         GAMEOVER : 3
       };
+      var camera = { x: 0, y: 0 };
       var block = new Array();
       var enemyList = new Array();
       var gameState = State.NONE;
 
+      var playerDeathData = {
+        x        : 0,
+        y        : 0,
+        afterTime: 0
+      };
       var DEBUG = false;
     </script>
     <script type="text/javascript" src="./lib/prototype-1.6.0.2.js"></script>
