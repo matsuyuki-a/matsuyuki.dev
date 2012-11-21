@@ -2,8 +2,8 @@ var init = function(){
   gameState = State.INIT;
   canvas = $( "screen" );
   ctx = canvas.getContext( "2d" );
-  width = canvas.getAttribute( "width" );
-  height = canvas.getAttribute( "height" );
+  width = parseInt( canvas.getAttribute( "width" ) );
+  height = parseInt( canvas.getAttribute( "height" ) );
   keyStore = new KeyStore();
 
   worldAABB = new b2AABB();
@@ -24,6 +24,11 @@ var init = function(){
   circleBd.position.Set( 20, 100 );
   player = world.CreateBody(circleBd);
 
+  // 点Q
+  pointQBd = new b2BodyDef();
+  pointQBd.AddShape( circleSd );
+  pointQBd.position.Set( 2000, 500 );
+
   // 床
   var groundSd = new b2BoxDef();
   groundSd.extents.Set( 2150, 50 );
@@ -43,7 +48,7 @@ var init = function(){
   leftWall = world.CreateBody( wallBd );
   wallBd.position.Set( 2050, 0 );
   rightWall = world.CreateBody( wallBd );
-  
+ /* 
   //(・ω・
   var doonSd = new b2PolyDef();
   doonSd.density = 100.0;
@@ -63,7 +68,7 @@ var init = function(){
   setTimeout( function(){
     doon = world.CreateBody( doonBd );
   }, 1000 );
-  
+*/
 
   // ブロック落下テスト
   var blockSd = new b2BoxDef();
@@ -74,9 +79,10 @@ var init = function(){
   blockBd.AddShape( blockSd );
   blockBd.position.Set( 600, -400 );
   setTimeout( function(){
-    block[ 0 ] = world.CreateBody( blockBd );
+    var tmp =  world.CreateBody( blockBd );
+    block.push( tmp );
+    enemyList.push( tmp );
   }, 2500 );
-
   gameState = State.USER;
   setTimeout( step, 10 );
 };

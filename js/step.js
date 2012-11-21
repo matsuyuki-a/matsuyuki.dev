@@ -9,9 +9,13 @@ var step = function(){
         if( i.other == ground ){ // 接地判定
           onGround = true;
           break;
-        }else if( i.other == block[ 0 ] ){ // 死亡当たり判定 (仮)
-          gameState = State.GAMEOVER;
-          break;
+        }else{
+          for( var j = 0; j < enemyList.length; j++ ){
+            if( i.other == enemyList[ j ] ){ // 死亡当たり判定
+              gameState = State.GAMEOVER;
+              break;
+            }
+          }
         }
       }
 
@@ -42,6 +46,14 @@ var step = function(){
 
 
       break;
+  }
+
+  // 点Q
+  if( player.m_position.x > 1000 && !pointQAppeared ){
+    pointQ = world.CreateBody( pointQBd );
+    enemyList.push( pointQ );
+//    pointQ.SetLinearVelocity( new b2Vec2( -10, 0 ) );
+    pointQAppeared = true;
   }
 
   // 描画
@@ -81,6 +93,25 @@ var step = function(){
   ctx.fillText( "B", 2000 - camera.x +  5 , gdy + 15 );
 
   // タイトル
-  
+  drawRectInCanvas( ctx, 50, 50, camera.x, camera.y, 500, 300 );
+  drawStringInCanvas( ctx, "DC概論 121122/5h", 75, 100, camera.x, camera.y, "35px Sans-serif" );
+  drawStringInCanvas( ctx, "線分ABを点Pが動くゲーム", 75, 200, camera.x, camera.y, "35px Sans-serif" );
+  drawStringInCanvas( ctx, "作: @rmn_31415 (・ω・)", 75, 250, camera.x, camera.y, "35px Sans-serif" );
+  drawStringInCanvas( ctx, "Powered by Box2DJS", 200, 320, camera.x, camera.y, "30px Sans-serif" );
+
+  // 説明1 
+  drawRectInCanvas( ctx, 50 + width, 50, camera.x, camera.y, 500, 300 );
+  drawStringInCanvas( ctx, "なにこれ", 75 + width, 100, camera.x, camera.y, "35px Sans-serif" );
+  drawStringInCanvas( ctx, "Box2DJSというブラウザ上で", 75 + width, 200, camera.x, camera.y, "30px Sans-serif" );
+  drawStringInCanvas( ctx, "動く物理エンジンがあったので,  ", 75 + width, 250, camera.x, camera.y, "30px Sans-serif" );
+  drawStringInCanvas( ctx, "それでゲーム作ってみた.", 75 + width, 300, camera.x, camera.y, "30px Sans-serif" );
+
+  // 説明2
+  drawRectInCanvas( ctx, 50 + 2*width, 50, camera.x, camera.y, 500, 300 );
+  drawStringInCanvas( ctx, "Box2DJSって", 75 + 2*width, 100, camera.x, camera.y, "35px Sans-serif" );
+  drawStringInCanvas( ctx, "C++向けの物理エンジン\"Box2D\"", 75 + 2*width, 200, camera.x, camera.y, "30px Sans-serif" );
+  drawStringInCanvas( ctx, "のJavaScript移植版.", 75 + 2*width, 250, camera.x, camera.y, "30px Sans-serif" );
+  drawStringInCanvas( ctx, "ブラウザ上で動くよ!", 75 + 2*width, 300, camera.x, camera.y, "30px Sans-serif" );
   setTimeout( step, 10 );
+
 };

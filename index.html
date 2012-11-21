@@ -11,6 +11,8 @@
       var keyStore;
       
       var player, ground, leftWall, rightWall;
+      var pointQ, pointQBd;
+      var pointQAppeared = false;
       var doon;
       var playerJV = 0;
       var State = {
@@ -19,10 +21,11 @@
         USER     : 2,
         GAMEOVER : 3
       };
-      var block = new Array( 256 );
+      var block = new Array();
+      var enemyList = new Array();
       var gameState = State.NONE;
 
-      var DEBUG = true;
+      var DEBUG = false;
     </script>
     <script type="text/javascript" src="./lib/prototype-1.6.0.2.js"></script>
     <script type="text/javascript" src="./lib/box2d.js"></script>
