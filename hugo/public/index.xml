@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://replace-this-with-your-hugo-site.com/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>まつゆき/rmn.</title>
+    <link>http://news.rmn-web.net/</link>
+    <description>Recent content on まつゆき/rmn.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ja-jp</language>
     <lastBuildDate>Mon, 26 Oct 2015 11:01:39 +0900</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://news.rmn-web.net/index.xml" rel="self" type="application/rss+xml" />
     
       
         
           <item>
             <title>テスト。</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/600/</link>
+            <link>http://news.rmn-web.net/post/600/</link>
             <pubDate>Mon, 26 Oct 2015 11:01:39 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/600/</guid>
+            <guid>http://news.rmn-web.net/post/600/</guid>
             <description>&lt;p&gt;RSSフィードの変化を見るためのテストですー&lt;/p&gt;
 </description>
           </item>
@@ -27,10 +27,10 @@
         
           <item>
             <title>まつひら系列の思い出を再公開しました。</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/600/</link>
+            <link>http://news.rmn-web.net/post/600/</link>
             <pubDate>Mon, 12 Oct 2015 11:10:00 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/600/</guid>
+            <guid>http://news.rmn-web.net/post/600/</guid>
             <description>&lt;p&gt;諸々の理由で長期間公開を見合わせていた「&lt;a href=&#34;http://rmn-web.net/matsuhira&#34;&gt;まつひら系列の思い出&lt;/a&gt;」を再公開しました。&lt;/p&gt;
 
 &lt;p&gt;このサイトは、2003年頃から続いている私のWebサイトと、私のサイトと密接な関わりがある&lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;氏のWebサイトの昔のものを永久保存するためのものです。&lt;/p&gt;
@@ -58,10 +58,10 @@
         
           <item>
             <title>サーバ移転しました</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/600/</link>
+            <link>http://news.rmn-web.net/post/600/</link>
             <pubDate>Sat, 03 Oct 2015 16:30:00 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/600/</guid>
+            <guid>http://news.rmn-web.net/post/600/</guid>
             <description>
 
 &lt;p&gt;長年使ってきたロリポップ+WordPress環境から, GitHub Pages+&lt;a href=&#34;http://gohugo.io/&#34;&gt;hugo&lt;/a&gt;に移転しました.&lt;/p&gt;
@@ -107,10 +107,10 @@
         
           <item>
             <title>調整中</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/552/</link>
+            <link>http://news.rmn-web.net/post/552/</link>
             <pubDate>Tue, 27 Aug 2013 12:04:36 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/552/</guid>
+            <guid>http://news.rmn-web.net/post/552/</guid>
             <description>&lt;p&gt;ただいま, リニューアルのため, 各ページにレイアウトの乱れが発生しております。&lt;/p&gt;
 
 &lt;p&gt;ご迷惑をおかけしております。&lt;/p&gt;
@@ -127,10 +127,10 @@
         
           <item>
             <title>一部WWA作品, 一部過去作品公開終了のお知らせ</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/540/</link>
+            <link>http://news.rmn-web.net/post/540/</link>
             <pubDate>Wed, 10 Jul 2013 01:35:06 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/540/</guid>
+            <guid>http://news.rmn-web.net/post/540/</guid>
             <description>&lt;p&gt;rmn.webは, 今年夏, 大幅なコンテンツ整理を実施致します.
 それに伴い, 以下の作品が公開終了となります.
 ご利用の方はお急ぎください.
@@ -183,10 +183,10 @@
         
           <item>
             <title>Teatime Chat(てい☆ちゃ), 新MPに譲渡(返還)しました.</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/535/</link>
+            <link>http://news.rmn-web.net/post/535/</link>
             <pubDate>Sun, 07 Jul 2013 18:27:56 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/535/</guid>
+            <guid>http://news.rmn-web.net/post/535/</guid>
             <description>&lt;p&gt;rmn.web(旧: G10-Project, Tsucreating, ITCグループ)で管理していたチャット「Teatime Chat」(愛称: てい☆ちゃ)は, 管理者(rmn.)による管理の継続が困難となったため, 平成25年(2013年)7月7日午前0時をもって, 元の管理者であるヒラリラー氏に返還することとなりました.&lt;/p&gt;
 
 &lt;p&gt;これに伴い, URI(URL, アドレス)が下記のように変更となりましたのでお知らせ致します.&lt;/p&gt;
@@ -211,10 +211,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>障害の報告とお詫び @130316-130321</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/520/</link>
+            <link>http://news.rmn-web.net/post/520/</link>
             <pubDate>Thu, 21 Mar 2013 15:42:47 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/520/</guid>
+            <guid>http://news.rmn-web.net/post/520/</guid>
             <description>&lt;p&gt;お詫び&lt;/p&gt;
 
 &lt;p&gt;3月16日、移転直後より3月21日16時頃まで、CSSが崩れる障害および各コンテンツにアクセスできない障害が発生しておりました。
@@ -232,10 +232,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>障害の報告とお詫び @130216-130217</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/517/</link>
+            <link>http://news.rmn-web.net/post/517/</link>
             <pubDate>Sun, 17 Feb 2013 17:56:48 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/517/</guid>
+            <guid>http://news.rmn-web.net/post/517/</guid>
             <description>&lt;p&gt;2月16日13時頃から2月17日18時頃まで, レンタルサーバのスペース管理関連のトラブルの影響により閲覧ができない状態となっておりました.
 現在は復旧しております. お詫び申し上げます.&lt;/p&gt;
 
@@ -254,10 +254,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>明けました. @2013</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/510/</link>
+            <link>http://news.rmn-web.net/post/510/</link>
             <pubDate>Tue, 01 Jan 2013 23:50:01 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/510/</guid>
+            <guid>http://news.rmn-web.net/post/510/</guid>
             <description>&lt;p&gt;明けました.
 みなさん, おめでとうございます. 2013年もよろしくお願い致します.&lt;/p&gt;
 
@@ -280,10 +280,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>投稿テスト</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/494/</link>
+            <link>http://news.rmn-web.net/post/494/</link>
             <pubDate>Sun, 03 Jun 2012 20:25:11 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/494/</guid>
+            <guid>http://news.rmn-web.net/post/494/</guid>
             <description>&lt;p&gt;久々の移転につき投稿テストをしますです&amp;hellip;.&lt;/p&gt;
 </description>
           </item>
@@ -294,10 +294,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>「今日のまつゆきさん」より前の記事を手動インポート</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/471/</link>
+            <link>http://news.rmn-web.net/post/471/</link>
             <pubDate>Thu, 26 Jan 2012 18:56:01 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/471/</guid>
+            <guid>http://news.rmn-web.net/post/471/</guid>
             <description>&lt;p&gt;2008年～2005年に楽天広場(→楽天ブログ)に投稿した記事を復元しました。もともと古いもの置き場にあったものを記事にしただけですが、ハイ。
 復元にあたって、オリジナルの記事からいくつか変更点があります。
 &lt;ol&gt;

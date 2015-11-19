@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>週刊wgs on My New Hugo Site</title>
-    <link>http://replace-this-with-your-hugo-site.com/categories/%E9%80%B1%E5%88%8Awgs/</link>
-    <description>Recent content in 週刊wgs on My New Hugo Site</description>
+    <title>週刊wgs on まつゆき/rmn.</title>
+    <link>http://news.rmn-web.net/categories/%E9%80%B1%E5%88%8Awgs/</link>
+    <description>Recent content in 週刊wgs on まつゆき/rmn.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ja-jp</language>
     <lastBuildDate>Sun, 07 Sep 2008 23:17:39 +0900</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/categories/%E9%80%B1%E5%88%8Awgs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://news.rmn-web.net/categories/%E9%80%B1%E5%88%8Awgs/index.xml" rel="self" type="application/rss+xml" />
     
       
         
           <item>
             <title>週刊『Web Game Station』No.4</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/316/</link>
+            <link>http://news.rmn-web.net/post/316/</link>
             <pubDate>Sun, 07 Sep 2008 23:17:39 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/316/</guid>
+            <guid>http://news.rmn-web.net/post/316/</guid>
             <description>&lt;p&gt;週刊ＷＧＳ第４号。
 祝！隔週刊脱出！同時にネタ切れ！
 えーっと、この記事は、毎週日曜日にＷＧＳの更新情報・内部情報をただただ書いていく、ただそれだけの記事です。
@@ -54,10 +54,10 @@
         
           <item>
             <title>週刊『Web Game Station』No.3</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/321/</link>
+            <link>http://news.rmn-web.net/post/321/</link>
             <pubDate>Sun, 31 Aug 2008 16:39:01 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/321/</guid>
+            <guid>http://news.rmn-web.net/post/321/</guid>
             <description>&lt;p&gt;週刊ＷＧＳ第３号。
 あいかわらずの隔週刊でお送りしておりますwwww
 えーっと、この記事は、毎週日曜日にＷＧＳの更新情報・内部情報をただただ書いていく、ただそれだけの記事です。
@@ -94,10 +94,10 @@
         
           <item>
             <title>週刊『Web Game Station』No.2</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/325/</link>
+            <link>http://news.rmn-web.net/post/325/</link>
             <pubDate>Sun, 17 Aug 2008 13:36:38 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/325/</guid>
+            <guid>http://news.rmn-web.net/post/325/</guid>
             <description>&lt;p&gt;週刊ＷＧＳ第２号。
 先週お休み、来週は部活でお休み。まさに隔週刊（笑）
 えーっと、この記事は、毎週日曜日にＷＧＳの更新情報・内部情報をただただ書いていく、ただそれだけの記事です。
@@ -135,10 +135,10 @@
         
           <item>
             <title>週刊『Web Game Station』No.1</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/327/</link>
+            <link>http://news.rmn-web.net/post/327/</link>
             <pubDate>Sun, 03 Aug 2008 15:38:38 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/327/</guid>
+            <guid>http://news.rmn-web.net/post/327/</guid>
             <description>&lt;p&gt;週刊『Web Game Station』え～っと、創刊号。
 続ける気力があるかどうかは知らん！だが、創刊。
 えーっと、この記事は、毎週日曜日に&lt;a href=&#34;http://wgs.matsukichi.syuriken.jp/&#34;&gt;ＷＧＳ&lt;/a&gt;の更新情報・内部情報をただただ書いていく、ただそれだけの記事です。

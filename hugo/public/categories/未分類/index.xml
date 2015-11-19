@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>未分類 on My New Hugo Site</title>
-    <link>http://replace-this-with-your-hugo-site.com/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/</link>
-    <description>Recent content in 未分類 on My New Hugo Site</description>
+    <title>未分類 on まつゆき/rmn.</title>
+    <link>http://news.rmn-web.net/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/</link>
+    <description>Recent content in 未分類 on まつゆき/rmn.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ja-jp</language>
     <lastBuildDate>Tue, 27 Aug 2013 12:04:36 +0900</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://news.rmn-web.net/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/index.xml" rel="self" type="application/rss+xml" />
     
       
         
           <item>
             <title>調整中</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/552/</link>
+            <link>http://news.rmn-web.net/post/552/</link>
             <pubDate>Tue, 27 Aug 2013 12:04:36 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/552/</guid>
+            <guid>http://news.rmn-web.net/post/552/</guid>
             <description>&lt;p&gt;ただいま, リニューアルのため, 各ページにレイアウトの乱れが発生しております。&lt;/p&gt;
 
 &lt;p&gt;ご迷惑をおかけしております。&lt;/p&gt;
@@ -33,10 +33,10 @@
         
           <item>
             <title>一部WWA作品, 一部過去作品公開終了のお知らせ</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/540/</link>
+            <link>http://news.rmn-web.net/post/540/</link>
             <pubDate>Wed, 10 Jul 2013 01:35:06 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/540/</guid>
+            <guid>http://news.rmn-web.net/post/540/</guid>
             <description>&lt;p&gt;rmn.webは, 今年夏, 大幅なコンテンツ整理を実施致します.
 それに伴い, 以下の作品が公開終了となります.
 ご利用の方はお急ぎください.
@@ -89,10 +89,10 @@
         
           <item>
             <title>Teatime Chat(てい☆ちゃ), 新MPに譲渡(返還)しました.</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/535/</link>
+            <link>http://news.rmn-web.net/post/535/</link>
             <pubDate>Sun, 07 Jul 2013 18:27:56 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/535/</guid>
+            <guid>http://news.rmn-web.net/post/535/</guid>
             <description>&lt;p&gt;rmn.web(旧: G10-Project, Tsucreating, ITCグループ)で管理していたチャット「Teatime Chat」(愛称: てい☆ちゃ)は, 管理者(rmn.)による管理の継続が困難となったため, 平成25年(2013年)7月7日午前0時をもって, 元の管理者であるヒラリラー氏に返還することとなりました.&lt;/p&gt;
 
 &lt;p&gt;これに伴い, URI(URL, アドレス)が下記のように変更となりましたのでお知らせ致します.&lt;/p&gt;
@@ -117,10 +117,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>障害の報告とお詫び @130316-130321</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/520/</link>
+            <link>http://news.rmn-web.net/post/520/</link>
             <pubDate>Thu, 21 Mar 2013 15:42:47 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/520/</guid>
+            <guid>http://news.rmn-web.net/post/520/</guid>
             <description>&lt;p&gt;お詫び&lt;/p&gt;
 
 &lt;p&gt;3月16日、移転直後より3月21日16時頃まで、CSSが崩れる障害および各コンテンツにアクセスできない障害が発生しておりました。
@@ -138,10 +138,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>障害の報告とお詫び @130216-130217</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/517/</link>
+            <link>http://news.rmn-web.net/post/517/</link>
             <pubDate>Sun, 17 Feb 2013 17:56:48 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/517/</guid>
+            <guid>http://news.rmn-web.net/post/517/</guid>
             <description>&lt;p&gt;2月16日13時頃から2月17日18時頃まで, レンタルサーバのスペース管理関連のトラブルの影響により閲覧ができない状態となっておりました.
 現在は復旧しております. お詫び申し上げます.&lt;/p&gt;
 
@@ -160,10 +160,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>明けました. @2013</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/510/</link>
+            <link>http://news.rmn-web.net/post/510/</link>
             <pubDate>Tue, 01 Jan 2013 23:50:01 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/510/</guid>
+            <guid>http://news.rmn-web.net/post/510/</guid>
             <description>&lt;p&gt;明けました.
 みなさん, おめでとうございます. 2013年もよろしくお願い致します.&lt;/p&gt;
 
@@ -186,10 +186,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>投稿テスト</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/494/</link>
+            <link>http://news.rmn-web.net/post/494/</link>
             <pubDate>Sun, 03 Jun 2012 20:25:11 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/494/</guid>
+            <guid>http://news.rmn-web.net/post/494/</guid>
             <description>&lt;p&gt;久々の移転につき投稿テストをしますです&amp;hellip;.&lt;/p&gt;
 </description>
           </item>
@@ -200,10 +200,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>「今日のまつゆきさん」より前の記事を手動インポート</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/471/</link>
+            <link>http://news.rmn-web.net/post/471/</link>
             <pubDate>Thu, 26 Jan 2012 18:56:01 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/471/</guid>
+            <guid>http://news.rmn-web.net/post/471/</guid>
             <description>&lt;p&gt;2008年～2005年に楽天広場(→楽天ブログ)に投稿した記事を復元しました。もともと古いもの置き場にあったものを記事にしただけですが、ハイ。
 復元にあたって、オリジナルの記事からいくつか変更点があります。
 &lt;ol&gt;
@@ -238,10 +238,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>旧「今日のまつゆきさん」から記事のインポート</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/231/</link>
+            <link>http://news.rmn-web.net/post/231/</link>
             <pubDate>Thu, 08 Dec 2011 11:28:22 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/231/</guid>
+            <guid>http://news.rmn-web.net/post/231/</guid>
             <description>&lt;p&gt;記事をかくのもすごく久しぶりですね&amp;hellip;
 今日は、&lt;a href=&#34;http://aokashi.rw-county.net/&#34; title=&#34;青き樫の家&#34;&gt;青樫のブログ&lt;/a&gt;で&lt;a href=&#34;http://aokashi.rw-county.net/?p=281&#34; title=&#34;過去の記事をインポートしました&#34;&gt;興味深い投稿&lt;/a&gt;を見かけたので、ちょっとお話を。
 　FC2ブログからこのWordPressに記事がインポートできるよ、とのことだそうだ。試しに一発目、旧ブログの記事をインポートしてみたのだが、文字化けでゴースト記事が大量発生。どうやらFC2からエクスポートされたファイルがEUC-JPだったのが原因のようだった。ここで発生したゴースト記事を削除するのに一苦労。その後、UTF-8に書き換えたファイルをインポートして無事成功。
@@ -259,10 +259,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>ハンドルネーム改称・サイト名変更</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/132/</link>
+            <link>http://news.rmn-web.net/post/132/</link>
             <pubDate>Sat, 11 Jun 2011 22:52:32 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/132/</guid>
+            <guid>http://news.rmn-web.net/post/132/</guid>
             <description>&lt;p&gt;ハンドルネームを、雨宮松雪からrmn.に、
 サイト名を「雨宮家松雪の部屋」から「rmn.web」に変更しました。&lt;/p&gt;
 
@@ -277,10 +277,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>Hello world! Ver 0.001</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/466/</link>
+            <link>http://news.rmn-web.net/post/466/</link>
             <pubDate>Fri, 01 Apr 2011 14:30:17 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/466/</guid>
+            <guid>http://news.rmn-web.net/post/466/</guid>
             <description>&lt;p&gt;だいたい移転完了しました。&lt;/p&gt;
 
 &lt;p&gt;いろいろ遅れてごめんなさい。　まだ作業終わってないので長めの文章はまた今度。&lt;/p&gt;
@@ -295,10 +295,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>移転先変更</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/230/</link>
+            <link>http://news.rmn-web.net/post/230/</link>
             <pubDate>Sun, 13 Mar 2011 16:09:30 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/230/</guid>
+            <guid>http://news.rmn-web.net/post/230/</guid>
             <description>&lt;p&gt;サイトの構造変更によって、移転先が変更になりました。
 移転先は、&lt;a href=&#34;http://tsucreating.jp/matsuyuki/&#34; target=&#34;_blank&#34; title=&#34;http://tsucreating.jp/matsuyuki/&#34;&gt;&lt;a href=&#34;http://tsucreating.jp/matsuyuki/&#34;&gt;http://tsucreating.jp/matsuyuki/&lt;/a&gt;&lt;/a&gt;となります。
 前に発表された移転先をブックマークされていたかたには申し訳ございませんでした。&lt;/p&gt;
@@ -311,10 +311,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>【重要】リニューアル工事に伴うＷＧＳ系列サイト一時閉鎖のお知らせ</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/313/</link>
+            <link>http://news.rmn-web.net/post/313/</link>
             <pubDate>Wed, 04 Mar 2009 00:00:39 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/313/</guid>
+            <guid>http://news.rmn-web.net/post/313/</guid>
             <description>&lt;div&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;突然ですが、ＷＧＳ系列すべてのサイトでリニューアル工事を実施いたします。&lt;/span&gt;&lt;/div&gt;
 &lt;div&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;つきましては、期間中、以下のサイトの全てのページが閲覧不可となります。&lt;/span&gt;&lt;/div&gt;
 &lt;div&gt;予定緊急変更！ヒラリラーのMP更新停止に伴う補助のためリニューアル日時を延期します。日程は未定です。&lt;/div&gt;
@@ -329,20 +329,20 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
 &lt;div&gt;ＵＲＬ変更のお知らせは出しますが、ここにも掲載させていただきます。&lt;/div&gt;
 &lt;div&gt;リニューアル終了後のＴＯＰページのＵＲＬは、&lt;/div&gt;
 &lt;div&gt;Web Game Station Level4&lt;/div&gt;
-&lt;div&gt;&lt;a class=&#34;jump&#34; title=&#34;http://wgs.ifdef.jp/&#34; href=&#34;http://replace-this-with-your-hugo-site.com/jump/http/wgs.ifdef.jp%2F&#34;&gt;http://wgs.ifdef.jp/&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a class=&#34;jump&#34; title=&#34;http://wgs.ifdef.jp/&#34; href=&#34;http://news.rmn-web.net/jump/http/wgs.ifdef.jp%2F&#34;&gt;http://wgs.ifdef.jp/&lt;/a&gt;&lt;/div&gt;
 &amp;nbsp;
 &lt;div&gt;週刊WGS/音声配信&lt;/div&gt;
-&lt;div&gt;&lt;a class=&#34;jump&#34; title=&#34;http://matsupla.radilog.net/&#34; href=&#34;http://replace-this-with-your-hugo-site.com/jump/http/matsupla.radilog.net%2F&#34;&gt;http://matsupla.radilog.net/&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a class=&#34;jump&#34; title=&#34;http://matsupla.radilog.net/&#34; href=&#34;http://news.rmn-web.net/jump/http/matsupla.radilog.net%2F&#34;&gt;http://matsupla.radilog.net/&lt;/a&gt;&lt;/div&gt;
 &amp;nbsp;
 &lt;div&gt;WGS博物館 2009Ver.&lt;/div&gt;
-&lt;div&gt;&lt;a class=&#34;jump&#34; title=&#34;http://plaza.rakuten.co.jp/matsukou/&#34; href=&#34;http://replace-this-with-your-hugo-site.com/jump/http/plaza.rakuten.co.jp%2Fmatsukou%2F&#34;&gt;http://plaza.rakuten.co.jp/matsukou/&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a class=&#34;jump&#34; title=&#34;http://plaza.rakuten.co.jp/matsukou/&#34; href=&#34;http://news.rmn-web.net/jump/http/plaza.rakuten.co.jp%2Fmatsukou%2F&#34;&gt;http://plaza.rakuten.co.jp/matsukou/&lt;/a&gt;&lt;/div&gt;
 &lt;div&gt;となります。&lt;/div&gt;
 &lt;div&gt;（このほか、7月までに新サーバレンタル予定あり）&lt;/div&gt;
 &amp;nbsp;
 &lt;div&gt;また、今回のリニューアルより、私（管理者）の個人サイトを独立&lt;/div&gt;
 &lt;div&gt;（従来はここ、WGS博物館に付属）をさせます。&lt;/div&gt;
 &lt;div&gt;まつぷらぼっくす&lt;/div&gt;
-&lt;div&gt;&lt;a class=&#34;jump&#34; title=&#34;http://matsukichi.syuriken.jp/&#34; href=&#34;http://replace-this-with-your-hugo-site.com/jump/http/matsukichi.syuriken.jp%2F&#34;&gt;http://matsukichi.syuriken.jp/&lt;/a&gt;（3/14までイベント会場跡地）&lt;/div&gt;
+&lt;div&gt;&lt;a class=&#34;jump&#34; title=&#34;http://matsukichi.syuriken.jp/&#34; href=&#34;http://news.rmn-web.net/jump/http/matsukichi.syuriken.jp%2F&#34;&gt;http://matsukichi.syuriken.jp/&lt;/a&gt;（3/14までイベント会場跡地）&lt;/div&gt;
 &lt;div&gt;（このほか、ブログ新規レンタル予定、タイトル「今日のまつぷら（仮）」）&lt;/div&gt;
 &amp;nbsp;
 &lt;div&gt;なお、3/14より、私（管理者）の公式ペンネームを&lt;/div&gt;
@@ -363,10 +363,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>Harbot終了に関して。</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/337/</link>
+            <link>http://news.rmn-web.net/post/337/</link>
             <pubDate>Wed, 30 Jul 2008 00:00:09 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/337/</guid>
+            <guid>http://news.rmn-web.net/post/337/</guid>
             <description>
 
 &lt;hr /&gt;
@@ -402,10 +402,10 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
         
           <item>
             <title>４年目。。。</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/350/</link>
+            <link>http://news.rmn-web.net/post/350/</link>
             <pubDate>Thu, 04 Jan 2007 00:00:05 +0900</pubDate>
             
-            <guid>http://replace-this-with-your-hugo-site.com/post/350/</guid>
+            <guid>http://news.rmn-web.net/post/350/</guid>
             <description>&lt;div&gt;総アクセス数 32606アクセス　（約29アクセス/日）&lt;/div&gt;
 &lt;div&gt;サイト名 まつ吉の小部屋&lt;/div&gt;
 &lt;div&gt;開設日 2003年12月18日　（開設1114日）&lt;/div&gt;
