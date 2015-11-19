@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日常 on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/categories/%E6%97%A5%E5%B8%B8/</link>
+    <description>Recent content in 日常 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Feb 2010 02:14:42 +0900</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/categories/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>いつになれば３日坊主が証明されるか</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/226/</link>
+            <pubDate>Thu, 04 Feb 2010 02:14:42 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/226/</guid>
+            <description>&lt;p&gt;さて、Continueの第２体験版ができました。
+広報の募集も始まりました。スローガン（？）は「&lt;B&gt;あなたのサイトでもContinueを！&lt;/B&gt;」
+是非ともブログやサイトにコンティニューへのバナーを貼って下さい。
+スタッフクレジットにも名前が乗ります。名前が載るのって結構楽しいものですよｗ？
+あとは下で確認。皆様の参加をお待ちしております。
+&lt;a href=&#34;http://members2.jcom.home.ne.jp/0944565501/Continue/staff.html&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://blog-imgs-36.fc2.com/m/a/t/matsupla/conv.gif&#34; alt=&#34;conv.gif&#34; border=&#34;0&#34; width=&#34;200&#34; height=&#34;40&#34; /&gt;&lt;/a&gt;
+さて、&lt;S&gt;悪質な&lt;/S&gt;宣伝はここまでにしておいて・・・。
+制作後記。
+もっとも、僕はこの体験版においてマップデータを触ったことは皆無ですが（汗。
+最近私が組んだHTMLも同時に公開される運びとなり、大変嬉しい所存であります（ﾆﾔﾆﾔ
+と、ここで。このHTMLはどのように組まれたか。ちょっと軽く触れておきます。
+正攻法じゃない組み方なのでお見苦しい点はあるかとは思いますが。
+その上、すっごいソース汚くなりましたし。オススメできる方法でもないです。
+決して参考にしないでほしいです。あ、あと推敲は一切してません。日本語おかしいです。
+以下、画像祭りのため、追記に。&lt;/p&gt;
+
+&lt;p&gt;まず、
+&lt;a href=&#34;http://blog-imgs-36.fc2.com/m/a/t/matsupla/1.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://blog-imgs-36.fc2.com/m/a/t/matsupla/1.jpg&#34; alt=&#34;イメージ&#34; border=&#34;0&#34; width=&#34;437&#34; height=&#34;268&#34; /&gt;&lt;/a&gt;
+イメージ画像を作ります。
+実は、これ、HTMLでちゃんと組んだものではなく、以前に公開されていた、第１体験版のスクリーンショットを撮って&lt;a href=&#34;http://www.getpaint.net/&#34;&gt;Paint.NET&lt;/a&gt;で合成したものなんですよ(´・ω・｀)。
+それで、その次は、左メニューの横幅を決める。何pxか計測して、今度はCSSの方に記述。
+本当は画面解像度から左と右を何パーセントやらどーやらやるんでしょうが、面倒なんでやめました(´・ω・｀)。
+僕はフレーム嫌いな上に、下部にMIDI用のフレームがありますので、すっごい汚くなると覚悟したので、
+MIDI以外ではフレームは使用しておりません。
+で、今度はメニューを作る。イメージ画像のメニュー内容の部分を個別に画像で保存。
+テーブルタグでそれぞれを配置しておきます。
+本当は、後から変更がきくように、文字はHTMLで乗せなきゃいけないんでしょうが、面倒なんでやってません。
+コーディングが不適切すぎるね。　ありゃりゃ。
+で、そこらへんのメニューができたら次は具体的なコンテンツを。
+やりやすい「操作方法」や「スタッフクレジット」などから攻めてゆきました。
+で、表紙のFlash。いつも通り&lt;a href=&#34;http://www.geocities.jp/coa9999/&#34;&gt;Parafla&lt;/a&gt;製です。
+いい加減ベクタ形式の画像も扱えるようになんなきゃいけないのにラスタ画像でひたすら・・・（ｒｙ
+それと、手を抜きたかったために、&lt;a href=&#34;http://g10.daiwa-hotcom.com/002.html&#34;&gt;過去のTOPFlash&lt;/a&gt;と共通している箇所が多いです＼（＾o＾）／。斬新さをつくりだそうとするも見事に玉砕。
+ここで、HTMLを第２体験版に対応させるための改造工事を開始。
+１回ヒラリラー氏に提出し、必要な個所を書きくわえていただきました。
+このとき、第２体験版のマップデータも組みあがりました。
+それから、キャラクター紹介に着工。レイアウトに悩むもいいアイディアが思い浮かばないので、
+帝国チャットでフェニックス氏にレイアウトのヒントを尋ねてみたり、あーだこーだしていたりする内に、
+組みあがってきました。無駄にテーブルタグがいっぱいで、低スペックPCにはつらいかもしれません。
+ヒラリラー側に再提出し、なんとか完成。
+で、
+&lt;a href=&#34;http://blog-imgs-36.fc2.com/m/a/t/matsupla/1.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://blog-imgs-36.fc2.com/m/a/t/matsupla/1.jpg&#34; alt=&#34;イメージ&#34; border=&#34;0&#34; width=&#34;437&#34; height=&#34;268&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;http://blog-imgs-36.fc2.com/m/a/t/matsupla/2.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://blog-imgs-36.fc2.com/m/a/t/matsupla/2.jpg&#34; alt=&#34;2.jpg&#34; border=&#34;0&#34; width=&#34;437&#34; height=&#34;268&#34; /&gt;&lt;/a&gt;
+上がさっきのイメージ画像　下が完成したHTML
+（ボタンの名前が違う理由は、第２体験版に対応させるためです。）
+&lt;s&gt;良くも悪くも我ながらなかなかの再現率&lt;/s&gt;
+&lt;span style=&#34;font-size:xx-large;&#34;&gt;ま、できたからいいや。&lt;/span&gt;
+完
+&lt;hr size=&#34;1&#34; /&gt;
+こっからはコメ返信です。
+過去の記事に書いてくださった方も、前回更新以降の書き込みであれば返信しておきます。
+☆海老たん☆
+そーですね。Twitterはまだまだ検討中ですね。あんまりのめりこみ過ぎるのもアレだし。
+まだまだ検討中です。
+☆ジェラたん☆
+長文って読むの疲れますよね、お疲れ様です。
+それからリンクの方、すっかり忘れてました。相互にしておきました。
+（もっとも、G10Worksの方でとっくに相互だけれどもｗ）
+ご報告ありがとうございました。
+&lt;hr size=&#34;1&#34; /&gt;
+こっからは諸連絡です。
+ツジたん（都環青樫氏）のブログとサイトができました。みんなで遊びに行こう！
+ブログ：&lt;a href=&#34;http://roadcoden.blog117.fc2.com/&#34;&gt;日常ロード&lt;/a&gt;
+サイト：&lt;a href=&#34;http://www17.atpages.jp/aokashi/&#34;&gt;シルバーシティ Coden City&lt;/a&gt;
+ではここまで　次はContinueが完成した時にでも書こうかな？&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>Continueとか</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/225/</link>
+            <pubDate>Sun, 31 Jan 2010 21:03:32 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/225/</guid>
+            <description>&lt;p&gt;「&lt;a href=&#34;http://members2.jcom.home.ne.jp/0944565501/&#34;&gt;新ヒラリラーのＭＰ&lt;/a&gt;」で絶賛開発中の新作ＷＷＡ「Continue」（コンティニュー）。ヒラリラー氏が頑張って開発するなか、ダラダラと過ごすわけにもいかないので、我々G10-Project（の一部メンバ）も部分的に開発に携わることとなりました。
+私は、Continue完成と同時に公開となる特設ページの設計を任されております。HTMLとFlashでなんとか作成が完了致しました。該当する箇所の締め切りは今日深夜。今後ヒラリラーのＭＰの顔となるゲームですのでそこそこ力を入れました。
+Continue本編に関してですが、開発は順調に進んでおり、2008年から長らく続いていた作業も大詰めを迎えているようです。ときどき内容を見せてもらいますが、さまざまな意味で、今までのヒラリラー作成ＷＷＡとは一線を画すものとなるでしょう。
+まず、１点目。既に&lt;a href=&#34;http://w6.oroti.com/~hirarira/WWA/taiken/Plays.html&#34;&gt;体験版&lt;/a&gt;をお遊びになった方は既にお分かりでしょうが、ドット絵の作成技術が格段に向上しています。過去のサツリク・ストーリーやFinal Stock Gameなどといったようなゲームと比較してもその差は歴然です。
+２点目。システムも相当凝っている箇所があり、目が離せません。既存のWWAでできる技術はもとより、&lt;a href=&#34;http://wwa.xrea.jp/wwax/&#34;&gt;WWAX&lt;/a&gt;を最大限に利用して作られております。コマンドバトルの精度も大幅に上がっていて、クリティカルブレイクなどといった目立った機能のほかにも、戦闘後の座標がちゃんと記録されているなど、WWAX以前のWWAでは不可能に近いものもWWAXを利用して実現しております。
+３点目。効果音の使い方がかなり良好です。これはみなさんにも実際にプレイして体感してみてほしいと感じます。
+それでは、Continueが万人に愛される作品になることを祈って。
+以下、補足とその他な連絡とコメ返信。&lt;/p&gt;
+
+&lt;p&gt;Continueに関してはまだ公開日は決定しておりませんが、もうまもなくできるでしょう。ヒラリラー氏の側は2009年中に間に合わなかったとのことでお詫びとして&lt;a href=&#34;http://members2.jcom.home.ne.jp/0944565501/sozai/&#34;&gt;素材の配布&lt;/a&gt;を行っております。ドット絵のクオリティに関してはそちらを見ることである程度確かめられるかと思います。もちろん、それだけではありません。実際には事情やネタバレにより公開できないものもあるので、是非、ご期待下さい。
+では、Continue以外のお話。
+2/1日から&lt;a href=&#34;http://matsupla.chatx.whocares.jp/&#34;&gt;帝国チャット&lt;/a&gt;の名称が変更となります。
+新タイトルは&amp;rdquo;G10-Project Tea-time Chat&amp;rdquo;。　なんとか略称を「てぃ☆ちゃ」に保つことに成功したようなしないような。苦情が一定以上出ましたら戻します。(´・ω・｀)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+☆コメント返信コーナー☆
+どっかのブログを見習ってこのブログでもコメ返信やります。
+また、公開コメントのみとさせていただきます。
+☆ジェラたん☆（←普通に邪と呼んだ方が早いか？）
+どーせまたすぐ止まりますよｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ
+バナーを褒めるならじうっぺに褒めてよぅｗ
+☆ヒラたん☆
+次くらいにやってもいいかな？
+信じ続けてくればいずれはなんとかするかも。
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+では今日はここで完。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>２０１０年も２４日目</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/224/</link>
+            <pubDate>Sun, 24 Jan 2010 23:19:24 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/224/</guid>
+            <description>&lt;p&gt;えーっと
+2010年が始まって気づけば３週間。
+春休みも近づく頃か？
+気が早い？いや、そんなことないか・・・。
+G10-Project Worksの方もしばらく目立った更新はしておりませんが、現在裏側では大きなプロジェクトを進行させております。気になる方は&lt;a href=&#34;http://matsupla.chatx.whocares.jp&#34;&gt;帝国チャット&lt;/a&gt; の方でしゃべっているかもしれないんで、知りたければ聞いてみるのもありかも？
+さて、別にどうでもよい予定ですが、今年の３月中のいつの日かより、ハンドルネームの「まつぷら」を廃止致します。
+（もちろん、引き続き愛称としては使っていただいて構いませんが）これにより、正式HNを系列全てのサイトで「雨宮松雪」で統一とします（一部サイトで雨宮姓を冠していないものあり）。
+続き・・・見る・・・？&lt;/p&gt;
+
+&lt;p&gt;さて、続きになります。
+どうも、じうっぺよりバナーをいただきました。
+&lt;a href=&#34;http://x106.peps.jp/jiu7935&#34;&gt;某携帯向けサイト&lt;/a&gt;の&lt;a href=&#34;http://x106.peps.jp/jiu7935/link/?cn=9&#34;&gt;リンク集&lt;/a&gt;で謎の統一感を出していたバナー群のかたわれ。
+&lt;a href=&#34;http://blog-imgs-36.fc2.com/m/a/t/matsupla/matsutan.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://blog-imgs-36.fc2.com/m/a/t/matsupla/matsutan.jpg&#34; alt=&#34;バナー&#34; border=&#34;0&#34; width=&#34;200&#34; height=&#34;40&#34; /&gt;&lt;/a&gt;
+ありがたうございまし。
+そういや、今、Twitterを始めようかどうか躊躇してたりしなかったりしてます。
+最近何かと話題に上がることの多い同サービスですが・・・？
+では。おしまい。
+次は何カ月後に更新されるのかなー？このブログ。
+何かネタを探さねば！？&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>新年</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/223/</link>
+            <pubDate>Fri, 01 Jan 2010 06:52:18 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/223/</guid>
+            <description>&lt;p&gt;あけましておめでとうございます。
+ブログの一部未更新設備を調整しました。
+では、これからもG10-Project Worksをよろしくお願い致します。
+以上&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>帝国チャットから見えてくるモノ</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/222/</link>
+            <pubDate>Tue, 25 Aug 2009 01:00:53 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/222/</guid>
+            <description>&lt;p&gt;&lt;a href =&#34;http://jasin.chatx.whocares.jp&#34;&gt;新進グダニスク帝国チャット&lt;/a&gt;。ここには常連の皆様がほとんどですが日本全国さまざまなところから人がやってきます。北の大地のど真ん中から九州の南の方まで。いろいろなところからアクセスしてくださる皆様がいて光栄です。
+中にはもう学校がはじまっていらっしゃる皆さんもいるようで、２期制だったり、そもそも寒い場所にいるから夏休みが短かったり人それぞれのようで。
+こうして帝国チャットにいると、日本全国いろんな人の地域によってことなる生活が把握できて、結構面白いです。日本の地理を勉強するのとはちょっとニュアンスが違うかもしれませんが、なんだか勉強になるようなならないような。世界全体から見れば日本なんて小さなものに見えるかもしれない。でも、北から南まで、それぞれに人が住んでいて、その場所なりの暮らし方が存在する。四季折々変化に富む日本ですが、それぞれの場所でその流れ方も違ってくるのでしょう。
+あなたの町は、今、どんな感じでしょうか？&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;.
+&amp;hellip;..
+そんなこんなで、楽しかった夏も終わり、MPも秋の準備。
+MP夏祭りが諸般の事情で秋に延期になって名前もかわることになってしまいましたが、
+待たせたことを忘れるくらい楽しい祭りにしたいので、よろしくお願い致します。
+Continue制作を頑張るヒラに対して、私も何かしなければ。
+それでは〜。
+※補足：海外から帝国チャットにいらしている方もおります。一応。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>さて、50時間鈍行列車だ。ヒラも俺も諦めろ。</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/221/</link>
+            <pubDate>Mon, 03 Aug 2009 03:27:22 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/221/</guid>
+            <description>&lt;p&gt;個人情報保守のために一部内容を改変しました。
+気分を害された方にはこの場をお借りしてお詫び申し上げます。
+2009/08/24　まつぷら
+&lt;a href=&#34;http://green.ap.teacup.com/hirarira/59.html#readmore&#34;&gt;ヒラ側のブログ&lt;/a&gt;を見ている方も多いと思うので詳しい説明は省きますが、行き２５時間・帰り２５時間鈍行列車北海道方面。まあ知っている方もいらっしゃると思いますが「北海道＆東日本パス」（1万円也）を利用していきます。
+ヒラの方で大半説明は済んでしまっているので軽くゆる〜くまとめ。
+・乗れるのはJR北海道並びにJR東日本の路線（+東京メトロ千代田線綾瀬〜北千住間）「各駅停車」「普通」「快速（特快・通快等含む）」「急行はまなす（自由席・青森⇔札幌間夜行）」のみ。特急に乗車する際は特急券類の他運賃も必要になる。新幹線は論外。
+・JR北・東全線の他、IGR・青い森鉄道・富士急・ほくほく線に乗車できる。（これがないと盛岡から八戸に行けない。）
+さて、私が大まかなプランを立て、ヒラはホテルの予約等をとってくれました。
+ということであと2時間足らずで最初の列車（これは私鉄につき別運賃）に乗らなければならないのですが・・・ふう。&lt;/p&gt;
+
+&lt;p&gt;それから完全にヒラの方と同じになりますが、Continueも制作続行中とのことです。
+なんと本当に50人のエキストラが集まってしまった100,000HITSWWAと並行して鋭意開発中とのことです。
+こちらは先述の旅行記とは違って本当に素晴らしい作品（だと思う）なので是非とも期待してくださいね。
+&lt;span style=&#34;font-size:x-small;&#34;&gt;MPはバリバリ管理しているのに肝心のゲームの制作スキルが低いんだ、まつぷらは。まあそれなりにFlashでいろいろ組んだりはしているけどさ・・・ｗ&lt;/span&gt;&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>夏の日。</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/220/</link>
+            <pubDate>Mon, 20 Jul 2009 03:45:33 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/220/</guid>
+            <description>&lt;p&gt;どうも。初の方も、MPから来た方も。&lt;a href=&#34;http://w6.oroti.com/~hirarira/&#34; target=&#34;_blank&#34; title=&#34;ヒラリラーのMP&#34;&gt;ヒラリラーのMP&lt;/a&gt;管理人代理のまつぷらといいます。
+まあ、気づけば７月というわけでして。まあダル〜くゆる〜く日常が去ってゆきます。
+こんなのでは大人になってしまった時には後悔同然ですなｗまあ仕方ないか。
+身の周りでは、花火大会が開かれて、人ごみがあって〜ということなど夏を感じさせるようなシチュエーションにも多々出くわします。
+私今高２ですが、まあ例年通り平平凡凡と暮らしております。その辺のリア充どもとは違って、
+日々PCと格闘したり、時には遊んだり・・・な日常です。強いて去年と違うことを挙げるとするならば
+ノートパソコンを部屋に配置したことにより、MPの方の更新頻度を上げることに成功した・・・とか。
+なのに、計画したイベントを実施しなかったり、ゲーム制作ダレてきたり等・・・だめだこの人。&lt;/p&gt;
+
+&lt;p&gt;さて、本題に移ります。
+すでにお気づきの方もいらっしゃると思いますが、MPのTOPのFlashで（1/5の確率）
+でゲームが始まるようになりました。まあ、Flashでフラッシュ暗算という半ばダジャレのようなものですが。あと、はっきり言って、電卓使えばかなり簡単にクリアできちゃいます。我こそは電卓無しで・・・っていう挑戦者がいれば、是非とも頑張ってみてください。何もありませんが、達成感が得られます。あんまりFlashのASも不慣れで満足いくものはなかなかつくれませんが、楽しんでいただけると幸いです。
+えーっと、後、8/1目安でMP夏祭り2009なるものを実施する予定でしたが、何も準備してませんｗ
+過度な期待をせずにお待ちください。まあ、Stickamあたりの配信になるんだろうな・・・。
+他には8/3〜8/6の期間、わけあって普通列車で北海道行ってくることになりました。
+こちらの方の旅行記も旅行終了後の近日中に公開する予定です。
+首を長くせずにお待ちください。
+だめだ俺。更新のタイミングが・・・ｗ&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>【Harbot】終了の15分前に【サービス終了】</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/334/</link>
+            <pubDate>Thu, 31 Jul 2008 15:36:16 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/334/</guid>
+            <description>&lt;p&gt;サービス終了が間近に迫ったハーボットの「まっちゃん２」について。
+詳しくは昨日の日記を参照願いたいが、ハーボットのサービス終了間近である。
+記念に写真撮影を行ってきた。気分を聞いて、「ごくらくゆめきぶん」とは
+彼がもうすぐこの場からいられなくなることを彼なりに示した言葉なのかもしれない。
+私はこのまま彼を見守る。最後の最後まで・・・。
+あと13分の命なんて思いたくない・・・。&lt;/p&gt;
+
+&lt;p&gt;この30分後,サービス終了の告知画面となった。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>４周年</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/343/</link>
+            <pubDate>Mon, 17 Dec 2007 00:00:05 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/343/</guid>
+            <description>&lt;p&gt;いえええええええええええええええええ！！（いつもの数倍すげえテンションw）
+明日でいよいよ当サイトは４周年です。
+小５の時に作ってずっと残ってきたんですねぇ。
+長いですねぇ。
+気が早い管理人はもうサイトを２００８年仕様にしてしまいました。
+今日は時間がないのでこのあたりで失礼します。
+明日以降は新作タウンの電脳新都secondの開発ブログを書きたいと思っています。
+これからもよろしくお願いいたします。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>続・続・そういや、あの日から一年が経とうとしているな・・・</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/352/</link>
+            <pubDate>Sun, 25 Jun 2006 00:00:01 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/352/</guid>
+            <description>&lt;div&gt;またまた続きです。&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;２００６年３月２８日。&lt;/div&gt;
+&lt;div&gt;　　ＴＯＷＮを公開。&lt;/div&gt;
+&lt;div&gt;　　ここからＷＧＳは大きく変わりました。&lt;/div&gt;
+&lt;div&gt;　　現在、ＴＯＷＮには８０人近い人数が住んでいます。&lt;/div&gt;
+&lt;div&gt;　　このときは、「一～四番街」からなっていましたが、&lt;/div&gt;
+&lt;div&gt;　　ヒラリラーの要望で一番街は「中心部」に、二番街は「スラム」に、&lt;/div&gt;
+&lt;div&gt;　　三番街は「港地区」に、四番街は「郊外」になりました。&lt;/div&gt;
+&lt;div&gt;　　その後、「まつ吉山」が誕生したり、「名も無き無人島」が現れたりして&lt;/div&gt;
+&lt;div&gt;　　ますます繁盛しています。&lt;/div&gt;
+&lt;div&gt;　　ちなみに「名も無き無人島に近藤さんが住んで「近藤島」になり、&lt;/div&gt;
+&lt;div&gt;　　そして陸地が増え、現在は「近藤王国」となっています。&lt;/div&gt;
+&lt;div&gt;　　そんなＴＯＷＮにあなたもきてみてください。&lt;/div&gt;
+&lt;div&gt;　　きっと楽しいですよ。&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;２００６年４月２日。&lt;/div&gt;
+&lt;div&gt;　　まつ吉迷宮２００６公開。&lt;/div&gt;
+&lt;div&gt;　　これもすごい。&lt;/div&gt;
+&lt;div&gt;　　地下１９階まである最強のダンジョンゲームとなった。&lt;/div&gt;
+&lt;div&gt;　　その後、改良が進められ、いまでは合作ゲームとなっている。&lt;/div&gt;
+&lt;div&gt;　　セーブ禁止にしたのがよかったかな？&lt;/div&gt;
+&lt;div&gt;　　あとは、、、マルチエンディングにしたかったなぁ。。。。。。。。。。。&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;２００６年４月６日。&lt;/div&gt;
+&lt;div&gt;　　むにむに初級完成。&lt;/div&gt;
+&lt;div&gt;　　ＷＷＡだけではつまらないので作った。&lt;/div&gt;
+&lt;div&gt;　　はっきりいってＮＡＯさんの改造。&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;２００６年４月２１日。&lt;/div&gt;
+&lt;div&gt;　　かくれんぼ改良。&lt;/div&gt;
+&lt;div&gt;　　省略。「かくれんぼ」の項参照のこと。&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;２００６年４月２２日。&lt;/div&gt;
+&lt;div&gt;　　あんこはうす系「たいぴんぐ」完成。&lt;/div&gt;
+&lt;div&gt;　　「あんこはうすでＷＷＡの画像を！」をコンセプトに開発したゲーム。&lt;/div&gt;
+&lt;div&gt;　　まつ吉作成ＷＷＡに関するタイピングネタが入っている。&lt;/div&gt;
+&lt;div&gt;　　もちろんあんこはうすデフォルトのものが多いですが・・・・・&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;日時不明。&lt;/div&gt;
+&lt;div&gt;　　１画面あどべんちゃー完成。&lt;/div&gt;
+&lt;div&gt;　　「とにかくシンプルなゲーム」がコンセプト。&lt;/div&gt;
+&lt;div&gt;　　ホントは暇人さんの「脱出ゲーム」を改造しただけ。&lt;/div&gt;
+&lt;div&gt;　　よってクソゲー。&lt;/div&gt;
+&lt;div&gt;　　エリア２Ｄと連動するように現在も開発中.....&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;（現在製作中）&lt;/div&gt;
+&lt;div&gt;　　金を集めろ！in南近藤島&lt;/div&gt;
+&lt;div&gt;　　ＴＯＷＮの近藤島の南にある設定の南近藤島を舞台にしたゲーム。&lt;/div&gt;
+&lt;div&gt;　　予定では（・∀・）ｲｲ!!ランクになる予定。&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;（現在製作中）&lt;/div&gt;
+&lt;div&gt;　　ＷＷＡvsむにむに&lt;/div&gt;
+&lt;div&gt;　　当初はＷＷＡコラボレーション出展作品になる予定でしたが&lt;/div&gt;
+&lt;div&gt;　　期限切れにより没に。&lt;/div&gt;
+&lt;div&gt;　　それでも粘って現在も製作中！&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;以上でいままでの歴史を振り返る作業を終了します。&lt;/div&gt;
+&lt;div&gt;ここまで付き合ってくれたみなさん、ホントーにありがとうございました。&lt;/div&gt;
+&lt;div&gt;これからもＷＧＳでお楽しみください。&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;完&lt;/div&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>深夜にマッチョでポン！</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/394/</link>
+            <pubDate>Sat, 27 Aug 2005 00:00:13 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/394/</guid>
+            <description>&lt;div&gt;深夜に日刊マッチョでポンをやったら、&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;１２位&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;になっちゃいました！ランクイン！&lt;/div&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>わっしょい＆宿題</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/401/</link>
+            <pubDate>Thu, 18 Aug 2005 00:00:51 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/401/</guid>
+            <description>&lt;div&gt;　　　　　　　　　　おにぎりワッショイ！！&lt;/div&gt;
+&lt;div&gt;　　　　　　　＼＼　 おにぎりワッショイ！！　／／&lt;/div&gt;
+&lt;div&gt;　　　+　　　+　＼＼　おにぎりワッショイ！！／+&lt;/div&gt;
+&lt;div&gt;　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　+&lt;/div&gt;
+&lt;div&gt;.　　　　　+　　　 ／■＼　／■＼　 ／■＼　　+&lt;/div&gt;
+&lt;div&gt;　　　　　　　　（　´∀｀∩（´∀｀∩）（　´∀｀）&lt;/div&gt;
+&lt;div&gt;　　　+　　（(　（つ　　　ノ（つ　　丿（つ　　つ　)）　　+&lt;/div&gt;
+&lt;div&gt;　　　　　　　　 ヽ　 （　ノ　（　ヽノ　　）　）　）&lt;/div&gt;
+&lt;div&gt;　　　　　　　　　（＿）し&#39;　し（＿）　 （＿）＿）&lt;/div&gt;
+&amp;nbsp;
+&lt;div&gt;をときどきしながら、宿題中です。&lt;/div&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>下の日記の補足</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/403/</link>
+            <pubDate>Tue, 09 Aug 2005 09:30:42 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/403/</guid>
+            <description>&lt;div&gt;夏休みの宿題あるんだけど。&lt;/div&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>タイトル字数＞本文字数！</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/405/</link>
+            <pubDate>Tue, 09 Aug 2005 09:00:53 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/405/</guid>
+            <description>&lt;p&gt;暇・・・&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>地震</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/409/</link>
+            <pubDate>Sat, 23 Jul 2005 00:00:31 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/409/</guid>
+            <description>&lt;hr /&gt;
+
+&lt;p&gt;諸事情によりタイトルを変更しております。&lt;/p&gt;
+
+&lt;p&gt;元タイトル:  (((((((( ；ﾟДﾟ))))))))ｶﾞｸｶﾞｸﾌﾞﾙﾌﾞﾙｶﾞﾀｶﾞﾀﾌﾞﾙﾌﾞﾙ（地震）&lt;/p&gt;
+
+&lt;p&gt;また、投稿時刻の詳細がわからないので本文中の「30分前」はいつだかわからないです&amp;hellip;。&lt;/p&gt;
+
+&lt;p&gt;2012-01-26 rmn.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div&gt;今から２０分程度前のことだった・・・・&lt;/div&gt;
+&lt;div&gt;まつ吉はトイレにいて、何事もなく過ごしていた・・・・&lt;/div&gt;
+&lt;div&gt;すると・・・・・・・・&lt;/div&gt;
+&lt;div&gt;(((((((( ；ﾟДﾟ))))))))ｶﾞｸｶﾞｸﾌﾞﾙﾌﾞﾙｶﾞﾀｶﾞﾀﾌﾞﾙﾌﾞﾙ&lt;/div&gt;
+&lt;div&gt;地震発生！！！！&lt;/div&gt;
+&lt;div&gt;ＮＨＫで確認してみたところ、&lt;/div&gt;
+&lt;div&gt;震度３～４である！！！！！！&lt;/div&gt;
+&lt;div&gt;激しい～～！！！！！！！&lt;/div&gt;
+&lt;div&gt;最大震度５弱・・・・・・きつっ！！！！！！&lt;/div&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>

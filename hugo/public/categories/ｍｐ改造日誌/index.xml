@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ｍｐ改造日誌 on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/categories/%EF%BD%8D%EF%BD%90%E6%94%B9%E9%80%A0%E6%97%A5%E8%AA%8C/</link>
+    <description>Recent content in Ｍｐ改造日誌 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Apr 2009 16:10:21 +0900</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/categories/%EF%BD%8D%EF%BD%90%E6%94%B9%E9%80%A0%E6%97%A5%E8%AA%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>微妙な変更</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/218/</link>
+            <pubDate>Sun, 05 Apr 2009 16:10:21 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/218/</guid>
+            <description>&lt;p&gt;さて、常連のみなさん。そうでないみなさん。こんにちは。まつぷらです。
+今日はＭＰを微妙な点で更新しました。さて、どこでしょう。
+なお、最新の更新履歴にはのせてないですよ。
+ヒント：お気に入り&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>

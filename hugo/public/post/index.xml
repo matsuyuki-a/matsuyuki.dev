@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://replace-this-with-your-hugo-site.com/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 26 Oct 2015 11:01:39 +0900</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://replace-this-with-your-hugo-site.com/post/index.xml" rel="self" type="application/rss+xml" />
     
       
         
@@ -99,8 +99,6 @@
 </description>
           </item>
         
-      
-    
       
     
       
@@ -329,9 +327,91 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
       
     
       
-    
+        
+          <item>
+            <title>旧「今日のまつゆきさん」から記事のインポート</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/231/</link>
+            <pubDate>Thu, 08 Dec 2011 11:28:22 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/231/</guid>
+            <description>&lt;p&gt;記事をかくのもすごく久しぶりですね&amp;hellip;
+今日は、&lt;a href=&#34;http://aokashi.rw-county.net/&#34; title=&#34;青き樫の家&#34;&gt;青樫のブログ&lt;/a&gt;で&lt;a href=&#34;http://aokashi.rw-county.net/?p=281&#34; title=&#34;過去の記事をインポートしました&#34;&gt;興味深い投稿&lt;/a&gt;を見かけたので、ちょっとお話を。
+　FC2ブログからこのWordPressに記事がインポートできるよ、とのことだそうだ。試しに一発目、旧ブログの記事をインポートしてみたのだが、文字化けでゴースト記事が大量発生。どうやらFC2からエクスポートされたファイルがEUC-JPだったのが原因のようだった。ここで発生したゴースト記事を削除するのに一苦労。その後、UTF-8に書き換えたファイルをインポートして無事成功。
+　FC2ブログから吐かれるデータはMovaleTypeのそれの亜種みたいなものらしいので、エンコードさえ気をつければサッとインポートできます。(青樫の記事のパクリ表現乙
+　ただ、インポートした記事のコメントに、若干謎のパラメータが残ってます。気が向いたときにでも直そうかなと。
+　あ、過去の記事もどうぞご覧ください。&lt;/p&gt;
+
+&lt;p&gt;　さて、いよいよ12月18日、まつひら系列のWebサイトは8周年を迎えます。ここまで続けられたのもみなさんの応援のおかげです。特に大きなイベントの予定はありませんが、今後もよろしくお願い致します。&lt;/p&gt;
+</description>
+          </item>
+        
       
     
+      
+        
+          <item>
+            <title>WWA制作から引退</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/159/</link>
+            <pubDate>Tue, 16 Aug 2011 23:19:08 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/159/</guid>
+            <description>&lt;p&gt;長い間、WWAというものをつくってきませんでしたが、一応公式にWWA制作からは引退ということにしておきます。ただし、今後も以下の場合はWWAを使います。
+&lt;ul&gt;
+    &lt;li&gt;ECA Townのアドベンチャーパートの要望を受けての更新&lt;/li&gt;
+    &lt;li&gt;ECA Townのアドベンチャーパートのバグ修正&lt;/li&gt;
+    &lt;li&gt;既存WWAのバグ修正&lt;/li&gt;
+    &lt;li&gt;もし、WWA外部スクリプトを作成することになった場合&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://tsucreating.jp/rmn/wwa-bin/mint.html&#34;&gt;一応引退宣言&lt;/a&gt;。
+今後は、WWAにとってかわるようなゲーム作成ツールの開発かなにかができればいいと考えていますが、自分にそんな力があるとは思ってないので期待しないでくださいね。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>ハンドルネーム改称・サイト名変更</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/132/</link>
+            <pubDate>Sat, 11 Jun 2011 22:52:32 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/132/</guid>
+            <description>&lt;p&gt;ハンドルネームを、雨宮松雪からrmn.に、
+サイト名を「雨宮家松雪の部屋」から「rmn.web」に変更しました。&lt;/p&gt;
+
+&lt;p&gt;詳しい理由などは後日。現在、変更作業を行っています。
+（ECA townのHN変更は７月を予定しています。）&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>WWAを移転。</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/101/</link>
+            <pubDate>Sun, 01 May 2011 03:51:30 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/101/</guid>
+            <description>&lt;p&gt;※この記事の人名・団体名は全て敬称略です。あらかじめご了承ください。&lt;/p&gt;
+
+&lt;p&gt;ＷＷＡ設備のサーバ移転を行いました。&lt;/p&gt;
+
+&lt;p&gt;これの何が大変って、各ＷＷＡのＵＲＬゲートの内、絶対パスで移動先が記述されているもののほとんどが取り換え対象になったこと。ひょっとしてリンク切れが出ているかも。また、一部の制覇者掲示板を削除しています。また、マルチワールド1+2やマネーゲームＸＰ（いずれも&lt;a title=&#34;MP&#34; href=&#34;http://members2.jcom.home.ne.jp/0944565501/toyypu.html&#34;&gt;新・ヒラリラーのＭＰ&lt;/a&gt;のＷＷＡ）からこちらに設置してあるＷＷＡにＵＲＬゲートが貼られているのでヒラたんにも貼りかえのお願いをしなきゃいけませんね。大変だー。&lt;/p&gt;
+
+&lt;p&gt;今回の変更で、WWA.classのバージョンが3.10になっています。これに伴い、低速移動が可能となり、崩れる床の攻略がグッと簡単になりました。本当は崩れる床があるＷＷＡだけ3.02bのままにしようかなと考えたのですが、面倒なので全部3.10になってます。ただでさえ難しいマルチワールドのパーフェクトを狙うのは至難の業ですからね。もっと探索してもらいたいと考えて低速移動を解禁しました。&lt;/p&gt;
+
+&lt;p&gt;なお、今回のサーバ移転の実施理由ですが、ＷＷＡを置かせてもらっている&lt;a title=&#34;Coolのお知らせ&#34; href=&#34;http://portal.faq.rakuten.co.jp/app/answers/detail/a_id/15388/&#34;&gt;ＣＯＯＬＯｎｌｉｎｅ(無料会員)のサービスが2011年6月末に終了してしまうため&lt;/a&gt;なんですね。COOLを運営しているＩｎｆｏｓｅｅｋ（楽天）は昨年10月にInfoseek iswebライトのサービスを終了していたので、ＣＯＯＬもいつかは無くなると心配していましたが、案の定&amp;hellip;小学校６年の頃から愛用していたスペースだけに、少し残念です。&lt;/p&gt;
+
+&lt;p&gt;いまやＨＴＭL５の対応を各ブラウザが競い合う時代。そんななか、WWAを動かすためのapplet要素は使用できないことになっています。(昔から非推奨属性でしたが。)代替要素としてobject要素がありますが、Google Chromeなどの一部ブラウザなどが対応していない関係でapplet要素を使わなければならないのが現状です。このＨＴＭＬにおけるapplet要素非推奨は、Java Applet自体あまり使われなくなり、もっと軽いFlashやcanvas要素などが増えてきている今を映し出しているのかもしれません。と同時に、ＷＷＡというものがだんだん過去のものになりつつあるのかもしれません。しかし、なかなかここまで気軽にゲームを作るための環境がないのも事実です。今では&lt;a title=&#34;WWAeval&#34; href=&#34;http://asobiba.cocolog-nifty.com/game/wwa/wwaeval/&#34; target=&#34;_blank&#34;&gt;WWAeval&lt;/a&gt;もあるので、複雑な条件分岐も簡単に書けます。今こそ、ＷＷＡが見直されてほしいところですが、そうもいかないのが現状なのかもしれません。&lt;/p&gt;
+
+&lt;p&gt;ところで、Tsucreatingのvirus.exeがWWAforJSというcanvas要素を使った新型ＷＷＡの研究をしているようですね。今後の発展に期待しております。&lt;/p&gt;
+</description>
+          </item>
+        
       
     
   </channel>

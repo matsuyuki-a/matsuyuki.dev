@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>お知らせ on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/categories/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/</link>
+    <description>Recent content in お知らせ on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Oct 2015 11:10:00 +0900</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/categories/%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>まつひら系列の思い出を再公開しました。</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/600/</link>
+            <pubDate>Mon, 12 Oct 2015 11:10:00 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/600/</guid>
+            <description>&lt;p&gt;諸々の理由で長期間公開を見合わせていた「&lt;a href=&#34;http://rmn-web.net/matsuhira&#34;&gt;まつひら系列の思い出&lt;/a&gt;」を再公開しました。&lt;/p&gt;
+
+&lt;p&gt;このサイトは、2003年頃から続いている私のWebサイトと、私のサイトと密接な関わりがある&lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;氏のWebサイトの昔のものを永久保存するためのものです。&lt;/p&gt;
+
+&lt;p&gt;なお、再開にあたって、下記の調整を行いました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wwajp.com&#34;&gt;WWA&lt;/a&gt;をすべて&lt;a href=&#34;http://wwawing.com&#34;&gt;WWA Wing&lt;/a&gt;に移行
+
+&lt;ul&gt;
+&lt;li&gt;24LIFEは既に&lt;a href=&#34;http://wwawing.com/wing/24life.html&#34;&gt;WWA Wing公式で公開されている&lt;/a&gt;ので公開終了&lt;/li&gt;
+&lt;li&gt;移行が困難な「アイテムのショートカットキー」については公開見合わせ&lt;/li&gt;
+&lt;li&gt;正男パートの技術調査が必要な「ギ・ロウチンをたおすゲーム」についても公開見合わせ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;「新・ヒラリラーのMP」の復元を公開&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以上になります。拙いものになりますが、よろしくお願い致します。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>サーバ移転しました</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/600/</link>
+            <pubDate>Sat, 03 Oct 2015 16:30:00 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/600/</guid>
+            <description>
+
+&lt;p&gt;長年使ってきたロリポップ+WordPress環境から, GitHub Pages+&lt;a href=&#34;http://gohugo.io/&#34;&gt;hugo&lt;/a&gt;に移転しました.&lt;/p&gt;
+
+&lt;p&gt;今後もまったりやっていきます.&lt;/p&gt;
+
+&lt;h3 id=&#34;今回の移転における重大な変更点:26748a97c6a23c0517ce3d82e5250ab4&#34;&gt;今回の移転における重大な変更点&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;まつゆき資料室が移転
+
+&lt;ul&gt;
+&lt;li&gt;今回の移転でまつゆき資料室のサイトが下記に移動になりました.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://teatime.rmn-web.net/docs/&#34;&gt;http://teatime.rmn-web.net/docs/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;今後の予定:26748a97c6a23c0517ce3d82e5250ab4&#34;&gt;今後の予定&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;WWA WingもGitHub Pagesに移転?
+
+&lt;ul&gt;
+&lt;li&gt;こっちもhugo使って, WWA Phoenixのページを綺麗にしたい.&lt;/li&gt;
+&lt;li&gt;テーマは自作&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;まつひら系列の思い出の復旧
+
+&lt;ul&gt;
+&lt;li&gt;旧作WWAを&lt;a href=&#34;http://wwawing.com&#34;&gt;WWA Wing&lt;/a&gt;に置き換えて再公開.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;またこのページもしばらく触らない日が続くと思いますが, よろしくお願いいたします.&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>移転します。</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/229/</link>
+            <pubDate>Mon, 21 Feb 2011 21:17:06 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/229/</guid>
+            <description>&lt;p&gt;&lt;s&gt;このブログは独自ドメイン下の新ブログに３月１２日より移転します。
+新しいブログは以下の通りとなります。
+&lt;a href=&#34; http://tsucreating.jp/blog/&#34; target=&#34;_blank&#34; title=&#34; http://tsucreating.jp/blog/&#34;&gt; &lt;a href=&#34;http://tsucreating.jp/blog/&#34;&gt;http://tsucreating.jp/blog/&lt;/a&gt;&lt;/a&gt;
+このブログへリンクを貼って頂いたみなさんには申し訳ありませんが、リンクの変更をお願い致します。　ﾍﾟｺﾘ&lt;/s&gt;
+３月１３日追記
+アドレスが変更となりました。詳しくは、上の記事をご覧ください。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>新ＴＯＷＮ</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/228/</link>
+            <pubDate>Tue, 04 May 2010 01:40:13 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/228/</guid>
+            <description>&lt;p&gt;新ＴＯＷＮのアルファテストを開始しました。
+まだ使い物にならないレベルで、帝国には到底及びませんので、一般の方への解放はしておりません。
+ただし、どうしても、どうしても、どーーしてもみたいと言う変態の方がいらっしゃれば、&lt;a href=&#34;http://matsupla.chatx.whocares.jp/&#34; target=&#34;_blank&#34; title=&#34;てい☆ちゃ&#34;&gt;てい☆ちゃ&lt;/a&gt;まで来てください。
+また、関係者向けに帝国内のCustomer Floorでも公開中です。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>そろそろ試験</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/227/</link>
+            <pubDate>Sun, 14 Feb 2010 23:45:18 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/227/</guid>
+            <description>&lt;p&gt;&lt;span style=&#34;font-size:x-large;&#34;&gt;ちゅどおおおおおおおおおおおおおおおん！&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;ごめんなさいｗ
+さて、学年末考査２週間前のため、更新停止します。
+えーっと、あと、TOWN⇔WWAの試験やってます。
+詳細はまた今度、気が向いたらお話します。
+７月には新TOWNのβ版が・・・おおっとげふんげふん
+出るかで出ないかはまだ未確定要素が多すぎて言えませんが。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>びっくりした。マジで。</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/219/</link>
+            <pubDate>Tue, 26 May 2009 06:53:00 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/219/</guid>
+            <description>&lt;p&gt;ヒラリラーのMPが先日10万ヒットしました。
+ハイ、まあ、そういうことです。。。
+&lt;a href=&#34;http://blog-imgs-33.fc2.com/m/a/t/matsupla/an.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://blog-imgs-33.fc2.com/m/a/t/matsupla/an.png&#34; alt=&#34;10万ヒットの日&#34; border=&#34;0&#34; width=&#34;578&#34; height=&#34;207&#34; /&gt;&lt;/a&gt;
+コレ。見てくださいｗ
+アクセス解析の画面のスクリーンショット（昨日20：00頃撮影）ですが
+19時代の伸びがおかしいですｗ
+本当は99950ヒットあたりでラジオ配信なんかも検討してたんですが。
+時すでに遅し（汗
+んで、1日でTOPのFLASH作ったりエンターページつくったりｗ
+エンターページのFLASHはランダムで2種類が流れてるんですよ。
+片方しか見てない人は是非ともリトライして２つとも見てほしいです。
+TOPのFLASHは1日でつくった（１０００００HITSの画像以外）ので
+残念な意味でのまつぷらクオリティです。絵師のみなさん、絵を汚しちゃったり、
+いろいろごめんなさい・・・。
+さて、10万HIT記念の企画ですが、こんなもので終わるわけがありませんよ！
+ゆっくりしていってね！！！&lt;/p&gt;
+
+&lt;p&gt;さて、10万HITsWWAは引き続き参加者募集中。
+&lt;a href=&#34;http://mt.advenbbs.net/bbs/yybbs.cgi?mode=res&amp;amp;no=2934&amp;amp;id=hirakue&#34; target=&#34;_blank&#34; title=&#34;こちら&#34;&gt;こちら&lt;/a&gt;からお気軽に。
+参加者は意外と集まっていて、50人枠がある中で、39人の方が現在までに希望されています。
+まだまだ枠はあるのでお気軽にどぞー
+それから、8月1日目安でとあるイベントやります。
+詳細はここでは明かせないので、後日発表。
+関係者には日曜日あたりで会議やりたいんでそのつもりで。
+首を3光年ほど長くしてお待ちください。　では。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>日記関連はこっちに移転。</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/216/</link>
+            <pubDate>Sat, 04 Apr 2009 20:38:24 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/216/</guid>
+            <description>&lt;p&gt;えーっと。はじめての方も、ＷＧＳ博物館からお越しの方も、ヒラリラーのＭＰからお越しの方も、いらっしゃいませ。まつぷら（旧ＨＮ：眞露講・まつこっくり・まつぽっくり・まつ吉・まつ吉Plus）です。
+さて。楽天側のブログは2003年12月18日から続けてまいりましたが、スパム発生により、まつぷら初のサイトとして記念碑にします。あちら側は更新履歴の掲載のみ続行させていただきます。
+えーっと。３月下旬より&lt;a href=&#34;http://w6.oroti.com/~hirarira/index.html&#34; target=&#34;_blank&#34; title=&#34;ヒラリラーのＭＰ&#34;&gt;ヒラリラーのＭＰ&lt;/a&gt;の代行管理を任されておりますが、このブログでは、そんなまつぷらの日常や、ＭＰ新コンテンツ開発秘話なんかをお伝えしたいと思います。
+コメントなんかありましたらその都度レスしていきたいなーと思います。
+それから、&lt;a href=&#34;http://green.ap.teacup.com/hirarira/&#34; target=&#34;_blank&#34; title=&#34;ヒラのブログ&#34;&gt;ヒラのブログ&lt;/a&gt;と同じく、超不定期更新、ノンジャンルでお送りしたいと思います。
+とりあえず、はじめの記事はこのへんでー。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>【閉鎖】第五期閉鎖</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/360/</link>
+            <pubDate>Thu, 11 May 2006 15:51:43 +0900</pubDate>
+            
+            <guid>http://replace-this-with-your-hugo-site.com/post/360/</guid>
+            <description>&lt;div&gt;ＷＧＳ系列全サイト第五期閉鎖を開始いたしました。&lt;/div&gt;
+&lt;div&gt;これは、まつ吉の中間考査および、家の引越しによるものです。&lt;/div&gt;
+&lt;div&gt;この閉鎖の実施中は更新を一部を除いておこないません。&lt;/div&gt;
+&lt;div&gt;閉鎖中、まつ吉宛のタウンのメールは使用しないでください。&lt;/div&gt;
+&lt;div&gt;まつ吉山のパスワードや新規アイテム投稿、まつ吉への文句は以下のメールアドレスをご利用ください。&lt;/div&gt;
+&lt;div&gt;matsukokkuri@iis.to&lt;/div&gt;
+&lt;div&gt;閉鎖終了時期は未定です。&lt;/div&gt;
+&lt;div&gt;閉鎖終了条件は&lt;/div&gt;
+&lt;div&gt;・中間で９２位以上の順位をとる&lt;/div&gt;
+&lt;div&gt;・引越し後のインターネット接続環境が安定する&lt;/div&gt;
+&lt;div&gt;以上２つです。&lt;/div&gt;
+&lt;div&gt;早い場合で６月初頭あたりになると考えられます。&lt;/div&gt;
+&lt;div&gt;ＷＧＳ・ＴＯＷＮ・まつ部屋住民に対しては大変ご迷惑をおかけいたしますが何卒よろしくお願いいたします。&lt;/div&gt;
+&lt;div&gt;平成１７年　５月１２日　ＷＧＳ　まつ吉ニュータウン　まつ吉の部屋　共通管理人　まつ吉&lt;/div&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>
