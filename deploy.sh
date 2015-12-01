@@ -25,4 +25,4 @@ cd ../..
 
 # Push source and build repos.
 git push origin master
-git subtree push --prefix=public git@github.com:rmn31415/news.rmn-web.net.git gh-pages
+git subtree push --prefix=hugo/public git@github.com:rmn31415/news.rmn-web.net.git gh-pages
