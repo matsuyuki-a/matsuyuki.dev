@@ -1,9 +1,7 @@
 language: go
 
 go:
-  - 1.4.2
   - 1.5.1
-  - tip
 
 env:
   global:
@@ -29,13 +27,9 @@ script:
   - msg="rebuilding site `date`"
   - git commit -m "$msg"
   - cd ../..
-  - git push --quiet https://$GH_TOKEN@github.com/rmn31415/rmn31415.github.io.git origin master
-  - git subtree push --quiet --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/rmn31415.github.io.git origin gh-pages
+  - git subtree push --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/rmn31415.github.io.git origin gh-pages
 
 
 after_success:
   - echo "OK"
-
-
-
 
