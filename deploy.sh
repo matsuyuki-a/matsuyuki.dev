@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git pull
+
 cd hugo
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
