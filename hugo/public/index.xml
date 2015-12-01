@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>まつゆき/rmn.</title>
+    <link>http://news.rmn-web.net/</link>
+    <description>Recent content on まつゆき/rmn.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 26 Oct 2015 11:01:39 +0900</lastBuildDate>
+    <atom:link href="http://news.rmn-web.net/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>テスト。</title>
+            <link>http://news.rmn-web.net/post/600/</link>
+            <pubDate>Mon, 26 Oct 2015 11:01:39 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/600/</guid>
+            <description>&lt;p&gt;RSSフィードの変化を見るためのテストですー&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>まつひら系列の思い出を再公開しました。</title>
+            <link>http://news.rmn-web.net/post/600/</link>
+            <pubDate>Mon, 12 Oct 2015 11:10:00 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/600/</guid>
+            <description>&lt;p&gt;諸々の理由で長期間公開を見合わせていた「&lt;a href=&#34;http://rmn-web.net/matsuhira&#34;&gt;まつひら系列の思い出&lt;/a&gt;」を再公開しました。&lt;/p&gt;
+
+&lt;p&gt;このサイトは、2003年頃から続いている私のWebサイトと、私のサイトと密接な関わりがある&lt;a href=&#34;http://hirarira.net&#34;&gt;ヒラリラー&lt;/a&gt;氏のWebサイトの昔のものを永久保存するためのものです。&lt;/p&gt;
+
+&lt;p&gt;なお、再開にあたって、下記の調整を行いました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wwajp.com&#34;&gt;WWA&lt;/a&gt;をすべて&lt;a href=&#34;http://wwawing.com&#34;&gt;WWA Wing&lt;/a&gt;に移行
+
+&lt;ul&gt;
+&lt;li&gt;24LIFEは既に&lt;a href=&#34;http://wwawing.com/wing/24life.html&#34;&gt;WWA Wing公式で公開されている&lt;/a&gt;ので公開終了&lt;/li&gt;
+&lt;li&gt;移行が困難な「アイテムのショートカットキー」については公開見合わせ&lt;/li&gt;
+&lt;li&gt;正男パートの技術調査が必要な「ギ・ロウチンをたおすゲーム」についても公開見合わせ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;「新・ヒラリラーのMP」の復元を公開&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以上になります。拙いものになりますが、よろしくお願い致します。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>サーバ移転しました</title>
+            <link>http://news.rmn-web.net/post/600/</link>
+            <pubDate>Sat, 03 Oct 2015 16:30:00 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/600/</guid>
+            <description>
+
+&lt;p&gt;長年使ってきたロリポップ+WordPress環境から, GitHub Pages+&lt;a href=&#34;http://gohugo.io/&#34;&gt;hugo&lt;/a&gt;に移転しました.&lt;/p&gt;
+
+&lt;p&gt;今後もまったりやっていきます.&lt;/p&gt;
+
+&lt;h3 id=&#34;今回の移転における重大な変更点:26748a97c6a23c0517ce3d82e5250ab4&#34;&gt;今回の移転における重大な変更点&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;まつゆき資料室が移転
+
+&lt;ul&gt;
+&lt;li&gt;今回の移転でまつゆき資料室のサイトが下記に移動になりました.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://teatime.rmn-web.net/docs/&#34;&gt;http://teatime.rmn-web.net/docs/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;今後の予定:26748a97c6a23c0517ce3d82e5250ab4&#34;&gt;今後の予定&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;WWA WingもGitHub Pagesに移転?
+
+&lt;ul&gt;
+&lt;li&gt;こっちもhugo使って, WWA Phoenixのページを綺麗にしたい.&lt;/li&gt;
+&lt;li&gt;テーマは自作&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;まつひら系列の思い出の復旧
+
+&lt;ul&gt;
+&lt;li&gt;旧作WWAを&lt;a href=&#34;http://wwawing.com&#34;&gt;WWA Wing&lt;/a&gt;に置き換えて再公開.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;またこのページもしばらく触らない日が続くと思いますが, よろしくお願いいたします.&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+    
+      
+        
+          <item>
+            <title>調整中</title>
+            <link>http://news.rmn-web.net/post/552/</link>
+            <pubDate>Tue, 27 Aug 2013 12:04:36 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/552/</guid>
+            <description>&lt;p&gt;ただいま, リニューアルのため, 各ページにレイアウトの乱れが発生しております。&lt;/p&gt;
+
+&lt;p&gt;ご迷惑をおかけしております。&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;rmn.&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>一部WWA作品, 一部過去作品公開終了のお知らせ</title>
+            <link>http://news.rmn-web.net/post/540/</link>
+            <pubDate>Wed, 10 Jul 2013 01:35:06 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/540/</guid>
+            <description>&lt;p&gt;rmn.webは, 今年夏, 大幅なコンテンツ整理を実施致します.
+それに伴い, 以下の作品が公開終了となります.
+ご利用の方はお急ぎください.
+&lt;h2&gt;WWA作品&lt;/h2&gt;
+&lt;h3&gt;&lt;span style=&#34;color: #000000;&#34;&gt;まつ吉,ヒラリラー合作WWA&lt;/span&gt;&lt;/h3&gt;
+公開終了作品はありません.
+&lt;h3&gt;&lt;strong&gt;まつ吉(Plus)[現:rmn.]制作WWA(没・合作除く)&lt;/strong&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;引退宣言&lt;/li&gt;
+    &lt;li&gt;フゴレマ冒険記&lt;/li&gt;
+    &lt;li&gt;WWA vs. むにむに&lt;/li&gt;
+    &lt;li&gt;1画面あどべんちゃー&lt;/li&gt;
+    &lt;li&gt;Standard War〜スタンダード戦争〜&lt;/li&gt;
+    &lt;li&gt;ブーンの大冒険&lt;/li&gt;
+    &lt;li&gt;異常杉共和国&lt;/li&gt;
+    &lt;li&gt;後戻り禁止WWA&lt;/li&gt;
+    &lt;li&gt;1本道WWA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;まつ吉制作WWA（没ネタ）&lt;/h3&gt;
+全作品公開終了とさせて頂きます.
+&lt;h3&gt;ヒラ樹マソ[現:ヒラリラー]制作WWA(旧作)&lt;/h3&gt;
+公開終了作品はありませんが, 掲載ページが他のWWAと分離される可能性があります. (計画中)
+&lt;h3&gt;タイ制作WWA&lt;/h3&gt;
+クイズ・タイオネアは公開を終了とさせて頂きます.
+&lt;h2&gt;その他&lt;/h2&gt;
+あんこはうす様からレンタルさせて頂いている下記のゲームは, rmn.webにおける掲載を終了させて頂きます.
+&lt;ul&gt;
+    &lt;li&gt;&lt;span style=&#34;line-height: 13px;&#34;&gt;横スクロール通常版&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;横スクロール超難関版&lt;/li&gt;
+    &lt;li&gt;ふしぎな星&lt;/li&gt;
+    &lt;li&gt;たこやきでGO!&lt;/li&gt;
+&lt;/ul&gt;
+(「玉を消しましょう」は当面の間, 掲載を継続させて頂きます. )&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;上記WWA, 他ゲームは, 2013年8月31日をもって公開を終了とさせて頂きます.&lt;/p&gt;
+
+&lt;p&gt;今までありがとうございました.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;rmn.&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>Teatime Chat(てい☆ちゃ), 新MPに譲渡(返還)しました.</title>
+            <link>http://news.rmn-web.net/post/535/</link>
+            <pubDate>Sun, 07 Jul 2013 18:27:56 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/535/</guid>
+            <description>&lt;p&gt;rmn.web(旧: G10-Project, Tsucreating, ITCグループ)で管理していたチャット「Teatime Chat」(愛称: てい☆ちゃ)は, 管理者(rmn.)による管理の継続が困難となったため, 平成25年(2013年)7月7日午前0時をもって, 元の管理者であるヒラリラー氏に返還することとなりました.&lt;/p&gt;
+
+&lt;p&gt;これに伴い, URI(URL, アドレス)が下記のように変更となりましたのでお知らせ致します.&lt;/p&gt;
+
+&lt;p&gt;旧: &lt;a href=&#34;http://matsupla.chatx.whocares.jp/&#34;&gt;http://matsupla.chatx.whocares.jp/&lt;/a&gt;
+新: &lt;a href=&#34;http://hirarira.chatx2.whocares.jp/&#34;&gt;http://hirarira.chatx2.whocares.jp/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;現在, Teatime Chatはヒラリラー氏のサイトである「&lt;a href=&#34;http://members2.jcom.home.ne.jp/0944565501/&#34;&gt;新・ヒラリラーのMP&lt;/a&gt;」内の1コンテンツとして運用されています.&lt;/p&gt;
+
+&lt;p&gt;なお, Teatime Chat Wikiの譲渡計画も進行中ですが, 現在は暫定的にrmn.が管理しています.
+Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告させて頂きます.&lt;/p&gt;
+
+&lt;p&gt;長らく, rmn.によるTeatime Chatをご愛顧頂きありがとうございました. そして, 再びヒラリラーの管理となったTeatime Chatをよろしくお願い致します.&lt;/p&gt;
+
+&lt;p&gt;rmn. / Teatime Chat 管理者一同&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>障害の報告とお詫び @130316-130321</title>
+            <link>http://news.rmn-web.net/post/520/</link>
+            <pubDate>Thu, 21 Mar 2013 15:42:47 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/520/</guid>
+            <description>&lt;p&gt;お詫び&lt;/p&gt;
+
+&lt;p&gt;3月16日、移転直後より3月21日16時頃まで、CSSが崩れる障害および各コンテンツにアクセスできない障害が発生しておりました。
+現在は復旧しております。&lt;/p&gt;
+
+&lt;p&gt;ユーザの皆様にはご迷惑をおかけいたしましたことをお詫び申し上げます。&lt;/p&gt;
+
+&lt;p&gt;rmn.&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>障害の報告とお詫び @130216-130217</title>
+            <link>http://news.rmn-web.net/post/517/</link>
+            <pubDate>Sun, 17 Feb 2013 17:56:48 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/517/</guid>
+            <description>&lt;p&gt;2月16日13時頃から2月17日18時頃まで, レンタルサーバのスペース管理関連のトラブルの影響により閲覧ができない状態となっておりました.
+現在は復旧しております. お詫び申し上げます.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;障害範囲&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ITCグループ&lt;/li&gt;
+&lt;li&gt;ITC Group Wiki&lt;/li&gt;
+&lt;li&gt;rmn.web&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>明けました. @2013</title>
+            <link>http://news.rmn-web.net/post/510/</link>
+            <pubDate>Tue, 01 Jan 2013 23:50:01 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/510/</guid>
+            <description>&lt;p&gt;明けました.
+みなさん, おめでとうございます. 2013年もよろしくお願い致します.&lt;/p&gt;
+
+&lt;p&gt;しばらくなかなか時間が取れなかったためにお休みしていましたが, そろそろ動いてみようかなと.&lt;/p&gt;
+
+&lt;p&gt;今年こそは, 今までやるやる詐欺だったWWAに取って代わるようなブラウザ上で動作するRPGエンジン(JavaScript+Canvas2D製)を作りたいな, なんて.
+また途中で投げないように今回は, 日々の開発記を書いて生存報告できたら面白いかな. 完成したら, 昔作ったゲームをリメイクしてみたいな.&lt;/p&gt;
+
+&lt;p&gt;今年の12月でまつひら系列のWebサイトは10周年なので, それに向けて公開できればいいかな.&lt;/p&gt;
+
+&lt;p&gt;というわけで, 今年こそは動き出す!!!&lt;/p&gt;
+
+&lt;p&gt;p.s. Twitter, Facebook, Google+ の共有ボタンつけました.&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>投稿テスト</title>
+            <link>http://news.rmn-web.net/post/494/</link>
+            <pubDate>Sun, 03 Jun 2012 20:25:11 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/494/</guid>
+            <description>&lt;p&gt;久々の移転につき投稿テストをしますです&amp;hellip;.&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>「今日のまつゆきさん」より前の記事を手動インポート</title>
+            <link>http://news.rmn-web.net/post/471/</link>
+            <pubDate>Thu, 26 Jan 2012 18:56:01 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/471/</guid>
+            <description>&lt;p&gt;2008年～2005年に楽天広場(→楽天ブログ)に投稿した記事を復元しました。もともと古いもの置き場にあったものを記事にしただけですが、ハイ。
+復元にあたって、オリジナルの記事からいくつか変更点があります。
+&lt;ol&gt;
+    &lt;li&gt;一部の長いタイトルの記事は、タイトルを短縮しております。&lt;/li&gt;
+    &lt;li&gt;詳細な時刻はほとんど残っていなかったため、0時0分に投稿した扱いになっている記事があります。&lt;/li&gt;
+    &lt;li&gt;画像の復元は不可能でした。スクリーンショットなどが掲載されていた記事は、該当部分を削除させていただきました。&lt;/li&gt;
+&lt;/ol&gt;
+この他、本日は
+&lt;ul&gt;
+    &lt;li&gt;リンク集の工事(旧G10型リンク集の解体)&lt;/li&gt;
+    &lt;li&gt;倉庫の「古いもの置き場」の解体&lt;/li&gt;
+&lt;/ul&gt;
+を実施しました。&lt;/p&gt;
+
+&lt;p&gt;なお、この「古いもの置き場」の解体の影響により、以下のコンテンツは公開を終了させていただきました。申し訳ございません。
+&lt;ul&gt;
+    &lt;li&gt;過去に参加していた同盟 - 参加していた同盟サイトが次々に閉鎖し、実質残り2つとなった上、片方は参加資格が無くなったために、ページの存在意義がなくなり廃止。&lt;/li&gt;
+    &lt;li&gt;まつ吉の部屋時代の「キリ番」 - WWA制作開始前(2005年前半くらいまで)のものであり、著しくその意味を失っているため。&lt;/li&gt;
+    &lt;li&gt;円周率 - より多くの桁数が掲載されているサイトがたくさんあるため。&lt;/li&gt;
+    &lt;li&gt;友達リスト - 2006年くらい現在のものであり、著しくその意味を失っているため。&lt;/li&gt;
+    &lt;li&gt;顔文字リスト・意味不明日記 - 上記のものを削った時点でのサイトの内容的に大きく逸脱した内容であるため。&lt;/li&gt;
+    &lt;li&gt;営業情報 - 2005年から更新されていないため。&lt;/li&gt;
+    &lt;li&gt;掲示板過去ログ - ほぼプライベートなものなので。&lt;/li&gt;
+&lt;/ul&gt;
+それと、予告になりますが、今年3月頃に「WWA」「隠しページ」を倉庫に移動することを検討しています。予めご了承願います。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+  </channel>
+</rss>
