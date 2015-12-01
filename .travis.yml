@@ -17,7 +17,7 @@ install:
 script:
   - git rm -rf hugo/public
   - git commit -m "temporal remove public"
-  - git subtree add --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/rmn31415.github.io.git gh-pages --squash
+  - git subtree add --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/news.rmn-web.net.git gh-pages --squash
   - git push origin master
   - cd hugo
   - echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
@@ -27,7 +27,7 @@ script:
   - msg="rebuilding site `date`"
   - git commit -m "$msg"
   - cd ../..
-  - git subtree push --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/rmn31415.github.io.git origin gh-pages
+  - git subtree push --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/news.rmn-web.net.git origin gh-pages
 
 
 after_success:
