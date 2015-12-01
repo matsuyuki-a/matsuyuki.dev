@@ -6,22 +6,8 @@
     <description>Recent content in Posts on まつゆき/rmn.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 26 Oct 2015 11:01:39 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2015 11:10:00 +0900</lastBuildDate>
     <atom:link href="http://news.rmn-web.net/post/index.xml" rel="self" type="application/rss+xml" />
-    
-      
-        
-          <item>
-            <title>テスト。</title>
-            <link>http://news.rmn-web.net/post/600/</link>
-            <pubDate>Mon, 26 Oct 2015 11:01:39 +0900</pubDate>
-            
-            <guid>http://news.rmn-web.net/post/600/</guid>
-            <description>&lt;p&gt;RSSフィードの変化を見るためのテストですー&lt;/p&gt;
-</description>
-          </item>
-        
-      
     
       
         
@@ -409,6 +395,24 @@ Teatime Chat Wikiの譲渡については, 詳細が決定次第追って報告�
 &lt;p&gt;いまやＨＴＭL５の対応を各ブラウザが競い合う時代。そんななか、WWAを動かすためのapplet要素は使用できないことになっています。(昔から非推奨属性でしたが。)代替要素としてobject要素がありますが、Google Chromeなどの一部ブラウザなどが対応していない関係でapplet要素を使わなければならないのが現状です。このＨＴＭＬにおけるapplet要素非推奨は、Java Applet自体あまり使われなくなり、もっと軽いFlashやcanvas要素などが増えてきている今を映し出しているのかもしれません。と同時に、ＷＷＡというものがだんだん過去のものになりつつあるのかもしれません。しかし、なかなかここまで気軽にゲームを作るための環境がないのも事実です。今では&lt;a title=&#34;WWAeval&#34; href=&#34;http://asobiba.cocolog-nifty.com/game/wwa/wwaeval/&#34; target=&#34;_blank&#34;&gt;WWAeval&lt;/a&gt;もあるので、複雑な条件分岐も簡単に書けます。今こそ、ＷＷＡが見直されてほしいところですが、そうもいかないのが現状なのかもしれません。&lt;/p&gt;
 
 &lt;p&gt;ところで、Tsucreatingのvirus.exeがWWAforJSというcanvas要素を使った新型ＷＷＡの研究をしているようですね。今後の発展に期待しております。&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>Hello world! Ver 0.001</title>
+            <link>http://news.rmn-web.net/post/466/</link>
+            <pubDate>Fri, 01 Apr 2011 14:30:17 +0900</pubDate>
+            
+            <guid>http://news.rmn-web.net/post/466/</guid>
+            <description>&lt;p&gt;だいたい移転完了しました。&lt;/p&gt;
+
+&lt;p&gt;いろいろ遅れてごめんなさい。　まだ作業終わってないので長めの文章はまた今度。&lt;/p&gt;
+
+&lt;p&gt;Twitter関連で大慌て&amp;hellip;(&lt;/p&gt;
 </description>
           </item>
         
