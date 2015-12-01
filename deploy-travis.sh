@@ -28,3 +28,4 @@ cd ../..
 # Push source and build repos.
 git push --quiet https://$GH_TOKEN@github.com/rmn31415/rmn31415.github.io.git origin master
 git subtree push --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/rmn31415.github.io.git origin gh-pages
+

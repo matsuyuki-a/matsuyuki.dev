@@ -17,7 +17,7 @@ install:
   go get -u -v github.com/spf13/hugo
 
 script:
-  - ./make-subtree.sh
+  - ./make-subtree-travis.sh
   - ./deploy-travis.sh
 
 after_success:
