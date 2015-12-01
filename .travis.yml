@@ -17,8 +17,13 @@ install:
   go get -u -v github.com/spf13/hugo
 
 script:
-  - ./make-subtree-travis.sh
+  - git rm -rf hugo/public
+  - git commit -m "temporal remove public"
+  - git subtree add --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/rmn31415.github.io.git gh-pages --squash
+  - git push origin master
   - ./deploy-travis.sh
 
 after_success:
   - echo "OK"
+
+
