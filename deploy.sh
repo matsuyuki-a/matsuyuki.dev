@@ -1,12 +1,14 @@
 #!/bin/bash
 
+cd hugo
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
 hugo -t hugo-multi-bootswatch
 
 # Go To Public folder
-cd hugo/public
+cd public
 
 # Add changes to git.
 git add -A
