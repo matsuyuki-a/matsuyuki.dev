@@ -16,7 +16,6 @@ install:
 
 script:
   - git checkout -b gh-pages
-  - git branch -a
   - git rm -rf hugo/public
   - git commit -m "temporal remove public"
   - '[ $GH_TOKEN ] && git subtree add --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/news.rmn-web.net.git gh-pages --squash'
