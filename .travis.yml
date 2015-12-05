@@ -25,9 +25,7 @@ script:
   - cd public
   - git add -A
   - msg="rebuilding site `date`"
-  - set +e
-  - git commit -m "$msg"
-  - set -e
+  - git commit -m "$msg" || echo "(nothing to commit)"
   - cd ../..
   - '[ $GH_TOKEN ] && git subtree push --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/news.rmn-web.net.git gh-pages >& /dev/null'
 
