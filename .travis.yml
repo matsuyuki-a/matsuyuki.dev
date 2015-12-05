@@ -28,7 +28,7 @@ script:
   - msg="rebuilding site `date`"
   - git commit -m "$msg"
   - cd ../..
-  - '[ $GH_TOKEN ] && git subtree --quiet push --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/news.rmn-web.net.git gh-pages'
+  - '[ $GH_TOKEN ] && git subtree push --quiet --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/news.rmn-web.net.git gh-pages'
 
 
 after_success:
