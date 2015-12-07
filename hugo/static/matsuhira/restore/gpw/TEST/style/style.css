@@ -1,0 +1,91 @@
+body{	
+	background-color: #AEAEAE;
+	background-image: url("../img/background.gif");
+
+}
+
+#all{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+
+#upper{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	height: 33px;
+	background-color: #FEFEFE;
+	background-image: url("../img/upper_back.gif");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#menu{
+	margin: 0px;
+	padding: 0px;
+	height: 23px;
+	background-color: #000000;
+}
+
+#movie{
+	margin: 0px;
+	padding: 0px;
+	width: 960px;
+	height: 320px;
+}
+
+#main{
+	margin: 0px;
+	padding: 0px;
+}
+
+#left{
+	float: left;
+	margin: 0px;
+	padding: 5px;
+	width: 20%;
+	height: 500px;/*仮置*/
+	overflow: hidden;
+	background-image: url("../img/background_side.gif");
+}
+
+#center{
+	margin: 0px;
+	padding: 5px;
+	background-color: #E4E4FF;
+	background-image: url("../img/background_main.gif");
+	overflow: hidden;
+	height: 500px;/*仮置*/
+}
+
+#right{
+	width: 20%;
+	height: 500px;/*仮置*/
+	margin: 0px;
+	padding: 5px;
+	float: right;
+	overflow: hidden;
+	background-image: url("../img/background_side.gif");
+}/*仮置*/
+
+#rights{
+	margin: 0px;
+	height: 2em;/*仮置*/
+	background-color: #FFFFFF;
+}
+
+#shogai{
+	margin: 5px auto;
+	padding-left: 15px;
+	padding-right: 5px;
+	width: 138px;
+	height: 150px;/*仮*/ 
+	border-bottom:solid red 1px; 
+	border-left:solid red 1px; 
+	border-right:solid red 1px; 
+	background-color:#FFAAEE;
+	text-align: left;
+	font-size:10.5px;
+}

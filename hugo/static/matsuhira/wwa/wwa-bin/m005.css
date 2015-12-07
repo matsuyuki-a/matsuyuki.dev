@@ -1,0 +1,50 @@
+﻿@charset "UTF-8";
+
+body{
+	color: #FFFFFF;
+	background-color: #000066;
+}
+h1{
+	text-shadow: 1px 1px 10px;
+}
+h2{
+	text-decoration: underline;
+}
+#main{
+	width: 100%;
+	text-align: center;
+	/*margin: 0 auto;*/
+}
+a{
+	color: #FFFFFF;
+}
+a:hover{
+	position:relative;
+	top:2px;
+	left:2px;
+	color: #FF0000;
+}
+#allWrapper{
+	margin: 0 auto;
+	width: 800px;
+}
+#explainWrapper{
+	width: 584px;
+	padding: 5px;
+	margin: 3px;
+	float: left;
+}
+#specialWrapper{
+	width: 184px;
+	padding: 5px;
+	margin: 3px;
+	float: left;
+}
+#footer{
+	clear: left;
+}
+
+.miniWindow{
+	background-color: #444477;
+}
+

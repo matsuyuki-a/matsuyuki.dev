@@ -1,0 +1,752 @@
+<html>
+<head>
+<title>ヒラリラー合衆国</title>
+<Script Language="JavaScript">
+<!--
+///////////////////////////////////////////////////
+// メッセージ No.5.1 Produced by「CLUB とむやん君」
+// URL http://web.archive.org/web/20070423072647/http://www2s.biglobe.ne.jp//~club_tom/
+// 上の2行は著作権侮ｦですので消さないで下さい
+///////////////////////////////////////////////////
+
+// フォームにメッセージを書き込む部分です。
+function onMes5(mes){
+	document.foMes5.TeMes5.value=mes;
+}
+
+function pfvsetInterval(){
+	retval = setInterval('countdown()',1000)
+	retval_w = setInterval('daytime()',1000);
+}
+function countdown(){
+	if(document.form1==null){clearInterval(retval);return;}
+	if(document.form1.cdown==null){clearInterval(retval);return;}
+	if(document.form1.cdown.value!='O K'){
+		min = document.form1.cdown.value;
+		min--;
+		document.form1.cdown.value = min;
+		if(document.form1.cdown.value==0){
+			document.form1.cdown.value='O K'
+			clearInterval(retval);
+		}
+	}
+	else{clearInterval(retval);}
+}
+function daytime(){
+	if(document.ct==null){clearInterval(retval_w);return;} //koko
+	if(document.ct.std==null){clearInterval(retval_w);return;} //koko
+	var d_t = ct.std.value;
+	var space = " ";
+	var dt = d_t.split(space);
+	var dtime = new Date(dt[0],dt[1]-1,dt[2],dt[3],dt[4],dt[5]);
+	var imat = new Date();
+	//alert("koko");
+
+	nokorimd = (dtime.getTime() - imat.getTime() +1000)/(60*1000);
+	if (nokorimd >= 0){
+		nokorimd = Math.floor(nokorimd);
+	}else{
+		nokorimd = Math.ceil(nokorimd);
+	}
+
+	nokorim = (dtime.getTime() - imat.getTime())/(60*1000);
+	if (nokorim >= 0){
+		nokorim = Math.floor(nokorim);
+	}else{
+		nokorim = Math.ceil(nokorim);
+	}
+	nokoris = (dtime.getTime() - imat.getTime() - nokorim*60*1000)/1000;
+	nokorihntei = nokoris
+	nokoris = Math.abs(nokoris);
+	nokoris = Math.ceil(nokoris);
+	if (nokorihntei >= 0){
+		if(nokoris >= 60){nokoris = 0;}
+		if(nokoris < 10){nokoris = "0" + nokoris;}
+		document.foMes5.w_time.value = nokorimd +"分" + nokoris +"秒";
+	}else{
+		document.foMes5.w_time.value = '仕事　ＯＫ';
+		clearInterval(retval_w);
+	}
+}
+// End -->
+</Script>
+<style type="text/css">
+<!--
+.dai {  font-size: 14px; font-weight: bold;color: #000000}	/*大きな文字*/
+.tyuu {  font-size: 12px; color: #ff6600}	/*ステータス中見出し*/
+.honbun2 {  font-size: 11px; line-height: 16px; color: #006699}	/*ステータス項目部分*/
+.honbun3 {  font-size: 11px; line-height: 11px; color: #006699}	/*パラメータ項目部分*/
+.honbun5 {  font-size: 11px; line-height: 11px; color: #339900}	/*キャラのパラメータ項目部分*/
+.honbun4 {  font-size: 12px; line-height: 22px; color: #006699}	/*中くらいの文字*/
+.job_messe {  font-size: 11px; line-height: 22px; color: #000000}	/*パラメータメッセージ*/
+.small {  font-size: 9px; color: #444444}	/*小さい文字*/
+.midasi {  font-size: 16px; font-weight: bold; text-align: center;color: #666666}	/*街の名前*/
+.gym_style { background-color:#ffcc33; background-image:url(./img/shop_bak.gif)}	/*ジムの背景*/
+.syokudou_style { background-color:#ccff66; background-image:url(./img/shop_bak.gif)}	/*食堂の背景*/
+.orosi_style { background-color:#996633; background-image:url(./img/shop_bak.gif)}	/*卸問屋の背景*/
+.job_style { background-color:#669966; background-image:url(./img/shop_bak.gif)}	/*ハローワークの背景*/
+.school_style { background-color:#339999; background-image:url(./img/shop_bak.gif)}	/*学校の背景*/
+.ginkou_style { background-color:#999999; background-image:url(./img/shop_bak.gif)}	/*銀行の背景*/
+.yakuba_style { background-color:#336699; background-image:url(./img/shop_bak.gif)}	/*役場の背景*/
+.item_style { background-color:#ffcc66; background-image:url(./img/command_bak.gif)}	/*アイテム使用画面の背景*/
+.kentiku_style { background-color:#996666; background-image:url(./img/command_bak.gif)}	/*建築会社の背景*/
+.omise_list_style { background-color:#b293ad; background-image:url(./img/shop_bak.gif)}	/*個人お店の商品リスト背景*/
+.prof_style { background-color:#ccff99; background-image:url(./img/shop_bak.gif)}	/*プロフィール画面背景*/
+.keiba_style { background-color:#99cc66; }	/*競馬背景*/
+
+.yosumi {  border: #666666; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-color:#ffffff}	/*街ステータス窓*/
+
+.sumi {  border: #000000; border-style: solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 0px}
+.migi {  border: #000000; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.sita {  border: #000000; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.sita2 {  border: #666666; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.jouge {  border: #000000; border-style: solid; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.message {  font-size: 12px; line-height: 16px; color: #000000;}
+
+
+.purasu {color: #009900;}
+.mainasu { color: #ff3300;}
+.kuro {  font-size: 13px; text-align: left;color: #000000}
+.honbun {  font-size: 11px; line-height: 16px; color: #000000}
+.loto {  font-size: 28px; color: #000000;line-height:180%;}
+.naka {  border: #000000; border-style: solid; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+a {color:#333333;text-decoration: none}
+a:hover {text-decoration: underline}
+body {font-size:11px;color:#000000 }
+table {font-size:11px;color:#000000;}
+
+-->
+</style>
+</head><body style="background-color:#ffffcc" class= leftmargin=5 topmargin=5 marginwidth=5 marginheight=5r  onLoad="pfvsetInterval()">
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+
+<script type="text/javascript" src="http://staticweb.archive.org/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="http://staticweb.archive.org/js/graph-calc.js" ></script>
+<script type="text/javascript" src="http://staticweb.archive.org/jflot/jquery.min.js" ></script>
+
+<script type="text/javascript">
+//<![CDATA[
+var firstDate = 820454400000;
+var lastDate = 1325375999999;
+var wbPrefix = "http://web.archive.org/web/";
+var wbCurrentUrl = "http:\/\/hirarira.hp.infoseek.co.jp\/cgi-bin\/town\/town\/town_maker.cgi";
+
+var curYear = -1;
+var curMonth = -1;
+var yearCount = 16;
+var firstYear = 1996;
+var imgWidth=400;
+var yearImgWidth = 25;
+var monthImgWidth = 2;
+var trackerVal = "none";
+var displayDay = "23";
+var displayMonth = "4";
+var displayYear = "2007";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function showTrackers(val) {
+	if(val == trackerVal) {
+		return;
+	}
+	if(val == "inline") {
+		document.getElementById("displayYearEl").style.color = "#ec008c";
+		document.getElementById("displayMonthEl").style.color = "#ec008c";
+		document.getElementById("displayDayEl").style.color = "#ec008c";		
+	} else {
+		document.getElementById("displayYearEl").innerHTML = displayYear;
+		document.getElementById("displayYearEl").style.color = "#ff0";
+		document.getElementById("displayMonthEl").innerHTML = displayMonth;
+		document.getElementById("displayMonthEl").style.color = "#ff0";
+		document.getElementById("displayDayEl").innerHTML = displayDay;
+		document.getElementById("displayDayEl").style.color = "#ff0";
+	}
+   document.getElementById("wbMouseTrackYearImg").style.display = val;
+   document.getElementById("wbMouseTrackMonthImg").style.display = val;
+   trackerVal = val;
+}
+function getElementX2(obj) {
+	var thing = jQuery(obj);
+	if((thing == undefined) 
+			|| (typeof thing == "undefined") 
+			|| (typeof thing.offset == "undefined")) {
+		return getElementX(obj);
+	}
+	return Math.round(thing.offset().left);
+}
+function trackMouseMove(event,element) {
+
+   var eventX = getEventX(event);
+   var elementX = getElementX2(element);
+   var xOff = eventX - elementX;
+	if(xOff < 0) {
+		xOff = 0;
+	} else if(xOff > imgWidth) {
+		xOff = imgWidth;
+	}
+   var monthOff = xOff % yearImgWidth;
+
+   var year = Math.floor(xOff / yearImgWidth);
+	var yearStart = year * yearImgWidth;
+   var monthOfYear = Math.floor(monthOff / monthImgWidth);
+   if(monthOfYear > 11) {
+       monthOfYear = 11;
+   }
+   // 1 extra border pixel at the left edge of the year:
+   var month = (year * 12) + monthOfYear;
+   var day = 1;
+	if(monthOff % 2 == 1) {
+		day = 15;
+	}
+	var dateString = 
+		zeroPad(year + firstYear) + 
+		zeroPad(monthOfYear+1,2) +
+		zeroPad(day,2) + "000000";
+
+	var monthString = prettyMonths[monthOfYear];
+	document.getElementById("displayYearEl").innerHTML = year + 1996;
+	document.getElementById("displayMonthEl").innerHTML = monthString;
+	// looks too jarring when it changes..
+	//document.getElementById("displayDayEl").innerHTML = zeroPad(day,2);
+
+	var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+	document.getElementById('wm-graph-anchor').href = url;
+
+   //document.getElementById("wmtbURL").value="evX("+eventX+") elX("+elementX+") xO("+xOff+") y("+year+") m("+month+") monthOff("+monthOff+") DS("+dateString+") Moy("+monthOfYear+") ms("+monthString+")";
+   if(curYear != year) {
+       var yrOff = year * yearImgWidth;
+       document.getElementById("wbMouseTrackYearImg").style.left = yrOff + "px";
+       curYear = year;
+   }
+   if(curMonth != month) {
+       var mtOff = year + (month * monthImgWidth) + 1;
+       document.getElementById("wbMouseTrackMonthImg").style.left = mtOff + "px";
+       curMonth = month;
+   }
+}
+//]]>
+</script>
+
+<style type="text/css">body{margin-top:0!important;padding-top:0!important;min-width:800px!important;}#wm-ipp a:hover{text-decoration:underline!important;}</style>
+<div id="wm-ipp" style="display:none; position:relative;padding:0 5px;min-height:70px;min-width:800px; z-index:9000;">
+<div id="wm-ipp-inside" style="position:fixed;padding:0!important;margin:0!important;width:97%;min-width:780px;border:5px solid #000;border-top:none;background-image:url(http://staticweb.archive.org/images/toolbar/wm_tb_bk_trns.png);text-align:center;-moz-box-shadow:1px 1px 3px #333;-webkit-box-shadow:1px 1px 3px #333;box-shadow:1px 1px 3px #333;font-size:11px!important;font-family:'Lucida Grande','Arial',sans-serif!important;">
+   <table style="border-collapse:collapse;margin:0;padding:0;width:100%;"><tbody><tr>
+   <td style="padding:10px;vertical-align:top;min-width:110px;">
+   <a href="http://wayback.archive.org/web/" title="Wayback Machine home page" style="background-color:transparent;border:none;"><img src="http://staticweb.archive.org/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0"/></a>
+   </td>
+   <td style="padding:0!important;text-align:center;vertical-align:top;width:100%;">
+
+       <table style="border-collapse:collapse;margin:0 auto;padding:0;width:570px;"><tbody><tr>
+       <td style="padding:3px 0;" colspan="2">
+       <form target="_top" method="get" action="http://wayback.archive.org/web/form-submit.jsp" name="wmtb" id="wmtb" style="margin:0!important;padding:0!important;"><input type="text" name="url" id="wmtbURL" value="http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi" style="width:400px;font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;" onfocus="javascript:this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20070423072647" /><input type="submit" value="Go" style="font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;margin-left:5px;" /><span id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td style="vertical-align:bottom;padding:5px 0 0 0!important;" rowspan="2">
+           <table style="border-collapse:collapse;width:110px;color:#99a;font-family:'Helvetica','Lucida Grande','Arial',sans-serif;"><tbody>
+			
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr style="width:110px;height:16px;font-size:10px!important;">
+
+           	<td style="padding-right:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+                       3
+                       
+               </td>
+               <td id="displayMonthEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight:bold;text-transform:uppercase;width:34px;height:15px;padding-top:1px;text-align:center;" title="You are here: 7:26:47 4 23, 2007">4</td>
+				<td style="padding-left:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20070524172048/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="24 5 2007"><strong>5</strong></a>
+		                
+               </td>
+           </tr>
+
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr>
+               <td style="padding-right:9px;white-space:nowrap;overflow:visible;text-align:right!important;vertical-align:middle!important;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20070420172539/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi" title="17:25:39 4 20, 2007" style="background-color:transparent;border:none;"><img src="http://staticweb.archive.org/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a>
+		                
+               </td>
+               <td id="displayDayEl" style="background:#000;color:#ff0;width:34px;height:24px;padding:2px 0 0 0;text-align:center;font-size:24px;font-weight: bold;" title="You are here: 7:26:47 4 23, 2007">23</td>
+				<td style="padding-left:9px;white-space:nowrap;overflow:visible;text-align:left!important;vertical-align:middle!important;" nowrap="nowrap">
+               
+		                <a href="http://web.archive.org/web/20070510034511/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi" title="3:45:11 5 10, 2007" style="background-color:transparent;border:none;"><img src="http://staticweb.archive.org/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0"/></a>
+
+		                
+			    </td>
+           </tr>
+
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr style="width:110px;height:13px;font-size:9px!important;">
+				<td style="padding-right:9px;font-size:11px!important;font-weight: bold;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+                       2006
+                       
+               </td>
+               <td id="displayYearEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight: bold;padding-top:1px;width:34px;height:13px;text-align:center;" title="You are here: 7:26:47 4 23, 2007">2007</td>
+
+				<td style="padding-left:9px;font-size:11px!important;font-weight: bold;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+                       2008
+                       
+				</td>
+           </tr>
+           </tbody></table>
+       </td>
+
+       </tr>
+       <tr>
+       <td style="vertical-align:middle;padding:0!important;">
+
+           <a href="http://wayback.archive.org/web/20070423072647*/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi" style="color:#33f;font-size:11px;font-weight:bold;background-color:transparent;border:none;" title="See a list of every capture for this URL"><strong>16 captures</strong></a>
+           <div style="margin:0!important;padding:0!important;color:#666;font-size:9px;padding-top:2px!important;white-space:nowrap;" title="Timespan for captures of this URL">20 4 07 - 15 1 08</div>
+       </td>
+       <td style="padding:0!important;">
+       <a style="position:relative; white-space:nowrap; width:400px;height:27px;" href="" id="wm-graph-anchor">
+       <div id="wm-ipp-sparkline" style="position:relative; white-space:nowrap; width:400px;height:27px;background-color:#fff;cursor:pointer;border-right:1px solid #ccc;" title="Explore captures for this URL">
+			<img id="sparklineImgId" style="position:absolute; z-index:9012; top:0px; left:0px;"
+				onmouseover="showTrackers('inline');" 
+				onmouseout="showTrackers('none');"
+				onmousemove="trackMouseMove(event,this)"
+				alt="sparklines"
+				width="400"
+				height="27"
+				border="0"
+				src="http://wayback.archive.org/jsp/graph.jsp?graphdata=400_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:-1:000000000000_2005:-1:000000000000_2006:-1:000000000000_2007:3:000231206100_2008:-1:100000000000_2009:-1:000000000000_2010:-1:000000000000_2011:-1:000000000000"></img>
+			<img id="wbMouseTrackYearImg" 
+				style="display:none; position:absolute; z-index:9010;"
+				width="25" 
+				height="27"
+				border="0"
+				src="http://staticweb.archive.org/images/toolbar/transp-yellow-pixel.png"></img>
+
+			<img id="wbMouseTrackMonthImg"
+				style="display:none; position:absolute; z-index:9011; " 
+				width="2"
+				height="27" 
+				border="0"
+				src="http://staticweb.archive.org/images/toolbar/transp-red-pixel.png"></img>
+       </div>
+		</a>
+
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td style="text-align:right;padding:5px;width:65px;font-size:11px!important;">
+       <a href="javascript:;" onclick="document.getElementById('wm-ipp').style.display='none';" style="display:block;padding-right:18px;background:url(http://staticweb.archive.org/images/toolbar/wm_tb_close.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;margin-bottom:23px;background-color:transparent;border:none;" title="Close the toolbar">Close</a>
+
+       <a href="http://faq.web.archive.org/" style="display:block;padding-right:18px;background:url(http://staticweb.archive.org/images/toolbar/wm_tb_help.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;background-color:transparent;border:none;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+
+</div>
+</div>
+<script type="text/javascript">
+ var wmDisclaimBanner = document.getElementById("wm-ipp");
+ if(wmDisclaimBanner != null) {
+   disclaimElement(wmDisclaimBanner);
+ }
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+<CENTER> <!-- start AD -->
+<CENTER>
+<A href="http://web.archive.org/web/20070423072647/http://www.infoseek.co.jp/redirect?sv=FM&lk=&ak=MOBL-2006-1082-H1375&rd=http://career.www.infoseek.co.jp/m/" class="##DIRECT##">いつでもどこでも<BR>ｹｰﾀｲでｱﾙﾊﾞｲﾄ探し</A></CENTER>
+
+<!-- end AD -->
+</CENTER><HR>
+<table width=100% border=0 cellspacing=10 cellpadding=0>			<tr><td colspan=2>
+			<font size=2 color=#333333>現在の総参加者(<B>4人</B>)：</font>
+			もっくん<font size=1 color=#FF7F50>★</font>コニー３６０<font size=1 color=#FF7F50>★</font>けんけん<font size=1 color=#FF7F50>★</font>モララー<font size=1 color=#FF7F50>★</font>
+
+			</td></tr>
+<!-- ver.1.30ここまで -->
+  <tr><td width="554" valign=top>
+<div align=center><FORM NAME="foMes5">
+<INPUT TYPE="text" SIZE="82" NAME="TeMes5" style="font-size:10px; color:#000000; background-color:#d6dbbf"></FORM></div>
+      <table border="0" cellspacing="0" cellpadding="0" style="background-color:#ff9966;">
+        <tr valign="center" style="background-color:#ffffcc"> 
+          <td height="10" width="20"  align=center> </td>
+<td height=10 width=32 align=center class=migi>1</td><td height=10 width=32 align=center class=migi>2</td><td height=10 width=32 align=center class=migi>3</td><td height=10 width=32 align=center class=migi>4</td><td height=10 width=32 align=center class=migi>5</td><td height=10 width=32 align=center class=migi>6</td><td height=10 width=32 align=center class=migi>7</td><td height=10 width=32 align=center class=migi>8</td><td height=10 width=32 align=center class=migi>9</td><td height=10 width=32 align=center class=migi>10</td><td height=10 width=32 align=center class=migi>11</td><td height=10 width=32 align=center class=migi>12</td><td height=10 width=32 align=center class=migi>13</td><td height=10 width=32 align=center class=migi>14</td><td height=10 width=32 align=center class=migi>15</td><td height=10 width=32 align=center class=migi>16</td></tr><tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>A</td>
+
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+</tr>
+
+<tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>B</td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><a href="http://web.archive.org/web/20070423072647/http://rakkuya.hp.infoseek.co.jp/cgi-bin/town/town_maker.cgi" target=_blank><img src='img/link.gif'  width=32 height=32 border=0  onMouseOver='onMes5("ホワック州（飛び地）に移動します")' onMouseOut='onMes5("")'></a></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><a href="http://web.archive.org/web/20070423072647/http://oab.sytes.net:4800/~wgs/cgi-bin/town/town_maker.cgi" target=_blank><img src='img/link.gif'  width=32 height=32 border=0  onMouseOver='onMes5("新まつ吉帝国にワープします")' onMouseOut='onMes5("")'></a></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+
+<td><img src=img/sora.gif></td>
+</tr>
+<tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>C</td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi"><input type=hidden name=mode value=login_view><input type=hidden name=command value=mati_idou><td height=32 width=32><input type=hidden name=town_no value=5><input type=hidden name=name value=><input type=hidden name=pass value=><input type=image src="img/mati_link.gif"    onMouseOver='onMes5("宇　宙　の　藻　屑へ移動")' onMouseOut='onMes5("")'></td></form>
+<td><img src='img/chta.gif'  width=32 height=32 border=0  onMouseOver='onMes5("ロケットです、クニナカ宇宙ステーションに行けます")' onMouseOut='onMes5("")'></a></td>
+<td><img src=img/tate_r.gif></td>
+<td><img src=img/tate_r.gif></td>
+<td><a href="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/24LIFE/24LIFE.html" target=_blank><img src='img/24LIFE.gif'  width=32 height=32 border=0  onMouseOver='onMes5("24LIFEに移動します")' onMouseOut='onMes5("")'></a></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+</tr>
+<tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>D</td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/tree2.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/tree2.gif></td>
+
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+</tr>
+<tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>E</td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/land9.gif></td>
+<td><img src=img/tree2.gif></td>
+<td><img src=img/tate_r.gif></td>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/tree4.gif></td>
+
+<td><img src=img/tate_r.gif></td>
+<td><img src=img/tree2.gif></td>
+<td><img src=img/land9.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+</tr>
+<tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>F</td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/land9.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/gifutoya.cgi"><input type=hidden name=mode value=gifutoya><input type=hidden name=mysec value=><!-- koko2006/04/01 --><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=k_id value=><input type=hidden name=town_no value=0><td height=32 width=32><input type=image src='img/gft.gif'  onMouseOver='onMes5("ギフト作成所")' onMouseOut='onMes5("")'></td></form>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/game.cgi"><td height=32 width=32><input type=hidden name=mode value=c_league><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/chara_battle.gif"  onMouseOver='onMes5("最強のキャラクターを決める『Cリーグ』会場です。")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tate_r.gif></td>
+
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td><input type=hidden name=mode value=houmon><input type=hidden name=ori_ie_id value=160><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/house20.gif"   onMouseOver='onMes5("『ゼーロ』の家")' onMouseOut='onMes5("")'></td></form>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td><input type=hidden name=mode value=houmon><input type=hidden name=ori_ie_id value=389><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/house21.gif"   onMouseOver='onMes5("盗不可　盗不可　『K』の家　日用品専門店　盗不可　盗不可　")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tate_r.gif></td>
+<td><img src='img/chip1065.gif'  width=32 height=32 border=0  onMouseOver='onMes5("公園です")' onMouseOut='onMes5("")'></a></td>
+<td height=32 width=32></td>
+<td><img src=img/land9.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+</tr>
+<tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>G</td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi"><td height=32 width=32><input type=hidden name=mode value=orosi><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/tonya.gif" onMouseOver='onMes5("商店や企業を持っている人は、ここで商品を仕入れることができます。")' onMouseOut='onMes5("")'></td></form>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td height=32 width=32><input type=hidden name=mode value=normal_bbs><input type=hidden name=ori_ie_id value=admin><input type=hidden name=bbs_num value=10><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/bbs7.gif"   onMouseOver='onMes5("ＷＷＡネタ関連ＢＢＳ　ＷＷＡの出演者募集、ＷＷＡ制作アンケートはここで")' onMouseOut='onMes5("")'></td></form>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td><input type=hidden name=mode value=houmon><input type=hidden name=ori_ie_id value=275><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/house19.gif"   onMouseOver='onMes5("『ノノ』の家　盗んだら呪うよ?(コワッ!!")' onMouseOut='onMes5("")'></td></form>
+
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td><input type=hidden name=mode value=houmon><input type=hidden name=ori_ie_id value=25><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/kamakura.gif"   onMouseOver='onMes5("『クニナカ』の家")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tate_r.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td height=32 width=32><input type=hidden name=mode value=normal_bbs><input type=hidden name=ori_ie_id value=admin><input type=hidden name=bbs_num value=11><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/chip1061.gif"   onMouseOver='onMes5("裁判所　あなたの一言でなにかが変わる！")' onMouseOut='onMes5("")'></td></form>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/admin.cgi"><td height=32 width=32><input type=hidden name=mode value=yakuba><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=k_id value=><input type=hidden name=town_no value=0><input type=image src='img/chip1064.gif'  onMouseOver='onMes5("首都庁です。新規に住民登録された方やランキングを見ることができます。")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tate_r.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi"><td height=32 width=32><input type=hidden name=mode value=gym><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=k_id value=><input type=hidden name=town_no value=0><input type=image src='img/chip1069.gif'  onMouseOver='onMes5("スポーツジムです。体を鍛えることができます。")' onMouseOut='onMes5("")'></td></form>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/basic.cgi"><td height=32 width=32><input type=hidden name=mode value=onsen><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/onsen_a.gif"  onMouseOver='onMes5("温泉です。疲れた体を癒しましょう。入浴料は1000円です。")' onMouseOut='onMes5("")'></td></form>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi"><td height=32 width=32><input type=hidden name=mode value=kentiku><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/kentiku.gif"  onMouseOver='onMes5("建設会社です。家を建てたいときはここに依頼します。")' onMouseOut='onMes5("")'></td></form>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/basic.cgi"><td height=32 width=32><input type=hidden name=mode value=job_change><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=k_id value=><input type=hidden name=town_no value=0><input type=image src='img/work.gif'  width=32 height=32 border=0  onMouseOver='onMes5("職業安定所です。就職、転職などはこちらへ。")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+</tr>
+<tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>H</td>
+<td><img src=img/sora.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td><input type=hidden name=mode value=houmon><input type=hidden name=ori_ie_id value=512><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/house17.gif"   onMouseOver='onMes5("『紅蓮』の家")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tate_r.gif></td>
+
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/kousa_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/kousa_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/tate_r.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi"><td height=32 width=32><input type=hidden name=mode value=school><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=k_id value=><input type=hidden name=town_no value=0><input type=image src='img/chip1009.gif'    onMouseOver='onMes5("スクールです。特定の能力を伸ばすのに大きな効果がありますが、1日1レッスンです。")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/sora.gif></td>
+</tr>
+<tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>I</td>
+<td><img src=img/sora.gif></td>
+
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td height=32 width=32><input type=hidden name=mode value=normal_bbs><input type=hidden name=ori_ie_id value=admin><input type=hidden name=bbs_num value=0><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/bbs1.gif"   onMouseOver='onMes5("みんなの広場。総合掲示板です。")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tate_r.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/mati_contest.cgi"><td height=32 width=32><input type=hidden name=mode value=matikon><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/matikon.gif"  onMouseOver='onMes5("街の名誉をかけて競う『週間街コンテスト』です。")' onMouseOut='onMes5("")'></td></form>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/item.cgi"><input type=hidden name=mode value=item_make><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=k_id value=><input type=hidden name=town_no value=0><td height=32 width=32><input type=image src='img/chip1041.gif'  onMouseOver='onMes5("アイテムのアイデア紹介・登録。")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/tate_r.gif></td>
+<td><img src=img/h1.gif></td>
+<td><img src=img/h2.gif></td>
+<td><img src=img/tate_r.gif></td>
+<td><img src=img/tree4.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/basic.cgi"><input type=hidden name=mode value=byouin><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=k_id value=><input type=hidden name=town_no value=0><td height=32 width=32><input type=image src='img/hospi.gif'  onMouseOver='onMes5("病院です。費用は高めですが、ほとんどの病気を全快させます。")' onMouseOut='onMes5("")'></td></form>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi"><td height=32 width=32><input type=hidden name=mode value=depart_gamen><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=k_id value=><input type=hidden name=town_no value=0><input type=image src='img/depart.gif'  onMouseOver='onMes5("中央デパートです。種類は豊富ですが、値段は高めで在庫も少なめです。")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tate_r.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td><input type=hidden name=mode value=houmon><input type=hidden name=ori_ie_id value=504><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/land5.gif"   onMouseOver='onMes5("かまくらの冗談屋　盗不可")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/land9.gif></td>
+</tr>
+<tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>J</td>
+
+<td><img src=img/sora.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td height=32 width=32><input type=hidden name=mode value=normal_bbs><input type=hidden name=ori_ie_id value=admin><input type=hidden name=bbs_num value=1><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/bbs2.gif"   onMouseOver='onMes5("疑問解決BBS。普段疑問に思っている事を聞いてしまおう。")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tate_r.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td height=32 width=32><input type=hidden name=mode value=normal_bbs><input type=hidden name=ori_ie_id value=admin><input type=hidden name=bbs_num value=3><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/bbs4.gif"   onMouseOver='onMes5("批判、要望掲示板　なにか言いたいことがあったらここに書き込んでください")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/chip10.gif></td>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/tate_r.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td><input type=hidden name=mode value=houmon><input type=hidden name=ori_ie_id value=1><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/h3.gif"   onMouseOver='onMes5("ヒラリラー合衆国統括中央政府『有限盗可』")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/h4.gif></td>
+<td><img src=img/tate_r.gif></td>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/chip10.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/basic.cgi"><input type=hidden name=mode value=ginkou><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=k_id value=><input type=hidden name=town_no value=0><td height=32 width=32><input type=image src='img/bank.gif'  onMouseOver='onMes5("銀行です。お金を預けたり引き出したりできます。")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tate_r.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td><input type=hidden name=mode value=houmon><input type=hidden name=ori_ie_id value=147><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/kamakura.gif"   onMouseOver='onMes5("どなたか挨拶タグを教えてくれるかな？")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/sora.gif></td>
+</tr>
+
+<tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>K</td>
+<td><img src=img/sora.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td height=32 width=32><input type=hidden name=mode value=normal_bbs><input type=hidden name=ori_ie_id value=admin><input type=hidden name=bbs_num value=2><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/bbs3.gif"   onMouseOver='onMes5("オススメ情報BBS。あなたのお薦め教えてください。")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tate_r.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td height=32 width=32><input type=hidden name=mode value=normal_bbs><input type=hidden name=ori_ie_id value=admin><input type=hidden name=bbs_num value=5><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/bbs5.gif"   onMouseOver='onMes5("中央地区（北）専用掲示板")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/chip10.gif></td>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/tate_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/yoko_r.gif></td>
+<td><img src=img/tate_r.gif></td>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/chip10.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi"><td height=32 width=32><input type=hidden name=mode value=syokudou><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=k_id value=><input type=hidden name=town_no value=0><input type=image src='img/syokudou.gif'  onMouseOver='onMes5("セントラル食堂です。種類は豊富ですが、値段は高めで在庫も少なめです。")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/tate_r.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td><input type=hidden name=mode value=houmon><input type=hidden name=ori_ie_id value=176><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/chip1024.gif"   onMouseOver='onMes5("銀雷将軍本墓地　　盗不可　盗不可　盗不可")' onMouseOut='onMes5("")'></td></form>
+
+<td><img src=img/sora.gif></td>
+</tr>
+<tr valign=center><td height=32 width=10 style="background-color:#ffffcc" align=center class=sita>L</td>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi"><input type=hidden name=mode value=login_view><input type=hidden name=command value=mati_idou><td height=32 width=32><input type=hidden name=town_no value=1><input type=hidden name=name value=><input type=hidden name=pass value=><input type=image src="img/mati_link.gif"    onMouseOver='onMes5("中央地区（南）『空中央州』へ移動")' onMouseOut='onMes5("")'></td></form>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td><input type=hidden name=mode value=houmon><input type=hidden name=ori_ie_id value=411><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/house20.gif"   onMouseOver='onMes5("『嗚呼嗚呼』の家　盗不可")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/chip10.gif></td>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/tree4.gif></td>
+<td><img src=img/chip10.gif></td>
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/original_house.cgi"><td><input type=hidden name=mode value=houmon><input type=hidden name=ori_ie_id value=519><input type=hidden name=name value=><input type=hidden name=pass value=><input type=hidden name=town_no value=0><input type=image src="img/house21.gif"   onMouseOver='onMes5("『M４シャーマン』のガレージ戦車好き歓迎　盗不可")' onMouseOut='onMes5("")'></td></form>
+
+<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi"><input type=hidden name=mode value=login_view><input type=hidden name=command value=mati_idou><td height=32 width=32><input type=hidden name=town_no value=1><input type=hidden name=name value=><input type=hidden name=pass value=><input type=image src="img/mati_link.gif"    onMouseOver='onMes5("中央地区（南）『空中央州』へ移動")' onMouseOut='onMes5("")'></td></form>
+<td><img src=img/sora.gif></td>
+<td><img src=img/sora.gif></td>
+</tr>
+</table>
+</td><td valign=top>      <table width="100%" border="0" cellspacing="0" cellpadding="7">
+        <tr>
+          <td>
+            <div align="center"><font size="5"><b>ヒラリラー合衆国</b></font></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td  class="yosumi">人口：150人　<span  onMouseOver='onMes5("住民のお店の平均１日売り上げ額（街全体）")' onMouseOut='onMes5("")'>経済力：1550035881円</span>　<span  onMouseOver='onMes5("掲示板の平均１日書き込み数（街全体）")' onMouseOut='onMes5("")'>繁栄度：36</span></td>
+        </tr>
+        <tr>
+          <td>	<!-- ここから-->
+<SCRIPT language="JavaScript">
+<!--
+time=new Date(2006,(7-1),9);
+time=Math.ceil((time.getTime()-new Date().getTime())/86400000);
+document.write('真・ニューヒラリラーシティ設置から、'+-(time)+'日経ちました。');
+//-->
+</SCRIPT><br>
+
+<SCRIPT language="JavaScript">
+<!--
+time=new Date(2006,(9-1),19);
+time=Math.ceil((time.getTime()-new Date().getTime())/86400000);
+document.write('ヒラリラー合衆国になってから、'+-(time)+'日経ちました。');
+//-->
+</SCRIPT><br>
+<font color=#666666>あなたもこの空中要塞の住民になってみませんか？　ここはヒラリラーの町の後継として建てられたＴＯＷＮです　初めての方は下の「新規登録」より登録してください。<br>
+<font color=#ff6600>※二重登録、荒らしは禁止です。発覚した時点でゲームへの参加をお断りするどころがアク禁になるかもしれないのでご注意ください。<br>
+※登録後、名前の変更をする場合はあきらめて下さい。</font><br>
+『24LIFE』永住登録募集中！<br>
+<a href="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/24LIFE/24LIFE.html"><img src="http://web.archive.org/web/20070423072647im_/http://hirarira.hp.infoseek.co.jp/img94379.gif"></a><br>
+<a href="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/off/off.html"><img src="http://web.archive.org/web/20070423072647im_/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/off.gif"></a><br>
+<INPUT type="button" value="ヒラリラー合衆国憲法、住民は必ず見たほうがいいです" onclick="parent.location='http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp//cgi-bin/town/keppo.html';" style="color:#FFFFFF;background:#0000CD;border:1px dotted #000000;"><BR>
+<TEXTAREA ROWS="5" COLS="70" STYLE="color:#0000cc;background-color:#ffffff">
+このＴＯＷＮの更新履歴
+4月21日　　最大登録人数150→175人へ
+4月17日　　ＯＦＦ会のアレ追加
+4月16日　　ａｓｌｎｄ作成、微調整
+4月15日　　税金徴収
+4月9日　　 アイテム投稿所作成
+4月7日　　 ギフト作成所追加！
+4月6日　　 温泉の回復時間を侮ｦ
+4月3日　　 税金法改定
+4月3日　　 最大登録人数130→150人へ
+3月30日　　中央地区（南）に学校設立
+3月30日　　地価下落
+3月21日　　病気などのコンディション大幅追加、バグ修正
+3月3日　　 クニナカ宇宙ステーションが宇宙の藻屑へ・・・・
+1月24日　　やっぱ最大登録人数150→130人へ
+1月24日　　中央地区（南）に首都庁追加
+1月24日　　家の価格、内装費用下落
+1月8日　　 最大登録人数120→150人へ
+12月12日　 超インフレ発生
+12月11日　 クニナカ宇宙ステーション「州へ昇格」
+11月19日　 設定変更、画像追加
+11月14日　 憲法発布、裁判所設置
+11月11日　 挨拶ログ６→１５へ
+11月7日　　ホワック州への航空便の運行開始
+11月7日　　『宇宙州』準州に降格
+10月28日   24LIFEへのリンク追加
+10月28日　 k-i空間消滅
+10月22日　 中央地区（南）に競馬場設立
+10月22日　 所有物の限度数100→20へ
+10月21日　 おさい銭の1000万盗むを100万盗むに変更
+10月11日　 アイテム何個か追加
+10月X日　　天空・・・・
+9月27日　　さい銭欄変更
+9月23日　　アイテム少し追加
+9月22日　　最大最大登録人数100人→120人へ
+9月19日　　窃盗法導入
+9月19日　　真・ニューヒラリラーシティからヒラリラー合衆国
+9月19日　　ＷＷＡネタ関連版追加
+9月16日　　ユーザー削除期間を20日から40日へ変更
+9月15日　　税金制度導入
+8月24日　　海底消滅、森誕生
+8月23日　　真・ニューヒラリラーシティ統括中央政府設立
+8月21日　　ヒラリラー城崩壊
+8月19日　　極寒村追加
+8月18日　　板追加
+8月18日　　新マップ「緑島」追加
+8月18日　　アクセサリ追加
+8月18日　　移動手段大変更
+8月15日　　地下地区更新
+8月14日　　病院、温泉画像変更
+8月13日　　新アイテム、新職業募集板の注意事項追加
+8月12日　　更新履歴追加</TEXTAREA>
+</FORM>
+<!-- ここまで-->
+
+<!-- ver.1.30ここから -->
+     <form method="POST" action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/town_maker.cgi">
+	<input type=hidden name=mode value="login_view">
+        ●ログイン（登録済みの方）<br>
+        お　名　前 ： 
+        <input type="text" name="name" size="18" value=><br>
+        パスワード ： 
+        <input type="password" name="pass" size="18" value=><br>
+		参加者一覧に名前を <input type="radio" name="sanka_hyouzi_on" value="off"> 表示させない 
+		<input type="radio" name="sanka_hyouzi_on" value="on" checked>  表示させる<br>
+
+        <div align=center><input type="submit" value="OK"></div>
+      </form>
+	<hr size=1>
+     <form method="POST" action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/game.cgi">
+	<input type=hidden name=mode value="new">
+		●新規登録（最大登録人数：175人）<br>※多重登録は禁止です。<br>
+        お　名　前： 
+        <input type="text" name="name" size="18"> <br>
+
+        パスワード： 
+        <input type="password" name="pass" size="18"><br>
+		性　　　別： 
+        <input type="radio" name="sex" value="m">男 
+		<input type="radio" name="sex" value="f">女<br>
+        <div align=center><input type="submit" value="OK"></div>
+      </form>
+	<hr size=1>
+	<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/admin2.cgi">
+	<input type=hidden name=mode value="admin">
+
+	<input type=hidden name=name value="">
+	<input type=hidden name=kanri value="fuku">
+	パスワード <input type=password size=10 name="admin_pass"> <input type=submit value="副管理者メニュー">
+	</form>
+<!-- #kokoend -->
+	<hr size=1>
+	<form method=POST action="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/cgi-bin/town/town/admin.cgi">
+	<input type=hidden name=mode value="admin">
+
+	パスワード <input type=password size=8 name="admin_pass"> <input type=submit value="管理者メニュー">
+	</form>
+		  </td>
+        </tr>
+      </table>
+</td></tr></table>	<div align=center>
+	<a href="http://web.archive.org/web/20070423072647/http://hirarira.hp.infoseek.co.jp/" target=_top>[HOME]</a><br>
+
+	<a href="http://web.archive.org/web/20070423072647/http://brassiere.jp/" target=_blank>- TOWN ver.1.40 script by brassiere -</a>　<a href=mailto:hirarira@jcom.home.ne.jp>■お問い合わせ</a>		<!--ver.1.40-->
+	</div>
+</body></html>
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 7:26:47 4 23, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 8:56:51 9 3, 2011.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+
