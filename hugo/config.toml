@@ -1,3 +1,16 @@
 baseurl = "http://news.rmn-web.net/"
 languageCode = "ja-jp"
 title = "まつゆき/rmn."
+
+[[menu.main]]
+  name = "思い出"
+  url = "./matsuihira"
+
+[[menu.main]]
+  name = "更新履歴"
+  url = "./page/history"
+
+[[menu.main]]
+  name = "Twitterポリシー"
+  url = "./page/twitter-policy"
+
