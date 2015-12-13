@@ -4,7 +4,7 @@ title = "まつゆき/rmn."
 
 [[menu.main]]
   name = "思い出"
-  url = "./matsuihira"
+  url = "./matsuhira"
 
 [[menu.main]]
   name = "更新履歴"
@@ -14,3 +14,6 @@ title = "まつゆき/rmn."
   name = "Twitterポリシー"
   url = "./page/twitter-policy"
 
+[[menu.main]]
+  name = "WWA Wing"
+  url = "http://wwawing.com"
