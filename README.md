@@ -1,5 +1,4 @@
-# rmn-web.net
-[![Build Status](https://travis-ci.org/rmn31415/rmn-web.net.svg?branch=master)](https://travis-ci.org/rmn31415/rmn-web.net)
+# rmn-web.net [![Build Status](https://travis-ci.org/rmn31415/rmn-web.net.svg?branch=master)](https://travis-ci.org/rmn31415/rmn-web.net)
 
 まつゆき/rmn. のWebサイトです。
 
