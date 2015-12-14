@@ -4,19 +4,19 @@ title = "まつゆき/rmn."
 
 [[menu.main]]
   name = "プロフィール"
-  url = "./page/profile"
+  url = "/page/profile"
   
 [[menu.main]]
   name = "思い出"
-  url = "./matsuhira"
+  url = "/matsuhira"
 
 [[menu.main]]
   name = "更新履歴"
-  url = "./page/history"
+  url = "/page/history"
 
 [[menu.main]]
   name = "Twitterポリシー"
-  url = "./page/twitter-policy"
+  url = "/page/twitter-policy"
 
 [[menu.main]]
   name = "WWA Wing"
