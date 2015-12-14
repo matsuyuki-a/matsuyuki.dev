@@ -4,7 +4,7 @@ title = "まつゆき/rmn."
 
 [[menu.main]]
   name = "プロフィール"
-  url = "./profile"
+  url = "./page/profile"
   
 [[menu.main]]
   name = "思い出"
