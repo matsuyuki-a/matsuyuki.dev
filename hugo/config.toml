@@ -3,6 +3,10 @@ languageCode = "ja-jp"
 title = "まつゆき/rmn."
 
 [[menu.main]]
+  name = "プロフィール"
+  url = "./profile"
+  
+[[menu.main]]
   name = "思い出"
   url = "./matsuhira"
 
@@ -17,3 +21,4 @@ title = "まつゆき/rmn."
 [[menu.main]]
   name = "WWA Wing"
   url = "http://wwawing.com"
+
