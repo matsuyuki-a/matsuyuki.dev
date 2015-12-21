@@ -1,7 +1,6 @@
 baseurl = "http://rmn-web.net/"
 languageCode = "ja-jp"
 title = "まつゆき/rmn."
-copyright = "2003-2015 Matsuyuki ( CC BY License )"
 
 [[menu.main]]
   name = "プロフィール"
@@ -23,3 +22,5 @@ copyright = "2003-2015 Matsuyuki ( CC BY License )"
   name = "WWA Wing"
   url = "http://wwawing.com"
 
+[params]
+copyright = "2003-2015 Matsuyuki ( CC BY License )"
