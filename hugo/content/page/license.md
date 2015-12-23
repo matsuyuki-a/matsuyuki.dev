@@ -49,6 +49,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #### jQuery, Sizzle.js
 - http://jquery.com/
 - http://sizzlejs.com/
+
 ```
 Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors
 Released under the MIT license
@@ -57,6 +58,7 @@ http://jquery.org/license
 
 #### Bootstrap
 - http://getbootstrap.com/
+
 ```
 The MIT License (MIT)
 
