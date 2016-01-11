@@ -18,7 +18,7 @@ script:
   - git checkout -b gh-pages
   - git rm -rf hugo/public
   - git commit -m "temporal remove public"
-  - '[ $GH_TOKEN ] && git subtree add --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/news.rmn-web.net.git gh-pages --squash'
+  - '[ $GH_TOKEN ] && git subtree add --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/news.rmn-web.net.git gh-pages --squash >& /dev/null'
   - cd hugo
   - echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
   - hugo -t hugo-multi-bootswatch
