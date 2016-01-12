@@ -19,10 +19,15 @@
         NONE     : 0,
         INIT     : 1,
         USER     : 2,
-        GAMEOVER : 3
+        GAMEOVER : 3,
+        GAMECLEAR: 4
       };
       var camera = { x: 0, y: 0 };
       var block = new Array();
+      var toge = new Array();
+      var tri = new Array();
+      var superBall = new Array();
+      var spBd;A
       var enemyList = new Array();
       var gameState = State.NONE;
 
@@ -32,6 +37,10 @@
         afterTime: 0
       };
       var DEBUG = false;
+      var FPS = 60;
+      var STAGE_LENGTH = 3000;
+      var frameCount = 0;
+      var prev = new Date().getTime();
     </script>
     <script type="text/javascript" src="./lib/prototype-1.6.0.2.js"></script>
     <script type="text/javascript" src="./lib/box2d.js"></script>
