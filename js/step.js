@@ -11,8 +11,7 @@ var step = function(){
           break;
         }else{
           for( var j = 0; j < enemyList.length; j++ ){
-            if( i.other == enemyList[ j ] ){ // 死亡当たり判定
-             // gameState = State.GAMEOVER;
+            if( i.other == enemyList[ j ] && !DEBUG ){ // 死亡当たり判定
               world.DestroyBody( player );
               playerDeathData.x = player.m_position.x;
               playerDeathData.y = player.m_position.y;
@@ -46,28 +45,81 @@ var step = function(){
         // 速度の確定
         player.SetLinearVelocity( new b2Vec2( v.x, v.y ) );
 
-        world.Step( 1.0 / 60, 1 );
 
         // 点Q
-        if( player.m_position.x > 1000 && !pointQAppeared ){
+        if( player.m_position.x > 600 && !pointQAppeared ){
           pointQ = world.CreateBody( pointQBd );
           enemyList.push( pointQ );
           pointQ.SetLinearVelocity( new b2Vec2( -768, 0 ) );
           pointQAppeared = true;
         }
+        if( pointQ ){
+          if( pointQ.m_position.x > 2800 ){
+            world.DestroyBody( pointQ );
+          }
+        }
+        //とげ
+        for( var i = 0; i < toge.length; i++ ){
+          if( !toge[ i ] ){ continue; }
+          if( player.m_position.x < toge[ i ].obj.m_position.x - 20 && !toge[ i ].fall ){
+            if( i % 3 == 0 ){
+              toge[ i ].obj.SetLinearVelocity( new b2Vec2( Math.sin( frameCount ) * 100, -10 ) );
+            }else{
+              toge[ i ].obj.SetLinearVelocity( new b2Vec2( 0, -10 ) );
+            }
+          }else{
+           if( i == 0 || i == 5 ){ 
+             toge[ i ].obj.SetLinearVelocity( new b2Vec2( 0, 2000 ) );
+           }else if( i != 4 ){
+             toge[ i ].obj.SetLinearVelocity( new b2Vec2( 0, 100 ) );
+           }else{
+              toge[ i ].obj.SetLinearVelocity( new b2Vec2( 0, -1000 ) );
+           }
+           toge[ i ].fall = true;
+          }
+        }
+        for( var i = 0; i < tri.length; i++ ){
+          tri[ i ].obj.SetLinearVelocity( new b2Vec2( 0, -7 ) );
+        }
+        //スーパーボール
+        if( player.m_position.x >= 2300 && !superBall[ 0 ] ){
+          for( var i = 0; i < 12; i++ ){
+            spBd.position.Set( 2300 + Math.random() * 600, -200 );
+            superBall.push({
+              obj: world.CreateBody( spBd ),
+              fall: false
+            });
+            enemyList.push( superBall[ i ].obj );
+          }
+        }
 
         // カメラ
         camera.x = player.m_position.x -  width / 2;
-        camera.y = player.m_position.y - height * 2 / 3;
+        camera.y = player.m_position.y - height * 5 / 6;
+
+        // クリア
+        if( player.m_position.x >= STAGE_LENGTH - 21 ){
+          gameState = State.GAMECLEAR;
+        }
+
+        world.Step( 1.0 / FPS, 1 );
       }
 
       break;
     case State.GAMEOVER:
 
       playerDeathData.afterTime++;
-      world.Step( 1.0 / 60, 1 );
+      world.Step( 1.0 / FPS, 1 );
       break;
+    case State.GAMECLEAR:
+
+      world.Step( 1.0 / FPS, 1 );
+      break;
+
   }
+
+  // FPS安定機構
+  while( new Date().getTime() - prev < 1000 / FPS );
   
   // 描画
   ctx.clearRect( 0, 0, width, height );
@@ -122,7 +174,7 @@ var step = function(){
 
   // 線分AB
   var gdx1 = camera.x > 0 ? 0 : - camera.x;
-  var gdx2 = 2000 - camera.x > width ? width : 2000 - camera.x;
+  var gdx2 = STAGE_LENGTH - camera.x > width ? width : STAGE_LENGTH - camera.x;
   var gdy = ground.m_position.y - camera.y - 20 - 50;
   ctx.moveTo( gdx1, gdy );
   ctx.lineTo( gdx2, gdy );
@@ -131,7 +183,7 @@ var step = function(){
 
   ctx.fillStyle = "#000000";
   ctx.fillText( "A",      - camera.x - 35, gdy + 15 );
-  ctx.fillText( "B", 2000 - camera.x +  5 , gdy + 15 );
+  ctx.fillText( "B", STAGE_LENGTH - camera.x +  5 , gdy + 15 );
 
   // タイトル
   drawRectInCanvas( ctx, 50, 50, camera.x, camera.y, 500, 300 );
@@ -153,6 +205,16 @@ var step = function(){
   drawStringInCanvas( ctx, "C++向けの物理エンジン\"Box2D\"", 75 + 2*width, 200, camera.x, camera.y, "30px Sans-serif" );
   drawStringInCanvas( ctx, "のJavaScript移植版.", 75 + 2*width, 250, camera.x, camera.y, "30px Sans-serif" );
   drawStringInCanvas( ctx, "ブラウザ上で動くよ!", 75 + 2*width, 300, camera.x, camera.y, "30px Sans-serif" );
+
+// 説明3
+  drawRectInCanvas( ctx, 50 + 3*width, 50, camera.x, camera.y, 500, 300 );
+  drawStringInCanvas( ctx, "使用したもの", 75 + 3*width, 100, camera.x, camera.y, "35px Sans-serif" );
+  drawStringInCanvas( ctx, "・JavaScript", 75 + 3*width, 200, camera.x, camera.y, "30px Sans-serif" );
+  drawStringInCanvas( ctx, "・HTML5 Canvas", 75 + 3*width, 250, camera.x, camera.y, "30px Sans-serif" );
+  drawStringInCanvas( ctx, "・Box2DJS, prototype.js, excanvas.js... ", 75 + 3*width, 300, camera.x, camera.y, "20px Sans-serif" );
+  drawStringInCanvas( ctx, "注) IEでの動作は未検証 ", 75 + 3*width, 330, camera.x, camera.y, "20px Sans-serif" );
+
+  // ゲームオーバー
   if( gameState == State.GAMEOVER ){
     ctx.fillStyle = "rgba( 255, 0, 0, 0.3 )";
     ctx.fillRect( 0, 0, width, height );
@@ -160,7 +222,23 @@ var step = function(){
     ctx.font = "100px Sans-serif";
     ctx.fillText( "GAME OVER", 65, 200 );
   }
-
-  setTimeout( step, 10 );
+  // ゲームクリア
+  if( gameState == State.GAMECLEAR ){
+    ctx.fillStyle = "rgba( 0, 255, 0, 0.3 )";
+    ctx.fillRect( 0, 0, width, height );
+    ctx.fillStyle = "#FFFFFF";
+    ctx.font = "100px Sans-serif";
+    ctx.fillText( "GAME CLEAR", 65, 200 );
+  } 
+  
+//  if( DEBUG ){
+    var t  = new Date().getTime();
+    ctx.fillStyle = "#000000";
+    ctx.font = "12px Sans-serif";
+    ctx.fillText( Math.round( 100000 / ( t - prev ) ) / 100 + "FPS", 10, 20 );
+    prev = t;
+//  }
+  frameCount++; 
+  setTimeout( step, 1000 / FPS - 1 );
 
 };
