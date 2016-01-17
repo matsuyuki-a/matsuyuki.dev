@@ -27,3 +27,5 @@ script:
   gh-pages >& /dev/null'
 after_success:
 - echo "OK"
+notifications:
+  slack: chashitsu:tdSe1IBF27dRUofw5RDp3kct
