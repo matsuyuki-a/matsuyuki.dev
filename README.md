@@ -1,6 +1,6 @@
-# rmn-web.net [![Build Status](https://travis-ci.org/rmn31415/rmn-web.net.svg?branch=master)](https://travis-ci.org/rmn31415/rmn-web.net)
+# portfolio.rmn-web.net [![Build Status](https://travis-ci.org/rmn31415/portfolio.rmn-web.net.svg?branch=master)](https://travis-ci.org/rmn31415/portfolio.rmn-web.net)
 
-まつゆき/rmn. のWebサイトです。
+まつゆき/rmn. のポートフォリオ公開用Webサイトです。
 
 `master` ブランチの内容が更新されると、[Travis CI](https://travis-ci.org/)が走り、静的サイトジェネレータの[hugo](http://gohugo.io/)が実行され、
 結果が `gh-pages` ブランチにPushされて、rmn-web.netで公開される仕組みになっています。
@@ -10,6 +10,5 @@
 
 下記については、特に断り書きがない限り、CC-BY 4.0とします。
 - [hugo/content 下のファイル群](https://github.com/rmn31415/rmn-web.net/tree/master/hugo/content)
-- [hugo/static 下のファイル群](https://github.com/rmn31415/rmn-web.net/tree/master/hugo/static)
 
 それ以外のファイル群については、特に断り書きがない限り [MIT License](https://github.com/rmn31415/rmn-web.net/blob/master/LICENSE)とします。
