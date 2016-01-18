@@ -1,7 +1,7 @@
 +++
 date = "2003-10-15T00:00:00+09:00"
 draft = false
-title = "ぱどタウンWeb"
+title = "ぱどタウン"
 categories = ["時代背景", "HTML", "JavaScript"]
 slug = "padotown"
 +++
