@@ -1,7 +1,7 @@
 +++
 date = "2003-12-18T00:00:00+09:00"
 draft = false
-title = ""
+title = "最初のWebサイト"
 categories = ["時代背景", "HTML", "JavaScript", "Web開発"]
 slug = "1stwebsite"
 +++
