@@ -1,7 +1,7 @@
 +++
 date = "2002-07-01T00:00:00+09:00"
 draft = false
-title = "祖父とのメール"
+title = "隠しページ探し"
 categories = ["時代背景", "HTML"]
 slug = "hiddenpages2002"
 +++
