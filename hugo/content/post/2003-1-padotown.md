@@ -1,7 +1,7 @@
 +++
 date = "2003-10-15T00:00:00+09:00"
 draft = false
-title = "ぱどタウン"
+title = "SNS「ぱどタウン」への参加、Webでの活動の始まり。"
 categories = ["時代背景", "HTML", "JavaScript"]
 slug = "padotown"
 +++
