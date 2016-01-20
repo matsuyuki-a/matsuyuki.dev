@@ -13,7 +13,7 @@ script:
 - git checkout -b gh-pages
 - git rm -rf hugo/public
 - git commit -m "temporal remove public"
-- '[ $GH_TOKEN ] && git subtree add --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/news.rmn-web.net.git
+- '[ $GH_TOKEN ] && git subtree add --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/rmn-web.net.git
   gh-pages --squash >& /dev/null'
 - cd hugo
 - echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
@@ -23,7 +23,10 @@ script:
 - msg="rebuilding site `date`"
 - git commit -m "$msg" || echo "(nothing to commit)"
 - cd ../..
-- '[ $GH_TOKEN ] && git subtree push --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/news.rmn-web.net.git
+- '[ $GH_TOKEN ] && git subtree push --prefix=hugo/public https://$GH_TOKEN@github.com/rmn31415/rmn-web.net.git
   gh-pages >& /dev/null'
 after_success:
 - echo "OK"
+notifications:
+  slack:
+    secure: q/rTirB3DGXQLMkjIrTqTkzJGjcb3m+QWoSPAC3uupRnJ5Vfh/aBM/nWVpPrXKnTMJMNXlWgth7oBt57u4tBtbpbaB8VBLAUVzH7AjHMYpC+zxePSrSq6bWcJq52xtPA22BqQIWkTV4PdhxoW8CsSBs4++T3+0lZsr02Q24vJBpvSVTwLPFSRdfWBoT9yt2bOIvw85PRBiWWXnutYvFnC/4RNfCa9PffOuecS6b1ElxPHEKfRV1SL/7m7rgEjw0OGZQnhb1hhDelbcrzH9Alj4GAcGjRZscINxUhstBQOOON37MFOBFKQBNvkE9XHjH/3Bmp0rpJHBjGdZiCXUo437CkxGIw+X7t2Tepp0aYnQ5+NKTlcXkgQk97qhvK5lC9C0g4Co++ui6hw1GZcXYyYovmZEX43XgWkoTCfA4eO1t/fURVF+4H37SKEXDyz45gMMlQRI4fAYIvI5U+QbTeGjq+x2ZlLsdgirl6wFCLIFyXT/gPUoON0/jjtHcxWaCV/gxPX0wuqNtKxDl3AhTq+gHxchjXEmUQ88kQiiKUovYjj4FQhUPEEPr+uMvnDbPFjtI/8klCeVmUnQvJcmCODr6wY6emNY/uVagFn2b4GGZ6GgYrq6OMvVeQjuxFB7HtXUy6SFnW41hTtdzdusPddnvLFnU28viK6ppwHrvFP68=
