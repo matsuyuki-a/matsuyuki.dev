@@ -1,7 +1,7 @@
 +++
 date = "2002-07-01T00:00:00+09:00"
 draft = false
-title = "隠しページ探し"
+title = "「隠しページ探し」ゲームでコンピュータやWebの基礎を学ぶ"
 categories = ["時代背景", "HTML"]
 slug = "hiddenpages2002"
 +++
