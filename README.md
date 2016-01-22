@@ -12,3 +12,5 @@
 - [hugo/content 下のファイル群](https://github.com/rmn31415/rmn-web.net/tree/master/hugo/content)
 
 それ以外のファイル群については、特に断り書きがない限り [MIT License](https://github.com/rmn31415/rmn-web.net/blob/master/LICENSE)とします。
+
+サイトにて表紙される一部、権利関係上、CC-BYにできない画像があります。(リポジトリにはありません)
