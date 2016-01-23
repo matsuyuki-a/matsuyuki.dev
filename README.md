@@ -2,6 +2,8 @@
 
 まつゆき/rmn. のポートフォリオ公開用Webサイトです。
 
+http://portfolio.rmn-web.net/
+
 `master` ブランチの内容が更新されると、[Travis CI](https://travis-ci.org/)が走り、静的サイトジェネレータの[hugo](http://gohugo.io/)が実行され、
 結果が `gh-pages` ブランチにPushされて、rmn-web.netで公開される仕組みになっています。
 
