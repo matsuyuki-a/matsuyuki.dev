@@ -33,5 +33,7 @@ Firefox OS のアプリケーションを作成する事前課題が出された
 <tr><th>開発期間</th><td>2014年6月-2014年8月</td></tr>
 </table>
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/139621465@N08/24371752593/in/dateposted-public/" title="2014-08-12 22.02.44"><img src="https://farm2.staticflickr.com/1568/24371752593_fd5948c146_z.jpg" width="240" height="320" alt="2014-08-12 22.02.44"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 
 
