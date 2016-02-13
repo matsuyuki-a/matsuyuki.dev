@@ -6,6 +6,10 @@ categories = ["時代背景", "WWA", "HTML", "CSS", "Flash"]
 slug = "continue"
 +++
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/139621465@N08/24879831642/in/dateposted-public/" title="continue"><img src="https://farm2.staticflickr.com/1570/24879831642_3136984303.jpg" width="500" height="397" alt="continue"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+※上記画像, 権利関係の都合上CC-BY対象外, **転載不可**
+
 友人の[ヒラリラー](http://hirarira.net)氏が制作したゲーム作品のサイト制作を行いました。
 また、ゲーム中にもゲスト出演させて頂きました。
 
