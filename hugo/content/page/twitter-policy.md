@@ -1,6 +1,6 @@
 # Twitter運用基準 rev5.0.0
 
-このページでは、まつゆきが所有するTwitterのアカウント「@[rmn_e](http://twitter.com/rmn_e)」)の運用基準を記述します。
+このページでは、まつゆきが所有するTwitterのアカウント「@[rmn_e](http://twitter.com/rmn_e)」の運用基準を記述します。
 
 まつゆきの所属組織が利用するTwitterのアカウントの運用基準については、別途定めます。
 
