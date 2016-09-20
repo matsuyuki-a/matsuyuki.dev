@@ -1,6 +1,6 @@
 # Twitter運用基準 rev5.0.0
 
-このページでは、まつゆきが所有するTwitterのアカウント「[@rmn_e](http://twitter.com/rmn_e)」の運用基準を記述します。
+このページでは、まつゆきが所有するTwitterのアカウント「@[rmn_e](http://twitter.com/rmn_e)」)の運用基準を記述します。
 
 まつゆきの所属組織が利用するTwitterのアカウントの運用基準については、別途定めます。
 
@@ -43,16 +43,18 @@
 - ツイート数が極端に少ない, あるいはツイートをしていないアカウント
 
 ## 困ったとき, 気がかりな点等があれば
-何か分からないことがありましたら、[@rmn_e](http://twitter.com/rmn_e)までお気軽にご相談下さい。また、ツイート内容に問題等がございましたらご相談ください(用途に応じてDMと通常の返信を使い分けていただければ幸いです)。
+何か分からないことがありましたら、@[rmn_e](http://twitter.com/rmn_e)までお気軽にご相談下さい。また、ツイート内容に問題等がございましたらご相談ください(用途に応じてDMと通常の返信を使い分けていただければ幸いです)。
 
 ## 謝辞
-この運用基準は、[@siritori](http://twitter.com/siritori)さんの『[ぼくのTwitterポリシー](http://d.hatena.ne.jp/siritori/20110307/1299484057)』を参考にまつゆきが運用するTwitterアカウントの方針についてまとめたものです。参考にさせて頂いた@siritoriさんには感謝申し上げます。
+この運用基準は、@[siritori](http://twitter.com/siritori)さんの『[ぼくのTwitterポリシー](http://d.hatena.ne.jp/siritori/20110307/1299484057)』を参考にまつゆきが運用するTwitterアカウントの方針についてまとめたものです。参考にさせて頂いた@siritoriさんには感謝申し上げます。
 
 なお、下記の運用基準が、この運用基準を参考に作られました。参考にして頂き、ありがとうございます。
-- [@Aokashi](http://twitter.com/Aokashi)さん: 『[Twitter運営方針](http://www.aokashi.net/about/twitter.html)』
-- [@kazh98](http://twitter.com/kazh98)さん:
+- @[Aokashi](http://twitter.com/Aokashi)さん: 『[Twitter運営方針](http://www.aokashi.net/about/twitter.html)』
+- @[kazh98](http://twitter.com/kazh98)さん:
 『[Twitter運用基準](http://risa.arnip.org/arts/20160522.pdf)』 (PDF)
 
+この利用基準は、[クリエイティブ・コモンズ 表示 4.0 国際](https://creativecommons.org/licenses/by/4.0/deed.ja)のもとで利用可能です。詳細は
+[LICENSE](http://rmn-web.net/page/license/) のページをご覧下さい。
 
 ## 改訂履歴
 - 2016-09-20 全体を見直しました。(rev5.0.0)
