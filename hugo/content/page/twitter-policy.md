@@ -49,8 +49,8 @@
 この運用基準は、@[siritori](http://twitter.com/siritori)さんの『[ぼくのTwitterポリシー](http://d.hatena.ne.jp/siritori/20110307/1299484057)』を参考にまつゆきが運用するTwitterアカウントの方針についてまとめたものです。参考にさせて頂いた@siritoriさんには感謝申し上げます。
 
 なお、下記の運用基準が、この運用基準を参考に作られました。参考にして頂き、ありがとうございます。
-- @[Aokashi](http://twitter.com/Aokashi)さん: 『[Twitter運営方針](http://www.aokashi.net/about/twitter.html)』
-- @[kazh98](http://twitter.com/kazh98)さん:
+- ＠[Aokashi](http://twitter.com/Aokashi)さん: 『[Twitter運営方針](http://www.aokashi.net/about/twitter.html)』
+- ＠[kazh98](http://twitter.com/kazh98)さん:
 『[Twitter運用基準](http://risa.arnip.org/arts/20160522.pdf)』 (PDF)
 
 この利用基準は、[クリエイティブ・コモンズ 表示 4.0 国際](https://creativecommons.org/licenses/by/4.0/deed.ja)のもとで利用可能です。詳細は
