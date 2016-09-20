@@ -46,7 +46,7 @@
 何か分からないことがありましたら、@[rmn_e](http://twitter.com/rmn_e)までお気軽にご相談下さい。また、ツイート内容に問題等がございましたらご相談ください(用途に応じてDMと通常の返信を使い分けていただければ幸いです)。
 
 ## 謝辞
-この運用基準は、@[siritori](http://twitter.com/siritori)さんの『[ぼくのTwitterポリシー](http://d.hatena.ne.jp/siritori/20110307/1299484057)』を参考にまつゆきが運用するTwitterアカウントの方針についてまとめたものです。参考にさせて頂いた@siritoriさんには感謝申し上げます。
+この運用基準は、@[siritori](http://twitter.com/siritori)さんの『[ぼくのTwitterポリシー](http://d.hatena.ne.jp/siritori/20110307/1299484057)』を参考にまつゆきが運用するTwitterアカウントの方針についてまとめたものです。参考にさせて頂いた＠siritoriさんには感謝申し上げます。
 
 なお、下記の運用基準が、この運用基準を参考に作られました。参考にして頂き、ありがとうございます。
 - ＠[Aokashi](http://twitter.com/Aokashi)さん: 『[Twitter運営方針](http://www.aokashi.net/about/twitter.html)』
