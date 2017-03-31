@@ -8,7 +8,7 @@ title = "まつゆき/rmn."
   
 [[menu.main]]
   name = "思い出"
-  url = "/matsuhira"
+  url = "http://info.wwawing.com/restore/"
 
 [[menu.main]]
   name = "更新履歴"
@@ -17,10 +17,14 @@ title = "まつゆき/rmn."
 [[menu.main]]
   name = "Twitterポリシー"
   url = "/page/twitter-policy"
+  
+[[menu.main]]
+  name = "ポートフォリオ"
+  url = "http://portfolio.rmn-web.net/"
 
 [[menu.main]]
   name = "WWA Wing"
-  url = "http://wwawing.com"
+  url = "http://wwawing.com/"
 
 [params]
 copyright = "2003-2017 Matsuyuki ( CC BY 4.0 License )"
