@@ -1,27 +1,11 @@
 baseurl = "http://portfolio.rmn-web.net"
 languageCode = "ja-jp"
-title = "まつゆき/rmn."
+title = "まつゆき/rmn. ＜ポートフォリオ＞"
 
 [[menu.main]]
-  name = "プロフィール"
-  url = "http://rmn-web.net/page/profile"
+  name = "サイト本体へ戻る"
+  url = "http://rmn-web.net/"
   
-[[menu.main]]
-  name = "思い出"
-  url = "http://rmn-web.net/matsuhira"
-
-[[menu.main]]
-  name = "更新履歴"
-  url = "http://rmn-web.net/page/history"
-
-[[menu.main]]
-  name = "Twitterポリシー"
-  url = "http://rmn-web.net/page/twitter-policy"
-
-[[menu.main]]
-  name = "WWA Wing"
-  url = "http://wwawing.com"
-
 [params]
 copyright = "2003-2017 Matsuyuki ( CC BY 4.0 License )"
 licensePage = "http://rmn-web.net/page/license"
