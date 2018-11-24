@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>KeyTest</title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			.square{
+				width: 50px;
+				height: 50px;
+				padding-top: 25px; 
+				padding-left: 25px;
+				font-size: 40px;
+				font-weight: bold;
+				margin: 10px;
+				background-color: #BBBBBB;
+				color: #333333;
+				border-color: #000000;
+				border-width: 0;
+				border-style: solid;
+			}
+			article{
+				width: 600px;
+			}
+			footer{
+				text-align: right;
+			}
+		</style>
+		<script type="text/javascript">
+			var zArea,xArea,note;
+			var zPressed = false;
+			var xPressed = false;
+			window.onload = function(){
+				zArea = document.getElementById("z");
+				xArea = document.getElementById("x");
+				note = document.getElementById("note");
+				init();
+			}
+			function init(){
+				document.onkeydown = function(e){
+					if(e.keyCode == 90){
+						zPressed = true;
+					}else if(e.keyCode == 88){
+						xPressed = true;
+					}
+					keyStateChange();
+				}
+				document.onkeyup = function(e){
+					if(e.keyCode == 90){
+						zPressed = false;
+					}else if(e.keyCode == 88){
+						xPressed = false;
+					}
+					keyStateChange();
+				}
+			}
+			function keyStateChange(){
+				if(zPressed){
+					zArea.style.width = "45px";
+					zArea.style.height = "45px";
+					zArea.style.borderWidth = "5px 0 0 5px";
+				}else{
+					zArea.style.width = "50px";
+					zArea.style.height = "50px";
+					zArea.style.borderWidth = "0 0 0 0";
+				}
+				if(xPressed){
+					xArea.style.width = "45px";
+					xArea.style.height = "45px";
+					xArea.style.borderWidth = "5px 0 0 5px";
+				}else{
+					xArea.style.width = "50px";
+					xArea.style.height = "50px";
+					xArea.style.borderWidth = "0 0 0 0";
+				}
+				if(zPressed && xPressed){
+					note.innerHTML = "両方押されています。"
+				}else if(!(zPressed || xPressed)){
+					note.innerHTML = "どちらも押されていません。"
+				}else{
+					note.innerHTML = "片方押されています。"
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Key Test</h1>
+		<div id ="z" class="square">Z</div>
+		<div id ="x" class="square">X</div>
+		<div id = "note">どちらも押されていません。</div>
+		<article>
+			<h2>キー同時押しテスト</h2>
+			<ul>
+				<li>このページはキーを2つ同時押しした時に、両方のキーを認識するように設計したものである。</li>
+				<li>ここでは、例として「Z」キーと「X」キーの同時押しが可能になっている。</li>
+				<li>
+					通常、JavaScriptでキーを認識すると、キーコードは1つしか認識されない。しかし、
+					onkeydownでキーが押されはじめた時に押されたキーを管理する変数をtrueにして、onkeyupで
+					離れた時にそれをfalseにすることによって、複数のキーが押されているかどうかの管理ができる
+					ようになる。
+				</li>
+				<li>
+					この技術は、シューティングゲームで、弾を撃ちながら移動したり、斜め移動をしたり
+					するために必要不可欠である。そのほかにも、コマンド入力等で大変重宝することになる。
+				</li>
+				<li>
+					なお、IE8以下では動かない。IE9以上と非IEでは、function(e)のeからkeyCodeを取得しているが、
+					IE8以下ではwindow.eventからkeyCodeを取得することで、keyCodeを得ることができる。
+					面倒なのでIE8以下では動作しないようになっている。
+				</li>
+				<li>
+					改善すべき点:　ボタン押しっぱなしの状態でウィンドウが非アクティブにしてキー
+					を離すとキーがずっと押されているという判定になってしまう。
+					特に、STGなどでこれをやってしまうと行動不能になってしまう恐れがある。
+				</li>
+			</ul>
+			参考: <a href="http://www.usamimi.info/~ide/programe/jshooting/jsprogramming.pdf">「JavaScript によるゲームプログラミング」</a>(<a href="http://www.usamimi.info/~ide/index.html">いで庵</a>様)
+			<footer>2011-08-07 rmn.</footer>
+		</article>
+	</body>
+</html>
