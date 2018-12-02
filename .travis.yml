@@ -31,7 +31,7 @@ script:
 - git commit -m "$msg" || echo "(nothing to commit)"
 - cd ../..
 - '[ $GH_TOKEN ] && git subtree push --prefix=hugo/public https://$GH_TOKEN@github.com/matsuyuki-a/rmn-web.net.git
-  gh-pages >& /dev/null'
+  gh-pages'
 after_success:
 - echo "OK"
 notifications:
