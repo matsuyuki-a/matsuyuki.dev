@@ -11,7 +11,7 @@ env:
 install:
   - mkdir ~/src
   - pushd ~/src
-  - clone https://github.com/gohugoio/hugo.git
+  - git clone https://github.com/gohugoio/hugo.git
   - pushd ~/src/hugo
   - go install --tags extended
   - popd
