@@ -15,10 +15,6 @@ title = "まつゆき/rmn."
   url = "/page/history"
 
 [[menu.main]]
-  name = "Twitterポリシー"
-  url = "/page/twitter-policy"
-  
-[[menu.main]]
   name = "ポートフォリオ"
   url = "http://portfolio.rmn-web.net/"
 
@@ -27,5 +23,5 @@ title = "まつゆき/rmn."
   url = "http://wwawing.com/"
 
 [params]
-copyright = "2003-2017 Matsuyuki ( CC BY 4.0 License )"
+copyright = "2003-2018 Matsuyuki ( CC BY 4.0 License )"
 licensePage = "/page/license"
