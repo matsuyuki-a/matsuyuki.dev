@@ -8,7 +8,14 @@ env:
   - GIT_AUTHOR_NAME="Matsutanbot@Travis"
   - GIT_AUTHOR_EMAIL="matsuyuki.eca@gmail.com"
   - secure: cFDxSqkfJN6sGW+v2bQW8QXTUT96RvLZhgg1vvXG33oUo+6acpZNDl/sMXWjJaAwiONnZvXLzVPXcFHkHkk5YKzR+9ZExrChUemwe57e0e11HvBSeMZEiDZuWf5TzXnjAptUM44D2NmGeUIN79jmq01Hol6oIRYO1gxe0FsN1t7h4Szt9g+/gctxm2OCZq+Rlm02XsNISBDFTQbFlZarUU1rBQEps2tbtxX06YBAf5w0uhmkM2jYKp+y9qcgwoU1uix8pHQqx4s24Ny2CJJRowakiNrdEnfPBs/xrECyWuIfxRal4gfayJfLoq6ucyZJNQakbqj2Wp6ycnjK8uggumN5QE2Z4UNWjz52YtM4nzSIuWQJi3I1O6wXCYeJk27Ml2Biy+YzuaatWLTo0ozbigV36M+MG3gI4jNR6pooNdqj8dXSjmZ8nqyJTWAPYUQ4xjx6zEzCcVPtOPMyU9dkdo2R/5/s/Znvol80fAUVD/vm2bHteX0tTX4oo3NI35qWwGXy6YjJMv0x5WE6zLj9FF8ALhZhepwN0ejScYkIVKOzp/fdvN1WBFLI5v05Dh7aD9EOdZriFlzvytMBj9Qryt6aHPPWxYH+vCrA+R3o0Uh5TMGRCT/LvaVVRgM/54a/S7fNvk28CnB2zn86RbtWZ/os/0U7mEc1Fxd/Kp1256k=
-install: go get -u -v github.com/gohugoio/hugo
+install:
+  - mkdir ~/src
+  - pushd ~/src
+  - clone https://github.com/gohugoio/hugo.git
+  - pushd ~/src/hugo
+  - go install --tags extended
+  - popd
+  - popd
 script:
 - git checkout -b gh-pages
 - git rm -rf hugo/public
