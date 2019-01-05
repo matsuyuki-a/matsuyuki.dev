@@ -1,7 +1,7 @@
 線分ABを点Pがノリノリで動くゲーム
 =================================
 
-- 作: @[rmn_e](https://twitter.com/rmn_e)
+- 作: @[matsuyuki_a](https://twitter.com/matsuyuki_a)
   - 当時: rmn_31415
 
 昔、授業で作ったゲームです。
