@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "https://teatime.chashitsu.org/:splat"
+
