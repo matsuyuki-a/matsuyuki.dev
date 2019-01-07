@@ -1,4 +1,7 @@
 [[redirects]]
   from = "/*"
-  to = "https://teatime.chashitsu.org/:splat"
+  to = "https://teatime.chashitsu.org/"
+[[redirects]]
+  from = "/wiki/*"
+  to = "https://teatime.chashitsu.org/index.php/:splat"
 
