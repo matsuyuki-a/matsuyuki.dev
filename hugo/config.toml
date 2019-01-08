@@ -1,11 +1,11 @@
 baseurl = "https://portfolio.rmn-web.net"
 languageCode = "ja-jp"
-title = "まつゆき/rmn. ＜ポートフォリオ＞"
+title = "まつゆき ＜ポートフォリオ＞"
 
 [[menu.main]]
   name = "サイト本体へ戻る"
   url = "http://rmn-web.net/"
   
 [params]
-copyright = "2003-2017 Matsuyuki ( CC BY 4.0 License )"
+copyright = "2003-2019 Matsuyuki ( CC BY 4.0 License )"
 licensePage = "http://rmn-web.net/page/license"
