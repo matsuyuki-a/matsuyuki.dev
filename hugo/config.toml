@@ -1,6 +1,6 @@
 baseurl = "https://rmn-web.netlify.com"
 languageCode = "ja-jp"
-title = "まつゆき/rmn."
+title = "まつゆき"
 
 [[menu.main]]
   name = "プロフィール"
