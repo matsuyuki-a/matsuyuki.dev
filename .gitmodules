@@ -4,4 +4,5 @@
 
 [submodule "portfolio.rmn-web.net/themes/hugo-multi-bootswatch"]
 	path = portfolio.rmn-web.net/themes/hugo-multi-bootswatch
-	url = https://github.com/mpas/hugo-multi-bootswatch.git
+  url = https://github.com/mpas/hugo-multi-bootswatch.git
+
