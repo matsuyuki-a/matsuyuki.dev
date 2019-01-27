@@ -14,6 +14,7 @@ rmn-web-sites
 | FQDN | サイト名 | ライセンス | ビルド方式 |
 | ---- | -------- | ---------- | ---------- |
 | rmn-web.net | rmn-web.net | CC-BY 4.0 | hugo |
+| pointp.rmn-web.net | 線分ABを点Pがノリノリで動くゲーム | Apache 2.0 | なし |
 | portfolio.rmn-web.net | ポートフォリオ | CC-BY 4.0 | hugo |
 | teatime.rmn-web.net | Teatime Chat Wiki リダイレクト用 | CC0 1.0 | なし |
 
