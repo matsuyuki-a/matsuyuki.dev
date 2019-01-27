@@ -7,11 +7,27 @@ rmn-web-sites
 
 `master` ブランチの内容にどこか一つでも変更があるとすべてのサイトがデプロイされます。
 
-下記はサイトの一覧です。
+
+サイト一覧
+-----------------
 
 | FQDN | サイト名 | ライセンス | ビルド方式 |
 | ---- | -------- | ---------- | ---------- |
 | rmn-web.net | rmn-web.net | CC-BY 4.0 | hugo |
 | portfolio.rmn-web.net | ポートフォリオ | CC-BY 4.0 | hugo |
 | teatime.rmn-web.net | Teatime Chat Wiki リダイレクト用 | CC0 1.0 | なし |
+
+
+他のリポジトリからサイトを追加する
+----------------
+
+下記は portfolio.rmn-web.net をこのリポジトリに追加した時の例 (portfolio.rmn-web.net は昔 GitHubの `matsuyuki-a/portfolio.rmn-web.net` にありました。今は削除済です。)
+
+``` sh
+$ git remote add portfolio git@github.com:matsuyuki-a/portfolio.rmn-web.net.git
+$ git subtree add -P portfolio.rmn-web.net/ portfolio master
+```
+
+終わったら Netlify の向き先をこのリポジトリに変更します。 base directoryを各FQDNのディレクトリにしておくとビルドが簡単になって便利です。
+
 
