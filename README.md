@@ -9,8 +9,9 @@ rmn-web-sites
 
 下記はサイトの一覧です。
 
-| FQDN | サイト名 | ライセンス |
-| ---- | -------- | ---------- |
-| rmn-web.net | rmn-web.net | CC-BY 4.0 |
-| portfolio.rmn-web.net | ポートフォリオ | CC-BY 4.0 |
+| FQDN | サイト名 | ライセンス | ビルド方式 |
+| ---- | -------- | ---------- | ---------- |
+| rmn-web.net | rmn-web.net | CC-BY 4.0 | hugo |
+| portfolio.rmn-web.net | ポートフォリオ | CC-BY 4.0 | hugo |
+| teatime.rmn-web.net | Teatime Chat Wiki リダイレクト用 | CC0 1.0 | なし |
 
