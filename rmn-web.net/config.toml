@@ -1,26 +1,14 @@
 baseurl = "https://rmn-web.net/"
 languageCode = "ja-jp"
-title = "まつゆき"
-
-[[menu.main]]
-  name = "プロフィール"
-  url = "/page/profile"
-  
-[[menu.main]]
-  name = "復元サイト"
-  url = "http://info.wwawing.com/restore/"
+title = "【更新終了】まつゆき ＜旧ブログ＞"
 
 [[menu.main]]
   name = "更新履歴"
   url = "/page/history"
 
 [[menu.main]]
-  name = "ポートフォリオ"
-  url = "http://portfolio.rmn-web.net/"
-
-[[menu.main]]
-  name = "WWA Wing"
-  url = "http://wwawing.com/"
+  name = "サイト本体へ戻る"
+  url = "https://matsuyuki.dev"
 
 [params]
 copyright = "2003-2019 Matsuyuki ( CC BY 4.0 License )"

@@ -1,6 +1,6 @@
 # rmn-web.net 
 
-まつゆき のWebサイトです。
+まつゆき の旧ブログです。
 
 https://rmn-web.net/
 

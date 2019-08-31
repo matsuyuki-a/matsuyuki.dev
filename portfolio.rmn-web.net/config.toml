@@ -4,7 +4,7 @@ title = "まつゆき ＜ポートフォリオ＞"
 
 [[menu.main]]
   name = "サイト本体へ戻る"
-  url = "http://rmn-web.net/"
+  url = "https://matsuyuki.dev"
   
 [params]
 copyright = "2003-2019 Matsuyuki ( CC BY 4.0 License )"
