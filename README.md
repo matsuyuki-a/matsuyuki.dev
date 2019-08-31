@@ -1,5 +1,5 @@
 # matsuyuki.dev [![Netlify Status](https://api.netlify.com/api/v1/badges/14caad90-9f35-41a7-b534-5a5813c1ba73/deploy-status)](https://app.netlify.com/sites/matsuyuki-dev/deploys)
-[matsuyuki.dev](https://matsuyuki.dev/)は、 rmn-web.net に替わるまつゆきの新サイトで。[Netlify](https://netlify.com/)によってホストされています。現在は最小構成となっています。
+[matsuyuki.dev](https://matsuyuki.dev/)は、 [rmn-web.net](https://rmn-web.net) に替わるまつゆきの新サイトで、[Netlify](https://netlify.com/)によってホストされています。現在は最小構成となっています。
 
 ## 使用ライブラリ
 - [chashitsu-org/common-css](https://github.com/chashitsu-org/common-css)
