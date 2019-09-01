@@ -43,3 +43,19 @@ pre, blockquote {
 
 blockquote {
   border-left: 0.3em solid #527200; }
+
+table {
+  margin: 1.33em;
+  border-spacing: 0;
+  border-width: 1px 0 0 1px;
+  border-color: #333333;
+  border-style: solid; }
+  table > tbody > tr > th {
+    background-color: #DDDDDD;
+    font-weight: bold;
+    text-align: center; }
+  table > tbody > tr > th, table > tbody > tr td {
+    padding: 0.3em;
+    border-width: 0 1px 1px 0;
+    border-color: #333333;
+    border-style: solid; }

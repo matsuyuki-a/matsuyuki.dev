@@ -6,3 +6,4 @@
 
 ## ライセンス
 特に表記がない限り、このサイトの内容は [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)ライセンスで提供されています。
+アイコン rmn2019.png, rmn2019.pptx は上記ライセンスの対象外です。利用を検討されている場合には、`index.html` で記載されている連絡先までお問い合わせください。
