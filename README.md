@@ -6,4 +6,23 @@
 
 ## ライセンス
 特に表記がない限り、このサイトの内容は [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)ライセンスで提供されています。
-アイコン rmn2019.png, rmn2019.pptx は上記ライセンスの対象外です。利用を検討されている場合には、`index.html` で記載されている連絡先までお問い合わせください。
+
+### ライセンスの適用除外について
+下記のファイルは、CC-BY 4.0 の対象外となりますのでご注意ください。
+
+#### アイコン
+- `public/rmn2019.png`
+- `public/rmn2019.pptx`
+
+利用を検討されている場合には、`index.html` で記載されている連絡先までお問い合わせください。
+
+#### 小ネタ
+- `trivial/keytest` 下
+- `trivial/stg-test ` 下
+
+[CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja) に従います。
+
+#### 線分ABを点Pがノリノリで動くゲーム
+-  `trivial/pointp` 下 
+
+[Apache License 2.0](https://github.com/matsuyuki-a/matsuyuki.dev/tree/master/public/trivial/pointp/LICENSE) に従います。
