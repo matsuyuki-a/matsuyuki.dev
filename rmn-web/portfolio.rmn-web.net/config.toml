@@ -1,0 +1,11 @@
+baseurl = "https://portfolio.rmn-web.net"
+languageCode = "ja-jp"
+title = "まつゆき ＜ポートフォリオ＞"
+
+[[menu.main]]
+  name = "サイト本体へ戻る"
+  url = "https://matsuyuki.dev"
+  
+[params]
+copyright = "2003-2019 Matsuyuki ( CC BY 4.0 License )"
+licensePage = "http://rmn-web.net/page/license"

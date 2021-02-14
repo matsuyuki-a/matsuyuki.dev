@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>線分ABを点Pがノリノリで動くゲーム</title>
+    <script>
+      var canvas;
+      var ctx;
+      var width, height;
+      var worldAABB, gravity, doSleep, world;
+      var keyStore;
+      
+      var player, ground, leftWall, rightWall;
+      var pointQ, pointQBd;
+      var pointQAppeared = false;
+      var doon;
+      var playerJV = 0;
+      var State = {
+        NONE     : 0,
+        INIT     : 1,
+        USER     : 2,
+        GAMEOVER : 3,
+        GAMECLEAR: 4
+      };
+      var camera = { x: 0, y: 0 };
+      var block = new Array();
+      var toge = new Array();
+      var tri = new Array();
+      var superBall = new Array();
+      var spBd;
+      var enemyList = new Array();
+      var gameState = State.NONE;
+
+      var playerDeathData = {
+        x        : 0,
+        y        : 0,
+        afterTime: 0
+      };
+      var DEBUG = false;
+      var FPS = 60;
+      var STAGE_LENGTH = 3000;
+      var frameCount = 0;
+      var prev = new Date().getTime();
+    </script>
+    <script type="text/javascript" src="./lib/prototype-1.6.0.2.js"></script>
+    <script type="text/javascript" src="./lib/box2d.js"></script>
+    <script type="text/javascript" src="./lib/draw_world.js"></script>
+    <script type="text/javascript" src="./js/key.js"></script>
+    <script type="text/javascript" src="./js/init.js"></script>
+    <script type="text/javascript" src="./js/step.js"></script>
+    <script type="text/javascript"> window.onload = function(){ init(); };</script>
+    <style type="text/css">
+      #screen{
+        border: 1px solid;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id = "wrapper">
+    <canvas id="screen" width="800" height="600">
+    せめて、Canvas搭載のブラウザで来てくださいよぉ...　
+    </canvas>
+  </div>
+  <div>
+    <a href="https://github.com/matsuyuki-a/rmn-web-sites/tree/master/pointp.rmn-web.net">GitHub repository</a>
+  </div>
+  </body>
+</html>
