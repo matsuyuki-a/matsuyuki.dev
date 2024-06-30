@@ -2,7 +2,6 @@
 =================================
 
 - 作: @[matsuyuki_a](https://twitter.com/matsuyuki_a)
-  - 当時: rmn_31415
 
 昔、授業で作ったゲームです。
 

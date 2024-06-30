@@ -187,9 +187,9 @@ var step = function(){
 
   // タイトル
   drawRectInCanvas( ctx, 50, 50, camera.x, camera.y, 500, 300 );
-  drawStringInCanvas( ctx, "DC概論 121122/5h", 75, 100, camera.x, camera.y, "35px Sans-serif" );
+//  drawStringInCanvas( ctx, "DC概論 121122/5h", 75, 100, camera.x, camera.y, "35px Sans-serif" );
   drawStringInCanvas( ctx, "線分ABを点Pが動くゲーム", 75, 200, camera.x, camera.y, "35px Sans-serif" );
-  drawStringInCanvas( ctx, "作: @rmn_31415  (当時)", 75, 250, camera.x, camera.y, "30px Sans-serif" );
+  drawStringInCanvas( ctx, "作: @matsuyuki_a", 75, 250, camera.x, camera.y, "30px Sans-serif" );
   drawStringInCanvas( ctx, "Powered by Box2DJS", 200, 320, camera.x, camera.y, "30px Sans-serif" );
 
   // 説明1 
